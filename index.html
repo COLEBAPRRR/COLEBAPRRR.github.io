@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>CS2 Trade Banned Accounts</title>
+<style>
+  :root{
+    --bg:#0b0f14;
+    --bg2:#111822;
+    --bg3:#16202d;
+    --panel:#172231;
+    --panel2:#1b2838;
+    --line:#2a475e;
+    --line2:#1d3346;
+    --text:#c6d4df;
+    --muted:#8ba0b0;
+    --accent:#66c0f4;
+    --accent2:#1a9fff;
+    --green:#a4d007;
+    --green2:#c2e05a;
+    --shadow:0 16px 40px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% -10%, rgba(26,159,255,.10), transparent 55%),
+      radial-gradient(900px 500px at 100% 100%, rgba(164,208,7,.08), transparent 50%),
+      linear-gradient(180deg, #081017 0%, var(--bg) 100%);
+    color:var(--text);
+    min-height:100vh;
+    overflow-x:hidden;
+  }
+  body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    background:
+      linear-gradient(120deg, transparent 0%, rgba(102,192,244,.04) 18%, transparent 36%),
+      linear-gradient(300deg, transparent 0%, rgba(102,192,244,.03) 20%, transparent 40%);
+    transform:translateZ(0);
+    animation:floatGlow 16s ease-in-out infinite alternate;
+    opacity:.9;
+  }
+  @keyframes floatGlow{
+    0%{transform:translate3d(-1%,0,0)}
+    100%{transform:translate3d(1%,0,0)}
+  }
+
+  .topbar{
+    position:sticky;
+    top:0;
+    z-index:20;
+    background:rgba(11,15,20,.86);
+    backdrop-filter:blur(14px);
+    border-bottom:1px solid rgba(42,71,94,.75);
+  }
+  .topbar-inner{
+    max-width:1400px;
+    margin:0 auto;
+    padding:14px 20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:14px;
+  }
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    min-width:0;
+  }
+  .brand-badge{
+    width:42px;height:42px;border-radius:10px;
+    display:grid;place-items:center;
+    background:linear-gradient(135deg, rgba(26,159,255,.95), rgba(13,110,175,.95));
+    box-shadow:0 10px 24px rgba(26,159,255,.18);
+    flex:0 0 auto;
+    transform:translateZ(0);
+    animation:pulseBadge 3.6s ease-in-out infinite;
+  }
+  @keyframes pulseBadge{
+    0%,100%{transform:scale(1)}
+    50%{transform:scale(1.04)}
+  }
+  .brand-text{min-width:0}
+  .brand-title{
+    font-size:14px;
+    line-height:1.1;
+    font-weight:800;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    color:#fff;
+  }
+  .brand-sub{
+    margin-top:3px;
+    font-size:11px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:var(--muted);
+  }
+  .tg-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:10px 16px;
+    border-radius:10px;
+    text-decoration:none;
+    color:#fff;
+    background:linear-gradient(135deg, #0088cc, #006fa6);
+    border:1px solid rgba(255,255,255,.08);
+    box-shadow:0 10px 24px rgba(0,136,204,.18);
+    font-weight:700;
+    transition:transform .18s ease, box-shadow .18s ease, filter .18s ease;
+    white-space:nowrap;
+  }
+  .tg-btn:hover{transform:translateY(-1px);box-shadow:0 14px 30px rgba(0,136,204,.28);filter:saturate(1.05)}
+  .hero{
+    max-width:1400px;
+    margin:0 auto;
+    padding:24px 20px 6px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:end;
+    justify-content:space-between;
+    gap:16px;
+  }
+  .hero h1{
+    margin:0;
+    font-size:clamp(26px,4vw,42px);
+    line-height:1.05;
+    letter-spacing:-.02em;
+    color:#fff;
+  }
+  .hero h1 span{color:var(--accent)}
+  .hero p{
+    margin:10px 0 0;
+    color:var(--muted);
+    max-width:700px;
+    line-height:1.5;
+    font-size:14px;
+  }
+  .count-pill{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:10px 14px;
+    border-radius:999px;
+    background:rgba(26,159,255,.10);
+    border:1px solid rgba(102,192,244,.22);
+    color:var(--accent);
+    font-weight:700;
+    font-size:13px;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.03);
+  }
+
+  .shell{
+    max-width:1400px;
+    margin:0 auto;
+    padding:14px 20px 28px;
+    display:grid;
+    grid-template-columns:280px 1fr;
+    gap:18px;
+    position:relative;
+    z-index:1;
+  }
+  .sidebar,
+  .main{
+    min-width:0;
+  }
+  .panel{
+    background:linear-gradient(180deg, rgba(23,34,49,.96), rgba(18,24,34,.96));
+    border:1px solid rgba(42,71,94,.85);
+    border-radius:18px;
+    box-shadow:var(--shadow);
+    overflow:hidden;
+  }
+  .panel-head{
+    padding:14px 16px;
+    border-bottom:1px solid rgba(42,71,94,.75);
+    background:rgba(27,40,56,.72);
+    font-size:11px;
+    font-weight:800;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:var(--muted);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+
+  .filters{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    padding:12px;
+  }
+  .filter{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    width:100%;
+    border:1px solid rgba(42,71,94,.7);
+    background:rgba(17,24,34,.72);
+    color:var(--text);
+    padding:10px 12px;
+    border-radius:12px;
+    cursor:pointer;
+    transition:transform .18s ease, border-color .18s ease, background .18s ease, box-shadow .18s ease;
+    user-select:none;
+    text-align:left;
+  }
+  .filter:hover{
+    transform:translateY(-1px);
+    border-color:rgba(102,192,244,.55);
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+  }
+  .filter.active{
+    background:linear-gradient(135deg, rgba(26,159,255,.18), rgba(22,32,45,.85));
+    border-color:rgba(26,159,255,.8);
+  }
+  .filter-dot{
+    width:11px;height:11px;border-radius:999px;
+    background:rgba(139,160,176,.35);
+    box-shadow:0 0 0 3px rgba(139,160,176,.08);
+    flex:0 0 auto;
+  }
+  .filter.active .filter-dot{
+    background:var(--accent);
+    box-shadow:0 0 0 3px rgba(102,192,244,.18);
+  }
+  .filter span{font-size:14px;font-weight:700;line-height:1.2}
+
+  .toolbar{
+    display:flex;
+    gap:12px;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:16px;
+    flex-wrap:wrap;
+  }
+  .search-wrap{
+    flex:1 1 280px;
+    position:relative;
+  }
+  .search-wrap svg{
+    position:absolute;
+    left:13px; top:50%; transform:translateY(-50%);
+    color:var(--muted);
+    pointer-events:none;
+  }
+  .search{
+    width:100%;
+    padding:13px 14px 13px 40px;
+    border-radius:14px;
+    border:1px solid rgba(42,71,94,.8);
+    background:rgba(17,24,34,.86);
+    color:var(--text);
+    outline:none;
+    font-size:14px;
+    transition:border-color .18s ease, box-shadow .18s ease;
+  }
+  .search:focus{
+    border-color:rgba(102,192,244,.9);
+    box-shadow:0 0 0 4px rgba(26,159,255,.08);
+  }
+  .search::placeholder{color:var(--muted)}
+
+  .chips{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+  }
+  .chip{
+    padding:10px 12px;
+    border-radius:999px;
+    border:1px solid rgba(42,71,94,.75);
+    background:rgba(17,24,34,.7);
+    color:var(--text);
+    font-size:13px;
+    font-weight:700;
+    cursor:pointer;
+    transition:transform .18s ease, border-color .18s ease, background .18s ease;
+    user-select:none;
+  }
+  .chip:hover{transform:translateY(-1px);border-color:rgba(102,192,244,.55)}
+  .chip.active{background:rgba(26,159,255,.16);border-color:rgba(26,159,255,.9);color:#fff}
+
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(220px, 1fr));
+    gap:16px;
+  }
+  .card{
+    position:relative;
+    background:linear-gradient(180deg, rgba(27,40,56,.98), rgba(18,24,34,.98));
+    border:1px solid rgba(42,71,94,.85);
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 24px rgba(0,0,0,.25);
+    transform:translateY(10px);
+    opacity:0;
+    animation:cardIn .45s ease forwards;
+    transition:transform .2s ease, border-color .2s ease, box-shadow .2s ease;
+  }
+  .card:hover{
+    transform:translateY(-4px);
+    border-color:rgba(102,192,244,.7);
+    box-shadow:0 16px 34px rgba(0,0,0,.34);
+  }
+  @keyframes cardIn{
+    to{transform:translateY(0);opacity:1}
+  }
+  .thumb{
+    position:relative;
+    height:175px;
+    background:
+      linear-gradient(135deg, rgba(15,23,33,.9), rgba(24,37,51,.9)),
+      linear-gradient(135deg, #182735, #0f1821);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+  }
+  .thumb::after{
+    content:"";
+    position:absolute;
+    inset:auto -20% -40% -20%;
+    height:90px;
+    background:radial-gradient(circle at center, rgba(102,192,244,.20), transparent 70%);
+    filter:blur(12px);
+    animation:shine 5.5s ease-in-out infinite alternate;
+  }
+  @keyframes shine{
+    0%{transform:translateX(-6%)}
+    100%{transform:translateX(6%)}
+  }
+  .thumb img{
+    position:relative;
+    z-index:1;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:transform .35s ease, filter .35s ease;
+  }
+  .card:hover .thumb img{transform:scale(1.04)}
+  .thumb.ph{
+    color:rgba(139,160,176,.55);
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:.4px;
+  }
+  .tag-row{
+    position:absolute;
+    top:10px; left:10px; right:10px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
+    z-index:2;
+  }
+  .tag{
+    font-size:10px;
+    line-height:1;
+    padding:6px 8px;
+    border-radius:999px;
+    font-weight:800;
+    letter-spacing:.5px;
+    text-transform:uppercase;
+    background:rgba(11,15,20,.72);
+    border:1px solid rgba(255,255,255,.08);
+    color:#fff;
+    backdrop-filter:blur(10px);
+  }
+  .tag:nth-child(1){background:rgba(164,208,7,.16);color:var(--green);border-color:rgba(164,208,7,.18)}
+  .tag:nth-child(2){background:rgba(102,192,244,.14);color:var(--accent);border-color:rgba(102,192,244,.18)}
+  .tag:nth-child(3){background:rgba(255,180,0,.13);color:#ffc84a;border-color:rgba(255,180,0,.18)}
+  .tag:nth-child(4){background:rgba(130,100,255,.14);color:#b8a8ff;border-color:rgba(130,100,255,.18)}
+
+  .card-body{padding:14px}
+  .title{
+    margin:0;
+    font-size:15px;
+    line-height:1.35;
+    color:#fff;
+    font-weight:800;
+  }
+  .desc{
+    margin:7px 0 0;
+    font-size:12px;
+    line-height:1.45;
+    color:var(--muted);
+    min-height:2.9em;
+  }
+  .meta{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    margin-top:12px;
+  }
+  .price{
+    font-size:22px;
+    line-height:1;
+    font-weight:900;
+    color:var(--green);
+    letter-spacing:-.02em;
+  }
+  .buy{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:7px;
+    padding:10px 12px;
+    border-radius:12px;
+    text-decoration:none;
+    color:#fff;
+    background:linear-gradient(135deg, #0088cc, #006fa6);
+    font-size:13px;
+    font-weight:800;
+    transition:transform .18s ease, box-shadow .18s ease, filter .18s ease;
+    white-space:nowrap;
+    box-shadow:0 10px 18px rgba(0,136,204,.16);
+  }
+  .buy:hover{transform:translateY(-1px);box-shadow:0 14px 22px rgba(0,136,204,.22);filter:saturate(1.05)}
+
+  .empty{
+    grid-column:1/-1;
+    padding:54px 18px;
+    text-align:center;
+    color:var(--muted);
+    border:1px dashed rgba(42,71,94,.9);
+    border-radius:18px;
+    background:rgba(17,24,34,.45);
+  }
+  .empty h3{margin:0 0 8px;color:#fff}
+
+  .footer-note{
+    margin-top:16px;
+    color:var(--muted);
+    font-size:12px;
+    line-height:1.5;
+  }
+
+  .sticky-actions{
+    display:none;
+  }
+
+  @media (max-width: 1024px){
+    .shell{grid-template-columns:1fr}
+    .sidebar{order:2}
+    .main{order:1}
+  }
+  @media (max-width: 768px){
+    .topbar-inner{padding:12px 14px}
+    .hero{padding:18px 14px 0}
+    .shell{padding:12px 14px 22px;gap:14px}
+    .panel{border-radius:16px}
+    .filters{padding:10px}
+    .grid{grid-template-columns:repeat(auto-fill, minmax(160px, 1fr));gap:12px}
+    .card{border-radius:16px}
+    .thumb{height:150px}
+    .card-body{padding:12px}
+    .title{font-size:14px}
+    .desc{font-size:11px;min-height:2.6em}
+    .price{font-size:18px}
+    .buy{padding:9px 10px;border-radius:11px;font-size:12px}
+    .tg-btn{padding:9px 12px}
+    .sticky-actions{
+      display:flex;
+      position:sticky;
+      bottom:10px;
+      z-index:15;
+      margin-top:14px;
+      gap:10px;
+    }
+    .sticky-actions .buy,
+    .sticky-actions .tg-btn{
+      flex:1;
+      justify-content:center;
+      min-width:0;
+    }
+  }
+  @media (prefers-reduced-motion: reduce){
+    *{animation:none !important;transition:none !important;scroll-behavior:auto !important}
+  }
+</style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="brand-badge">🗡️</div>
+        <div class="brand-text">
+          <div class="brand-title">CS2 Trade Banned Accounts</div>
+          <div class="brand-sub"></div>
+        </div>
+      </div>
+      <a class="tg-btn" href="https://t.me/SsKrasavaSs" target="_blank" rel="noopener noreferrer">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248-2.04 9.61c-.148.658-.54.818-1.093.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.462c.537-.194 1.006.131.912.612z"/></svg>
+        Telegram
+      </a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>Fast <span>navigation</span> & convenient filters</h1>
+      <p></p>
+    </div>
+    <div class="count-pill" id="countPill">Loading…</div>
+  </section>
+
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="panel">
+        <div class="panel-head">
+          <span>Categories</span>
+          <span id="activeState">All</span>
+        </div>
+        <div class="filters" id="filters"></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="panel" style="padding:16px;">
+        <div class="toolbar">
+          <div class="search-wrap">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input id="search" class="search" type="search" placeholder="Search name, price or description…" />
+          </div>
+          <div class="chips" aria-label="Quick actions">
+            <div class="chip active" id="clearBtn">Show all</div>
+            <div class="chip" id="topBtn">Top</div>
+          </div>
+        </div>
+
+        <div class="grid" id="grid"></div>
+        <div class="footer-note"></div>
+      </div>
+
+      <div class="sticky-actions">
+        <a class="buy" href="https://t.me/SsKrasavaSs" target="_blank" rel="noopener noreferrer">Buy via Telegram</a>
+        <a class="tg-btn" href="https://t.me/SsKrasavaSs" target="_blank" rel="noopener noreferrer">Open Telegram</a>
+      </div>
+    </main>
+  </div>
+
+<script>
+  const tgLink = 'https://t.me/SsKrasavaSs';
+
+  const categories = [
+    'Knife',
+    'Knife + Gloves',
+    'up to $50',
+    '$50 - $100',
+    '$100 - $200',
+    '$200+'
+  ];
+
+  const items = [
+    { id: 1, name: 'Karambit Doppler', price: '$290', desc: 'Factory New', cats: [0, 5], img: 'Screenshot_1.png' },
+    { id: 2, name: 'AK-47 Redline', price: '$45', desc: 'Field-Tested', cats: [2], img: 'images/2.png' }
+  ];
+
+  let activeCats = [];
+
+  function priceValue(value) {
+    const num = String(value || '').replace(/[^0-9.]/g, '');
+    return num ? Number(num) : 0;
+  }
+
+  function matchesQuery(item, q) {
+    if (!q) return true;
+    const haystack = `${item.name} ${item.price} ${item.desc}`.toLowerCase();
+    return haystack.includes(q);
+  }
+
+  function renderFilters() {
+    const el = document.getElementById('filters');
+    el.innerHTML = '';
+
+    categories.forEach((c, i) => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'filter' + (activeCats.includes(i) ? ' active' : '');
+      btn.innerHTML = `<span class="filter-dot"></span><span>${c}</span>`;
+      btn.onclick = () => {
+        if (activeCats.includes(i)) {
+          activeCats = activeCats.filter(x => x !== i);
+        } else {
+          activeCats.push(i);
+        }
+        render();
+      };
+      el.appendChild(btn);
+    });
+
+    document.getElementById('activeState').textContent = activeCats.length ? `${activeCats.length} selected` : 'All';
+  }
+
+  function render() {
+    renderFilters();
+
+    const q = document.getElementById('search').value.trim().toLowerCase();
+    const grid = document.getElementById('grid');
+
+    let filtered = [...items];
+
+    if (activeCats.length) {
+      filtered = filtered.filter(item => item.cats.some(c => activeCats.includes(c)));
+    }
+
+    filtered = filtered.filter(item => matchesQuery(item, q));
+    filtered.sort((a, b) => priceValue(a.price) - priceValue(b.price));
+
+    document.getElementById('countPill').textContent = `${filtered.length} item${filtered.length === 1 ? '' : 's'} shown`;
+
+    if (!filtered.length) {
+      grid.innerHTML = `
+        <div class="empty">
+          <h3>No items found</h3>
+          <div>Try another search or clear filters.</div>
+        </div>
+      `;
+      return;
+    }
+
+    grid.innerHTML = filtered.map((item, index) => {
+      const tags = item.cats.slice(0, 4).map(c => `<span class="tag">${categories[c] ?? ''}</span>`).join('');
+      const image = item.img
+        ? `<img src="${item.img}" alt="${escapeHtml(item.name)}" loading="lazy" decoding="async">`
+        : `<div class="thumb ph">No image</div>`;
+
+      return `
+        <article class="card" style="animation-delay:${Math.min(index * 40, 360)}ms">
+          <div class="thumb">
+            ${image}
+            <div class="tag-row">${tags}</div>
+          </div>
+          <div class="card-body">
+            <h2 class="title">${escapeHtml(item.name)}</h2>
+            <div class="desc">${escapeHtml(item.desc || '')}</div>
+            <div class="meta">
+              <div class="price">${escapeHtml(item.price)}</div>
+              <a class="buy" href="${tgLink}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Buy</a>
+            </div>
+          </div>
+        </article>
+      `;
+    }).join('');
+  }
+
+  function escapeHtml(str) {
+    return String(str)
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;')
+      .replaceAll("'", '&#39;');
+  }
+
+  document.getElementById('search').addEventListener('input', render);
+  document.getElementById('clearBtn').addEventListener('click', () => {
+    activeCats = [];
+    document.getElementById('search').value = '';
+    render();
+  });
+  document.getElementById('topBtn').addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  render();
+</script>
+</body>
+</html>
