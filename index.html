@@ -64,6 +64,7 @@
     margin:0 auto;
     padding:14px 20px;
     display:flex;
+    flex-wrap:wrap;
     align-items:center;
     justify-content:space-between;
     gap:14px;
@@ -103,6 +104,13 @@
     text-transform:uppercase;
     color:var(--muted);
   }
+  .topbar-actions{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    flex-wrap:wrap;
+    gap:10px;
+  }
   .tg-btn{
     display:inline-flex;
     align-items:center;
@@ -119,6 +127,14 @@
     white-space:nowrap;
   }
   .tg-btn:hover{transform:translateY(-1px);box-shadow:0 14px 30px rgba(0,136,204,.28);filter:saturate(1.05)}
+  .tg-btn.secondary{
+    background:linear-gradient(135deg, rgba(27,40,56,.98), rgba(21,33,46,.98));
+    border-color:rgba(102,192,244,.24);
+    box-shadow:0 10px 24px rgba(0,0,0,.2);
+  }
+  .tg-btn.secondary:hover{
+    box-shadow:0 14px 30px rgba(0,0,0,.28);
+  }
   .hero{
     max-width:1400px;
     margin:0 auto;
@@ -583,13 +599,18 @@
 
   @media (max-width: 1024px){
     .shell{grid-template-columns:1fr}
-    .sidebar{order:2}
-    .main{order:1}
+    .sidebar{order:1}
+    .main{order:2}
     .detail-layout{grid-template-columns:1fr}
     .detail-info{height:auto}
   }
   @media (max-width: 768px){
     .topbar-inner{padding:12px 14px}
+    .topbar-actions{width:100%}
+    .topbar-actions .tg-btn{
+      flex:1 1 calc(50% - 5px);
+      justify-content:center;
+    }
     .hero{padding:18px 14px 0}
     .shell{padding:12px 14px 22px;gap:14px}
     .panel{border-radius:16px}
@@ -637,10 +658,16 @@
           <div class="brand-sub"></div>
         </div>
       </div>
-      <a class="tg-btn" href="https://t.me/SsKrasavaSs" target="_blank" rel="noopener noreferrer">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248-2.04 9.61c-.148.658-.54.818-1.093.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.462c.537-.194 1.006.131.912.612z"/></svg>
-        Telegram
-      </a>
+      <div class="topbar-actions">
+        <a class="tg-btn" href="https://t.me/steamtradeban" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248-2.04 9.61c-.148.658-.54.818-1.093.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.462c.537-.194 1.006.131.912.612z"/></svg>
+          Telegram Channel
+        </a>
+        <a class="tg-btn secondary" href="https://t.me/SsKrasavaSs" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248-2.04 9.61c-.148.658-.54.818-1.093.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.462c.537-.194 1.006.131.912.612z"/></svg>
+          Contact Seller
+        </a>
+      </div>
     </div>
   </header>
 
@@ -684,15 +711,14 @@
       </div>
 
       <div class="sticky-actions">
-        <a class="buy" href="https://t.me/SsKrasavaSs" target="_blank" rel="noopener noreferrer">Buy via Telegram</a>
-        <a class="tg-btn" href="https://t.me/SsKrasavaSs" target="_blank" rel="noopener noreferrer">Open Telegram</a>
+        <a class="buy" href="https://t.me/steamtradeban" target="_blank" rel="noopener noreferrer">Telegram Channel</a>
       </div>
     </main>
   </div>
 
 <script src="steamtradeban_items.js"></script>
 <script>
-  const tgLink = 'https://t.me/SsKrasavaSs';
+  const sellerLink = 'https://t.me/SsKrasavaSs';
 
   const categories = [
     'Knife',
@@ -838,7 +864,7 @@
               <div class="detail-price-label">Price</div>
               <div class="detail-price">${escapeHtml(selectedItem.price)}</div>
             </div>
-            <a class="buy detail-buy" href="${tgLink}" target="_blank" rel="noopener noreferrer">Buy via Telegram</a>
+            <a class="buy detail-buy" href="${sellerLink}" target="_blank" rel="noopener noreferrer">Buy via Telegram</a>
           </div>
         </div>
       `;
@@ -874,7 +900,7 @@
             <div class="desc">${escapeHtml(item.desc || '')}</div>
             <div class="meta">
               <div class="price">${escapeHtml(item.price)}</div>
-              <a class="buy" href="${tgLink}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Buy</a>
+              <a class="buy" href="${sellerLink}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Buy</a>
             </div>
           </div>
         </article>
