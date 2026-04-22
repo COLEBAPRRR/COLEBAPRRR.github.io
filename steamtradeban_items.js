@@ -607,7 +607,7 @@ window.catalogItems = [
     {
         "id":  56,
         "name":  "Guns",
-        "price":  "$25",
+        "price":  "Sold",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      2,
