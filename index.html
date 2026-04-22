@@ -602,10 +602,6 @@
     line-height:1.5;
   }
 
-  .sticky-actions{
-    display:none;
-  }
-
   @media (max-width: 1024px){
     .shell{grid-template-columns:1fr}
     .sidebar{order:1}
@@ -637,23 +633,13 @@
     .detail-title{font-size:26px}
     .detail-desc{padding:14px;font-size:14px}
     .detail-price{font-size:34px}
-    .sticky-actions{
-      display:flex;
-      position:sticky;
-      bottom:10px;
-      z-index:15;
-      margin-top:14px;
-      gap:10px;
-    }
-    .sticky-actions .buy,
-    .sticky-actions .tg-btn{
-      flex:1;
-      justify-content:center;
-      min-width:0;
-    }
   }
   @media (prefers-reduced-motion: reduce){
     *{animation:none !important;transition:none !important;scroll-behavior:auto !important}
+    .card{
+      opacity:1;
+      transform:none;
+    }
   }
 </style>
 </head>
@@ -719,9 +705,6 @@
         <div class="detail-view" id="detailView" hidden></div>
       </div>
 
-      <div class="sticky-actions">
-        <a class="buy" href="https://t.me/steamtradeban" target="_blank" rel="noopener noreferrer">Telegram Channel</a>
-      </div>
     </main>
   </div>
 
