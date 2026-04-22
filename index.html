@@ -942,5 +942,19 @@
 
   render();
 </script>
+<script>
+// Этот код отслеживает нажатия на кнопки покупки
+document.addEventListener('click', function (e) {
+  const buyButton = e.target.closest('.buy, .tg-btn, .detail-buy');
+  
+  if (buyButton) {
+    gtag('event', 'click_buy_button', {
+      'event_category': 'conversion',
+      'item_name': buyButton.closest('.card')?.querySelector('.title')?.innerText || 'Unknown Item',
+      'destination': buyButton.getAttribute('href')
+    });
+  }
+}, false);
+</script>
 </body>
 </html>
