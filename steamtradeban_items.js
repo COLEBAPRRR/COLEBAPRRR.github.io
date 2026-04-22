@@ -640,7 +640,7 @@ window.catalogItems = [
     {
         "id":  59,
         "name":  "Kukri Knife",
-        "price":  "SOLD",
+        "price":  "Sold",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
