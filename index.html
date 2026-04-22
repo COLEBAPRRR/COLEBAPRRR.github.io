@@ -728,7 +728,7 @@
 
   function priceValue(value) {
     const num = String(value || '').replace(/[^0-9.]/g, '');
-    return num ? Number(num) : 0;
+    return num ? Number(num) : Number.POSITIVE_INFINITY;
   }
 
   function matchesQuery(item, q) {
