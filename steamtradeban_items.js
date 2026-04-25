@@ -2,18 +2,18 @@ window.catalogItems = [
     {
         "id":  1,
         "name":  "Navaja Knife",
-        "price":  "$55",
+        "price":  "$49",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
-                     3
+                     2
                  ],
         "img":  "images/Screenshot_1.png"
     },
     {
         "id":  2,
         "name":  "Falchion Knife + Guns",
-        "price":  "$165",
+        "price":  "$129",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -24,7 +24,7 @@ window.catalogItems = [
     {
         "id":  3,
         "name":  "Shadow Daggers + Guns",
-        "price":  "$155",
+        "price":  "$119",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      4,
@@ -35,7 +35,7 @@ window.catalogItems = [
     {
         "id":  4,
         "name":  "Shadow Daggers + Guns",
-        "price":  "$95",
+        "price":  "$79",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -46,7 +46,7 @@ window.catalogItems = [
     {
         "id":  5,
         "name":  "Ursus Knife + Guns",
-        "price":  "$90",
+        "price":  "$75",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -57,10 +57,10 @@ window.catalogItems = [
     {
         "id":  6,
         "name":  "Survival Knife + Guns",
-        "price":  "$115",
+        "price":  "$93",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
-                     4,
+                     3,
 					 0
                  ],
         "img":  "images/Screenshot_6.png"
@@ -68,18 +68,18 @@ window.catalogItems = [
     {
         "id":  7,
         "name":  "Huntsman Knife + Guns",
-        "price":  "$121",
+        "price":  "$99",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
-                     4
+                     3
                  ],
         "img":  "images/Screenshot_7.png"
     },
     {
         "id":  8,
         "name":  "Huntsman Knife + Guns",
-        "price":  "$99",
+        "price":  "$85",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -90,7 +90,7 @@ window.catalogItems = [
     {
         "id":  9,
         "name":  "Huntsman Knife + Guns",
-        "price":  "$199",
+        "price":  "$153",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -101,7 +101,7 @@ window.catalogItems = [
     {
         "id":  10,
         "name":  "Gut Knife + Guns",
-        "price":  "$85",
+        "price":  "$73",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -112,29 +112,29 @@ window.catalogItems = [
     {
         "id":  11,
         "name":  "Paracord Knife + Guns",
-        "price":  "$109",
+        "price":  "$89",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
-                     4
+                     3
                  ],
         "img":  "images/Screenshot_11.png"
     },
     {
         "id":  12,
         "name":  "Huntsman Knife MW + Guns",
-        "price":  "$53",
+        "price":  "$49",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
-                     3
+                     2
                  ],
         "img":  "images/Screenshot_12.png"
     },
     {
         "id":  13,
         "name":  "Bowie Knife + Guns",
-        "price":  "$45",
+        "price":  "$39",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -145,7 +145,7 @@ window.catalogItems = [
     {
         "id":  14,
         "name":  "Huntsman Knife + Guns",
-        "price":  "$169",
+        "price":  "$159",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -156,7 +156,7 @@ window.catalogItems = [
     {
         "id":  15,
         "name":  "Bowie Knife + Guns",
-        "price":  "$69",
+        "price":  "$63",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -167,7 +167,7 @@ window.catalogItems = [
     {
         "id":  16,
         "name":  "Kukri Knife + Guns",
-        "price":  "$69",
+        "price":  "$63",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -178,7 +178,7 @@ window.catalogItems = [
     {
         "id":  17,
         "name":  "Paracord Knife + Guns",
-        "price":  "$43",
+        "price":  "$39",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -189,7 +189,7 @@ window.catalogItems = [
     {
         "id":  18,
         "name":  "Survival FT + Gloves + Guns",
-        "price":  "$85",
+        "price":  "$79",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      1,
@@ -200,7 +200,7 @@ window.catalogItems = [
     {
         "id":  19,
         "name":  "Classic Knife + Shadow Daggers + Guns",
-        "price":  "$125",
+        "price":  "$105",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -211,7 +211,7 @@ window.catalogItems = [
     {
         "id":  20,
         "name":  "Survival Slaughter MW",
-        "price":  "$59",
+        "price":  "$53",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -222,18 +222,18 @@ window.catalogItems = [
     {
         "id":  21,
         "name":  "Survival MW + Guns",
-        "price":  "$53",
+        "price":  "$47",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
-                     3
+                     2
                  ],
         "img":  "images/Screenshot_21.png"
     },
     {
         "id":  22,
         "name":  "ST Bowie Lore + Guns",
-        "price":  "$83",
+        "price":  "$77",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -244,7 +244,7 @@ window.catalogItems = [
     {
         "id":  23,
         "name":  "Huntsman Lore FT",
-        "price":  "$59",
+        "price":  "$53",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -255,7 +255,7 @@ window.catalogItems = [
     {
         "id":  24,
         "name":  "Shadow Daggers",
-        "price":  "$40",
+        "price":  "$35",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      2,
@@ -266,7 +266,7 @@ window.catalogItems = [
     {
         "id":  25,
         "name":  "Huntsman Knife | Crimson Web",
-        "price":  "$75",
+        "price":  "$67",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -277,7 +277,7 @@ window.catalogItems = [
     {
         "id":  26,
         "name":  "Falchion + Guns",
-        "price":  "$63",
+        "price":  "$59",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -288,11 +288,11 @@ window.catalogItems = [
     {
         "id":  27,
         "name":  "Falchion + Guns",
-        "price":  "$55",
+        "price":  "$49",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
-                     3
+                     2
                  ],
         "img":  "images/Screenshot_27.png"
     },
@@ -343,7 +343,7 @@ window.catalogItems = [
     {
         "id":  32,
         "name":  "Paracord+Navaja+Guns",
-        "price":  "$65",
+        "price":  "$59",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -354,18 +354,18 @@ window.catalogItems = [
     {
         "id":  33,
         "name":  "Bowie Fade FN + Guns",
-        "price":  "$119",
+        "price":  "$99",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
-                     4
+                     3
                  ],
         "img":  "images/Screenshot_33.png"
     },
     {
         "id":  34,
         "name":  "Survival Knife Marble Fade",
-        "price":  "$125",
+        "price":  "$109",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -376,18 +376,18 @@ window.catalogItems = [
     {
         "id":  35,
         "name":  "Falchion + Guns",
-        "price":  "$55",
+        "price":  "$49",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
-                     3
+                     2
                  ],
         "img":  "images/Screenshot_35.png"
     },
     {
         "id":  36,
         "name":  "Falchion Knife Marble Fade",
-        "price":  "$99",
+        "price":  "$93",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -398,7 +398,7 @@ window.catalogItems = [
     {
         "id":  37,
         "name":  "Bowie Knife + Guns",
-        "price":  "$89",
+        "price":  "$83",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -409,7 +409,7 @@ window.catalogItems = [
     {
         "id":  38,
         "name":  "Gut Lore FT",
-        "price":  "$79",
+        "price":  "$72",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -420,7 +420,7 @@ window.catalogItems = [
     {
         "id":  39,
         "name":  "Bayonet + Shadow Daggers + Guns",
-        "price":  "$165",
+        "price":  "$149",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -431,7 +431,7 @@ window.catalogItems = [
     {
         "id":  40,
         "name":  "Huntsman Case Hardened",
-        "price":  "$85",
+        "price":  "$79",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -442,7 +442,7 @@ window.catalogItems = [
     {
         "id":  41,
         "name":  "Kukri + Gloves + Guns",
-        "price":  "$159",
+        "price":  "$149",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      1,
@@ -453,7 +453,7 @@ window.catalogItems = [
     {
         "id":  42,
         "name":  "Falchion + Guns",
-        "price":  "$87",
+        "price":  "$79",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -475,7 +475,7 @@ window.catalogItems = [
     {
         "id":  44,
         "name":  "Ursus Knife + Guns",
-        "price":  "$59",
+        "price":  "$53",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -497,7 +497,7 @@ window.catalogItems = [
     {
         "id":  46,
         "name":  "Navaja + Guns",
-        "price":  "$59",
+        "price":  "$55",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -508,7 +508,7 @@ window.catalogItems = [
     {
         "id":  47,
         "name":  "Gut Tiger Tooth + Guns",
-        "price":  "$169",
+        "price":  "$149",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -519,7 +519,7 @@ window.catalogItems = [
     {
         "id":  48,
         "name":  "Kukri Knife",
-        "price":  "$49",
+        "price":  "$45",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -530,7 +530,7 @@ window.catalogItems = [
     {
         "id":  49,
         "name":  "Flip Knife",
-        "price":  "$65",
+        "price":  "$62",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -585,7 +585,7 @@ window.catalogItems = [
     {
         "id":  54,
         "name":  "Gut Lore + Guns",
-        "price":  "$79",
+        "price":  "$70",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -596,7 +596,7 @@ window.catalogItems = [
     {
         "id":  55,
         "name":  "Navaja Knife + Guns",
-        "price":  "$69",
+        "price":  "$59",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -618,7 +618,7 @@ window.catalogItems = [
     {
         "id":  57,
         "name":  "Bowie Knife",
-        "price":  "$30",
+        "price":  "$28",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -629,7 +629,7 @@ window.catalogItems = [
     {
         "id":  58,
         "name":  "Skeleton Knife + Guns",
-        "price":  "$169",
+        "price":  "$149",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -651,7 +651,7 @@ window.catalogItems = [
     {
         "id":  60,
         "name":  "Bowie Knife + Guns",
-        "price":  "$75",
+        "price":  "$69",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
@@ -662,18 +662,18 @@ window.catalogItems = [
     {
         "id":  61,
         "name":  "ST FN Kukri + Guns",
-        "price":  "$125",
+        "price":  "$99",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
-                     4
+                     3
                  ],
         "img":  "images/Screenshot_61.png"
     },
     {
         "id":  62,
         "name":  "Stiletto + Gloves + Guns",
-        "price":  "$179",
+        "price":  "$159",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      1,
@@ -684,7 +684,7 @@ window.catalogItems = [
     {
         "id":  63,
         "name":  "Gut + Gloves + Guns",
-        "price":  "$159",
+        "price":  "$129",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      1,
@@ -706,7 +706,7 @@ window.catalogItems = [
     {
         "id":  65,
         "name":  "Talon Knife Tiger Tooth",
-        "price":  "$229",
+        "price":  "$219",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
