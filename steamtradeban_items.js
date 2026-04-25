@@ -717,7 +717,7 @@ window.catalogItems = [
     {
         "id":  66,
         "name":  "Karambit Tiger Tooth",
-        "price":  "$339",
+        "price":  "Sold",
         "desc":  "Original Email+Steam log:pass",
         "cats":  [
                      0,
