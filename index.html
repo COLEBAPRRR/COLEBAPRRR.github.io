@@ -738,6 +738,44 @@
 
   let activeCats = [];
   let selectedItemId = getItemIdFromHash();
+  let catalogScrollY = typeof history.state?.catalogScrollY === 'number' ? history.state.catalogScrollY : 0;
+
+  function getCurrentScrollY() {
+    return window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0;
+  }
+
+  function afterLayout(callback) {
+    window.requestAnimationFrame(() => window.requestAnimationFrame(callback));
+  }
+
+  function scrollToElementTop(element, behavior = 'auto', offset = 0) {
+    if (!element) return;
+
+    afterLayout(() => {
+      const top = Math.max(element.getBoundingClientRect().top + getCurrentScrollY() - offset, 0);
+      window.scrollTo({ top, behavior });
+    });
+  }
+
+  function scrollToDetailView(behavior = 'auto') {
+    const detailTarget = document.querySelector('#detailView .detail-layout') || document.getElementById('detailView');
+    scrollToElementTop(detailTarget, behavior, 12);
+  }
+
+  function restoreCatalogScroll(behavior = 'auto') {
+    afterLayout(() => {
+      window.scrollTo({ top: Math.max(catalogScrollY, 0), behavior });
+    });
+  }
+
+  function getCatalogUrl() {
+    return `${window.location.pathname}${window.location.search}`;
+  }
+
+  function syncHistoryState(view) {
+    const url = view === 'detail' && selectedItemId ? `#item-${selectedItemId}` : getCatalogUrl();
+    history.replaceState({ view, itemId: selectedItemId, catalogScrollY }, '', url);
+  }
 
   function priceValue(value) {
     const num = String(value || '').replace(/[^0-9.]/g, '');
@@ -804,25 +842,38 @@
       : 'No image';
   }
 
-  function openItem(id) {
+  function openItem(id, options = {}) {
     const item = getItemById(id);
     if (!item) return;
 
+    if (selectedItemId == null) {
+      catalogScrollY = getCurrentScrollY();
+      syncHistoryState('catalog');
+    }
+
     selectedItemId = item.id;
 
-    if (window.location.hash !== `#item-${item.id}`) {
-      history.pushState(null, '', `#item-${item.id}`);
+    if (options.updateHistory !== false) {
+      history.pushState({ view: 'detail', itemId: item.id, catalogScrollY }, '', `#item-${item.id}`);
+    } else {
+      syncHistoryState('detail');
     }
 
     render();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    scrollToDetailView(options.scrollBehavior ?? 'smooth');
   }
 
-  function closeItem() {
+  function closeItem(options = {}) {
     selectedItemId = null;
-    history.pushState(null, '', `${window.location.pathname}${window.location.search}`);
+
+    if (options.updateHistory !== false) {
+      history.pushState({ view: 'catalog', itemId: null, catalogScrollY }, '', getCatalogUrl());
+    } else {
+      syncHistoryState('catalog');
+    }
+
     render();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    restoreCatalogScroll(options.scrollBehavior ?? 'smooth');
   }
 
   function handleCardKey(event, id) {
@@ -955,12 +1006,35 @@
   document.getElementById('topBtn').addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
+
+  window.addEventListener('popstate', event => {
+    if (typeof event.state?.catalogScrollY === 'number') {
+      catalogScrollY = event.state.catalogScrollY;
+    }
+
+    selectedItemId = getItemIdFromHash();
+    render();
+
+    if (selectedItemId != null) {
+      scrollToDetailView('auto');
+      return;
+    }
+
+    restoreCatalogScroll('auto');
+  });
+
   window.addEventListener('hashchange', () => {
     selectedItemId = getItemIdFromHash();
     render();
   });
 
   render();
+
+  syncHistoryState(selectedItemId != null ? 'detail' : 'catalog');
+
+  if (selectedItemId != null) {
+    scrollToDetailView('auto');
+  }
 </script>
 <script>
 // Этот код отслеживает нажатия на кнопки покупки
