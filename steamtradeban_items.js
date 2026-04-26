@@ -724,5 +724,104 @@ window.catalogItems = [
                      5
                  ],
         "img":  "images/Screenshot_66.png"
+    },
+	{
+        "id":  67,
+        "name":  "Stiletto Knife + Survival Knife",
+        "price":  "$105",
+        "desc":  "Original Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_67.png"
+    },
+    {
+        "id":  68,
+        "name":  "Gut Knife Forest + Guns",
+        "price":  "$69",
+        "desc":  "Original Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     3
+                 ],
+        "img":  "images/Screenshot_68.png"
+    },
+    {
+        "id":  69,
+        "name":  "Falchion Knife Crimson Web",
+        "price":  "$59",
+        "desc":  "Original Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     3
+                 ],
+        "img":  "images/Screenshot_69.png"
+    },
+    {
+        "id":  70,
+        "name":  "Bayonet Forest DDPAT",
+        "price":  "$59",
+        "desc":  "Original Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     3
+                 ],
+        "img":  "images/Screenshot_70.png"
+    },
+    {
+        "id":  71,
+        "name":  "Ursus Knife Ultraviolet + Guns",
+        "price":  "$449",
+        "desc":  "Original Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     5
+                 ],
+        "img":  "images/Screenshot_71.png"
+    },
+    {
+        "id":  72,
+        "name":  "Classic Knife Slaughter",
+        "price":  "$99",
+        "desc":  "Original Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     3
+                 ],
+        "img":  "images/Screenshot_72.png"
+    },
+    {
+        "id":  73,
+        "name":  "Bowie Marble Fade + Guns",
+        "price":  "$649",
+        "desc":  "Original Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     5
+                 ],
+        "img":  "images/Screenshot_73.png"
+    },
+    {
+        "id":  74,
+        "name":  "Huntsman Knife Ultraviolet",
+        "price":  "$29",
+        "desc":  "Original Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     2
+                 ],
+        "img":  "images/Screenshot_74.png"
+    },
+    {
+        "id":  75,
+        "name":  "Bayonet Doppler (Phase 1)",
+        "price":  "$149",
+        "desc":  "Original Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_75.png"
     }
 ];
