@@ -43,6 +43,10 @@
     min-height:100vh;
     overflow-x:hidden;
   }
+  body.detail-mobile-open{
+    overflow:hidden;
+    overscroll-behavior:none;
+  }
   body::before{
     content:"";
     position:fixed;
@@ -482,12 +486,49 @@
     flex-direction:column;
     gap:16px;
   }
+  .detail-view.is-overlay{
+    position:fixed;
+    inset:0;
+    z-index:60;
+    padding:calc(env(safe-area-inset-top, 0px) + 12px) 12px calc(env(safe-area-inset-bottom, 0px) + 24px);
+    overflow-y:auto;
+    overscroll-behavior:contain;
+    -webkit-overflow-scrolling:touch;
+    background:
+      radial-gradient(1200px 600px at 20% -10%, rgba(26,159,255,.10), transparent 55%),
+      radial-gradient(900px 500px at 100% 100%, rgba(164,208,7,.08), transparent 50%),
+      linear-gradient(180deg, #081017 0%, var(--bg) 100%);
+  }
+  .detail-shell{
+    width:min(100%, 1400px);
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+  }
   .detail-head{
     display:flex;
     align-items:center;
     justify-content:flex-start;
     gap:12px;
     flex-wrap:wrap;
+  }
+  .detail-view.is-overlay .detail-head{
+    position:fixed;
+    top:calc(env(safe-area-inset-top, 0px) + 12px);
+    left:12px;
+    right:12px;
+    z-index:2;
+    padding-bottom:10px;
+    background:none;
+    pointer-events:none;
+  }
+  .detail-view.is-overlay .detail-head .back-btn{
+    pointer-events:auto;
+    box-shadow:0 12px 28px rgba(0,0,0,.28);
+  }
+  .detail-view.is-overlay .detail-shell{
+    padding-top:56px;
   }
   .back-btn{
     display:inline-flex;
@@ -642,6 +683,16 @@
     .price{font-size:18px}
     .buy{padding:9px 10px;border-radius:11px;font-size:12px}
     .tg-btn{padding:9px 12px}
+    .detail-view.is-overlay{
+      padding:
+        calc(env(safe-area-inset-top, 0px) + 10px)
+        14px
+        calc(env(safe-area-inset-bottom, 0px) + 22px);
+    }
+    .detail-view.is-overlay .detail-head{
+      left:14px;
+      right:14px;
+    }
     .detail-media{min-height:260px;border-radius:16px}
     .detail-title{font-size:26px}
     .detail-desc{padding:14px;font-size:14px}
@@ -739,21 +790,54 @@
   let activeCats = [];
   let selectedItemId = getItemIdFromHash();
   let catalogScrollY = typeof history.state?.catalogScrollY === 'number' ? history.state.catalogScrollY : 0;
+  const mobileDetailQuery = window.matchMedia('(max-width: 768px)');
 
   function getCurrentScrollY() {
     return window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0;
+  }
+
+  function isMobileDetailLayout() {
+    return mobileDetailQuery.matches;
   }
 
   function afterLayout(callback) {
     window.requestAnimationFrame(() => window.requestAnimationFrame(callback));
   }
 
-  function scrollToElementTop(element, behavior = 'auto', offset = 0) {
+  function getDetailScrollHost(detailView = document.getElementById('detailView')) {
+    return detailView?.classList.contains('is-overlay') ? detailView : window;
+  }
+
+  function getScrollHostTop(scrollHost) {
+    return scrollHost === window ? getCurrentScrollY() : scrollHost.scrollTop;
+  }
+
+  function scrollHostTo(scrollHost, top, behavior = 'auto') {
+    if (scrollHost === window) {
+      window.scrollTo({ top, behavior });
+      return;
+    }
+
+    scrollHost.scrollTo({ top, behavior });
+  }
+
+  function getElementPositionWithinHost(element, scrollHost, edge = 'top') {
+    if (!element) return 0;
+
+    const rect = element.getBoundingClientRect();
+    const hostTop = scrollHost === window ? 0 : scrollHost.getBoundingClientRect().top;
+    const currentTop = getScrollHostTop(scrollHost);
+    const point = edge === 'bottom' ? rect.bottom : rect.top;
+
+    return point - hostTop + currentTop;
+  }
+
+  function scrollToElementTop(element, behavior = 'auto', offset = 0, scrollHost = window) {
     if (!element) return;
 
     afterLayout(() => {
-      const top = Math.max(element.getBoundingClientRect().top + getCurrentScrollY() - offset, 0);
-      window.scrollTo({ top, behavior });
+      const top = Math.max(getElementPositionWithinHost(element, scrollHost) - offset, 0);
+      scrollHostTo(scrollHost, top, behavior);
     });
   }
 
@@ -762,23 +846,25 @@
     const detailLayout = detailView?.querySelector('.detail-layout');
     const detailMedia = detailView?.querySelector('.detail-media');
     const detailPriceBox = detailView?.querySelector('.detail-price-box');
+    const scrollHost = getDetailScrollHost(detailView);
 
-    if (!detailView) return;
+    if (!detailView || detailView.hidden) return;
 
-    if (window.matchMedia('(max-width: 768px)').matches && detailMedia && detailPriceBox) {
+    if (isMobileDetailLayout() && detailMedia && detailPriceBox) {
       afterLayout(() => {
-        const mediaTop = detailMedia.getBoundingClientRect().top + getCurrentScrollY();
-        const priceBottom = detailPriceBox.getBoundingClientRect().bottom + getCurrentScrollY();
-        const maxTarget = Math.max(mediaTop - 12, 0);
-        const preferredTarget = Math.max(priceBottom - window.innerHeight + 28, 0);
+        const viewportHeight = scrollHost === window ? window.innerHeight : detailView.clientHeight;
+        const mediaTop = getElementPositionWithinHost(detailMedia, scrollHost, 'top');
+        const priceBottom = getElementPositionWithinHost(detailPriceBox, scrollHost, 'bottom');
+        const maxTarget = Math.max(mediaTop - 40, 0);
+        const preferredTarget = Math.max(priceBottom - viewportHeight - 20, 0);
         const targetTop = Math.min(preferredTarget, maxTarget);
 
-        window.scrollTo({ top: targetTop, behavior });
+        scrollHostTo(scrollHost, targetTop, behavior);
       });
       return;
     }
 
-    scrollToElementTop(detailLayout || detailView, behavior, 12);
+    scrollToElementTop(detailLayout || detailView, behavior, 12, scrollHost);
   }
 
   function restoreCatalogScroll(behavior = 'auto') {
@@ -791,9 +877,18 @@
     return `${window.location.pathname}${window.location.search}`;
   }
 
-  function syncHistoryState(view) {
+  function buildHistoryState(view, options = {}) {
+    return {
+      view,
+      itemId: view === 'detail' ? selectedItemId : null,
+      catalogScrollY,
+      fromCatalog: Boolean(options.fromCatalog)
+    };
+  }
+
+  function syncHistoryState(view, options = {}) {
     const url = view === 'detail' && selectedItemId ? `#item-${selectedItemId}` : getCatalogUrl();
-    history.replaceState({ view, itemId: selectedItemId, catalogScrollY }, '', url);
+    history.replaceState(buildHistoryState(view, options), '', url);
   }
 
   function priceValue(value) {
@@ -861,77 +956,11 @@
       : 'No image';
   }
 
-  function openItem(id, options = {}) {
-    const item = getItemById(id);
-    if (!item) return;
-
-    if (selectedItemId == null) {
-      catalogScrollY = getCurrentScrollY();
-      syncHistoryState('catalog');
-    }
-
-    selectedItemId = item.id;
-
-    if (options.updateHistory !== false) {
-      history.pushState({ view: 'detail', itemId: item.id, catalogScrollY }, '', `#item-${item.id}`);
-    } else {
-      syncHistoryState('detail');
-    }
-
-    render();
-    scrollToDetailView(options.scrollBehavior ?? 'auto');
-  }
-
-  function closeItem(options = {}) {
-    selectedItemId = null;
-
-    if (options.updateHistory !== false) {
-      history.pushState({ view: 'catalog', itemId: null, catalogScrollY }, '', getCatalogUrl());
-    } else {
-      syncHistoryState('catalog');
-    }
-
-    render();
-    restoreCatalogScroll(options.scrollBehavior ?? 'auto');
-  }
-
-  function handleCardKey(event, id) {
-    if (event.key === 'Enter' || event.key === ' ') {
-      event.preventDefault();
-      openItem(id);
-    }
-  }
-
-  function renderFilters() {
-    const el = document.getElementById('filters');
-    el.innerHTML = '';
-
-    categories.forEach((c, i) => {
-      const btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'filter' + (activeCats.includes(i) ? ' active' : '');
-      btn.innerHTML = `<span class="filter-dot"></span><span>${c}</span>`;
-      btn.onclick = () => {
-        if (activeCats.includes(i)) {
-          activeCats = activeCats.filter(x => x !== i);
-        } else {
-          activeCats.push(i);
-        }
-        render();
-      };
-      el.appendChild(btn);
-    });
-
-    document.getElementById('activeState').textContent = activeCats.length ? `${activeCats.length} selected` : 'All';
-  }
-
-  function render() {
+  function renderCatalog() {
     renderFilters();
 
     const q = document.getElementById('search').value.trim().toLowerCase();
     const grid = document.getElementById('grid');
-    const catalogView = document.getElementById('catalogView');
-    const detailView = document.getElementById('detailView');
 
     let filtered = [...items];
 
@@ -941,38 +970,6 @@
     filtered.sort((a, b) => priceValue(a.price) - priceValue(b.price));
 
     document.getElementById('countPill').textContent = `${filtered.length} item${filtered.length === 1 ? '' : 's'} shown`;
-
-    const selectedItem = getItemById(selectedItemId);
-
-    if (selectedItem) {
-      catalogView.hidden = true;
-      detailView.hidden = false;
-      detailView.innerHTML = `
-        <div class="detail-head">
-          <button type="button" class="back-btn" onclick="closeItem()">&larr; Back to catalog</button>
-        </div>
-        <div class="detail-layout">
-          <div class="detail-media${selectedItem.img ? '' : ' ph'}">
-            ${buildDetailImage(selectedItem)}
-          </div>
-          <div class="detail-info">
-            <div class="detail-tag-row">${buildTags(selectedItem)}</div>
-            <h2 class="detail-title">${formatTitle(selectedItem.name)}</h2>
-            <div class="detail-desc">${escapeHtml(selectedItem.desc || 'No description')}</div>
-            <div class="detail-price-box">
-              <div class="detail-price-label">Price</div>
-              <div class="detail-price">${escapeHtml(selectedItem.price)}</div>
-            </div>
-            <a class="buy detail-buy" href="${sellerLink}" target="_blank" rel="noopener noreferrer">Buy via Telegram</a>
-          </div>
-        </div>
-      `;
-      return;
-    }
-
-    catalogView.hidden = false;
-    detailView.hidden = true;
-    detailView.innerHTML = '';
 
     if (!filtered.length) {
       grid.innerHTML = `
@@ -1007,6 +1004,132 @@
     }).join('');
   }
 
+  function renderDetailView() {
+    const catalogView = document.getElementById('catalogView');
+    const detailView = document.getElementById('detailView');
+    const selectedItem = getItemById(selectedItemId);
+
+    if (!selectedItem) {
+      selectedItemId = null;
+      document.body.classList.remove('detail-mobile-open');
+      catalogView.hidden = false;
+      detailView.hidden = true;
+      detailView.classList.remove('is-overlay');
+      detailView.innerHTML = '';
+      return;
+    }
+
+    const useOverlay = isMobileDetailLayout();
+
+    document.body.classList.toggle('detail-mobile-open', useOverlay);
+    catalogView.hidden = !useOverlay;
+    detailView.hidden = false;
+    detailView.classList.toggle('is-overlay', useOverlay);
+    detailView.innerHTML = `
+      <div class="detail-shell">
+        <div class="detail-head">
+          <button type="button" class="back-btn" onclick="closeItem()">&larr; Back to catalog</button>
+        </div>
+        <div class="detail-layout">
+          <div class="detail-media${selectedItem.img ? '' : ' ph'}">
+            ${buildDetailImage(selectedItem)}
+          </div>
+          <div class="detail-info">
+            <div class="detail-tag-row">${buildTags(selectedItem)}</div>
+            <h2 class="detail-title">${formatTitle(selectedItem.name)}</h2>
+            <div class="detail-desc">${escapeHtml(selectedItem.desc || 'No description')}</div>
+            <div class="detail-price-box">
+              <div class="detail-price-label">Price</div>
+              <div class="detail-price">${escapeHtml(selectedItem.price)}</div>
+            </div>
+            <a class="buy detail-buy" href="${sellerLink}" target="_blank" rel="noopener noreferrer">Buy via Telegram</a>
+          </div>
+        </div>
+      </div>
+    `;
+
+    if (useOverlay) {
+      detailView.scrollTop = 0;
+      restoreCatalogScroll('auto');
+    }
+  }
+
+  function openItem(id, options = {}) {
+    const item = getItemById(id);
+    if (!item) return;
+
+    const openedFromCatalog = selectedItemId == null;
+
+    if (selectedItemId == null) {
+      catalogScrollY = getCurrentScrollY();
+      syncHistoryState('catalog');
+    }
+
+    selectedItemId = item.id;
+
+    if (options.updateHistory !== false) {
+      history.pushState(buildHistoryState('detail', { fromCatalog: openedFromCatalog }), '', `#item-${item.id}`);
+    } else {
+      syncHistoryState('detail', { fromCatalog: history.state?.fromCatalog });
+    }
+
+    renderDetailView();
+    scrollToDetailView(options.scrollBehavior ?? 'auto');
+  }
+
+  function closeItem(options = {}) {
+    const useHistoryBack = options.updateHistory !== false && history.state?.view === 'detail' && history.state?.fromCatalog;
+
+    if (useHistoryBack) {
+      history.back();
+      return;
+    }
+
+    selectedItemId = null;
+
+    if (options.updateHistory !== false) {
+      syncHistoryState('catalog');
+    } else {
+      syncHistoryState('catalog');
+    }
+
+    renderDetailView();
+
+    if (!isMobileDetailLayout()) {
+      restoreCatalogScroll(options.scrollBehavior ?? 'auto');
+    }
+  }
+
+  function handleCardKey(event, id) {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      openItem(id);
+    }
+  }
+
+  function renderFilters() {
+    const el = document.getElementById('filters');
+    el.innerHTML = '';
+
+    categories.forEach((c, i) => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'filter' + (activeCats.includes(i) ? ' active' : '');
+      btn.innerHTML = `<span class="filter-dot"></span><span>${c}</span>`;
+      btn.onclick = () => {
+        if (activeCats.includes(i)) {
+          activeCats = activeCats.filter(x => x !== i);
+        } else {
+          activeCats.push(i);
+        }
+        renderCatalog();
+      };
+      el.appendChild(btn);
+    });
+
+    document.getElementById('activeState').textContent = activeCats.length ? `${activeCats.length} selected` : 'All';
+  }
+
   function escapeHtml(str) {
     return String(str)
       .replaceAll('&', '&amp;')
@@ -1016,11 +1139,11 @@
       .replaceAll("'", '&#39;');
   }
 
-  document.getElementById('search').addEventListener('input', render);
+  document.getElementById('search').addEventListener('input', renderCatalog);
   document.getElementById('clearBtn').addEventListener('click', () => {
     activeCats = [];
     document.getElementById('search').value = '';
-    render();
+    renderCatalog();
   });
   document.getElementById('topBtn').addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1031,25 +1154,48 @@
       catalogScrollY = event.state.catalogScrollY;
     }
 
-    selectedItemId = getItemIdFromHash();
-    render();
+    selectedItemId = typeof event.state?.itemId === 'number' ? event.state.itemId : getItemIdFromHash();
+    renderDetailView();
 
     if (selectedItemId != null) {
       scrollToDetailView('auto');
       return;
     }
 
-    restoreCatalogScroll('auto');
+    if (!isMobileDetailLayout()) {
+      restoreCatalogScroll('auto');
+    }
   });
 
   window.addEventListener('hashchange', () => {
-    selectedItemId = getItemIdFromHash();
-    render();
+    const nextItemId = getItemIdFromHash();
+
+    if (nextItemId === selectedItemId) return;
+
+    selectedItemId = nextItemId;
+    renderDetailView();
+
+    if (selectedItemId != null) {
+      scrollToDetailView('auto');
+      return;
+    }
+
+    if (!isMobileDetailLayout()) {
+      restoreCatalogScroll('auto');
+    }
   });
 
-  render();
+  mobileDetailQuery.addEventListener('change', () => {
+    if (selectedItemId == null) return;
 
-  syncHistoryState(selectedItemId != null ? 'detail' : 'catalog');
+    renderDetailView();
+    scrollToDetailView('auto');
+  });
+
+  renderCatalog();
+  renderDetailView();
+
+  syncHistoryState(selectedItemId != null ? 'detail' : 'catalog', { fromCatalog: history.state?.fromCatalog });
 
   if (selectedItemId != null) {
     scrollToDetailView('auto');
