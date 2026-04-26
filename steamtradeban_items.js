@@ -859,7 +859,7 @@ window.catalogItems = [
     },
     {
         "id":  79,
-        "name":  "Survival Knife|Night Stripe",
+        "name":  "Survival Knife | Night Stripe",
         "price":  "$25",
         "desc":  "Total skins price: 99$\nOriginal Email+Steam log:pass",
         "cats":  [
