@@ -823,5 +823,71 @@ window.catalogItems = [
                      4
                  ],
         "img":  "images/Screenshot_75.png"
+    },
+	{
+        "id":  76,
+        "name":  "Top Guns + Prime",
+        "price":  "$69",
+        "desc":  "Total skins price: 710$\nPrime+Original Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     3
+                 ],
+        "img":  "images/Screenshot_76.png"
+    },
+    {
+        "id":  77,
+        "name":  "Falchion Rust + Gloves + Guns",
+        "price":  "$159",
+        "desc":  "Total skins price: 1350$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     1,
+                     4
+                 ],
+        "img":  "images/Screenshot_77.png"
+    },
+    {
+        "id":  78,
+        "name":  "Driver Gloves + gloves",
+        "price":  "$65",
+        "desc":  "Total skins price: 400$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     1,
+                     3
+                 ],
+        "img":  "images/Screenshot_78.png"
+    },
+    {
+        "id":  79,
+        "name":  "Survival Knife|Night Stripe",
+        "price":  "$25",
+        "desc":  "Total skins price: 99$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     2
+                 ],
+        "img":  "images/Screenshot_79.png"
+    },
+    {
+        "id":  80,
+        "name":  "Shadow Daggers | Gamma Doppler",
+        "price":  "$55",
+        "desc":  "Total skins price: 220$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     3
+                 ],
+        "img":  "images/Screenshot_80.png"
+    },
+    {
+        "id":  81,
+        "name":  "Skeleton Knife | Rust Coast",
+        "price":  "$59",
+        "desc":  "Total skins price: 240$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     3
+                 ],
+        "img":  "images/Screenshot_81.png"
     }
 ];
