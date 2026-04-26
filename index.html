@@ -208,6 +208,9 @@
     box-shadow:var(--shadow);
     overflow:hidden;
   }
+  .panel.detail-overlay-host{
+    overflow:visible;
+  }
   .panel-head{
     padding:14px 16px;
     border-bottom:1px solid rgba(42,71,94,.75);
@@ -766,11 +769,13 @@
         <div class="grid" id="grid"></div>
         <div class="footer-note"></div>
         </div>
-        <div class="detail-view" id="detailView" hidden></div>
+        <div id="detailMount"></div>
       </div>
 
     </main>
   </div>
+
+  <div class="detail-view" id="detailView" hidden></div>
 
 <script src="steamtradeban_items.js"></script>
 <script>
@@ -956,6 +961,21 @@
       : 'No image';
   }
 
+  function placeDetailView(useOverlay) {
+    const detailView = document.getElementById('detailView');
+    const detailMount = document.getElementById('detailMount');
+
+    if (!detailView || !detailMount) return detailView;
+
+    const targetParent = useOverlay ? document.body : detailMount;
+
+    if (detailView.parentElement !== targetParent) {
+      targetParent.appendChild(detailView);
+    }
+
+    return detailView;
+  }
+
   function renderCatalog() {
     renderFilters();
 
@@ -1007,11 +1027,14 @@
   function renderDetailView() {
     const catalogView = document.getElementById('catalogView');
     const detailView = document.getElementById('detailView');
+    const detailHostPanel = document.getElementById('detailMount')?.closest('.panel');
     const selectedItem = getItemById(selectedItemId);
 
     if (!selectedItem) {
       selectedItemId = null;
+      placeDetailView(false);
       document.body.classList.remove('detail-mobile-open');
+      detailHostPanel?.classList.remove('detail-overlay-host');
       catalogView.hidden = false;
       detailView.hidden = true;
       detailView.classList.remove('is-overlay');
@@ -1020,8 +1043,10 @@
     }
 
     const useOverlay = isMobileDetailLayout();
+    placeDetailView(useOverlay);
 
     document.body.classList.toggle('detail-mobile-open', useOverlay);
+    detailHostPanel?.classList.toggle('detail-overlay-host', useOverlay);
     catalogView.hidden = !useOverlay;
     detailView.hidden = false;
     detailView.classList.toggle('is-overlay', useOverlay);
