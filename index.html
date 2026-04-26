@@ -874,6 +874,23 @@
 
   function restoreCatalogScroll(behavior = 'auto') {
     afterLayout(() => {
+      if (behavior === 'instant') {
+        const root = document.documentElement;
+        const body = document.body;
+        const previousRootBehavior = root.style.scrollBehavior;
+        const previousBodyBehavior = body.style.scrollBehavior;
+
+        root.style.scrollBehavior = 'auto';
+        body.style.scrollBehavior = 'auto';
+        window.scrollTo({ top: Math.max(catalogScrollY, 0), behavior: 'auto' });
+
+        window.requestAnimationFrame(() => {
+          root.style.scrollBehavior = previousRootBehavior;
+          body.style.scrollBehavior = previousBodyBehavior;
+        });
+        return;
+      }
+
       window.scrollTo({ top: Math.max(catalogScrollY, 0), behavior });
     });
   }
@@ -1121,7 +1138,7 @@
     renderDetailView();
 
     if (!isMobileDetailLayout()) {
-      restoreCatalogScroll(options.scrollBehavior ?? 'auto');
+      restoreCatalogScroll(options.scrollBehavior ?? 'instant');
     }
   }
 
@@ -1188,7 +1205,7 @@
     }
 
     if (!isMobileDetailLayout()) {
-      restoreCatalogScroll('auto');
+      restoreCatalogScroll('instant');
     }
   });
 
@@ -1206,7 +1223,7 @@
     }
 
     if (!isMobileDetailLayout()) {
-      restoreCatalogScroll('auto');
+      restoreCatalogScroll('instant');
     }
   });
 
