@@ -1123,7 +1123,16 @@
     const useHistoryBack = options.updateHistory !== false && history.state?.view === 'detail' && history.state?.fromCatalog;
 
     if (useHistoryBack) {
-      history.back();
+      selectedItemId = null;
+      renderDetailView();
+
+      if (!isMobileDetailLayout()) {
+        restoreCatalogScroll('instant');
+      }
+
+      window.requestAnimationFrame(() => {
+        history.back();
+      });
       return;
     }
 
