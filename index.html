@@ -322,6 +322,9 @@
   }
   .card{
     position:relative;
+    display:flex;
+    flex-direction:column;
+    height:100%;
     background:linear-gradient(180deg, rgba(27,40,56,.98), rgba(18,24,34,.98));
     border:1px solid rgba(42,71,94,.85);
     border-radius:18px;
@@ -406,7 +409,12 @@
   .tag:nth-child(3){background:rgba(255,180,0,.13);color:#ffc84a;border-color:rgba(255,180,0,.18)}
   .tag:nth-child(4){background:rgba(130,100,255,.14);color:#b8a8ff;border-color:rgba(130,100,255,.18)}
 
-  .card-body{padding:14px}
+  .card-body{
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    padding:14px;
+  }
   .title{
     margin:0;
     font-size:15px;
@@ -414,19 +422,24 @@
     color:#fff;
     font-weight:800;
   }
+  .title-line{
+    display:block;
+  }
   .desc{
     margin:7px 0 0;
     font-size:12px;
     line-height:1.45;
     color:var(--muted);
     min-height:2.9em;
+    white-space:pre-line;
   }
   .meta{
     display:flex;
     align-items:center;
     justify-content:space-between;
     gap:10px;
-    margin-top:12px;
+    margin-top:auto;
+    padding-top:12px;
   }
   .price{
     font-size:22px;
@@ -753,6 +766,32 @@
       .join('');
   }
 
+  function formatTitle(name) {
+    return String(name || '')
+      .split('|')
+      .map(part => part.trim())
+      .filter(Boolean)
+      .map(part => `<span class="title-line">${escapeHtml(part)}</span>`)
+      .join('');
+  }
+
+  function getGroupedSelections() {
+    return {
+      itemTypes: activeCats.filter(cat => cat <= 1),
+      priceRanges: activeCats.filter(cat => cat >= 2)
+    };
+  }
+
+  function matchesActiveCategories(item) {
+    if (!activeCats.length) return true;
+
+    const { itemTypes, priceRanges } = getGroupedSelections();
+    const matchesItemType = !itemTypes.length || itemTypes.some(cat => item.cats.includes(cat));
+    const matchesPriceRange = !priceRanges.length || priceRanges.some(cat => item.cats.includes(cat));
+
+    return matchesItemType && matchesPriceRange;
+  }
+
   function buildThumbImage(item) {
     return item.img
       ? `<img src="${item.img}" alt="${escapeHtml(item.name)}" loading="lazy" decoding="async">`
@@ -826,9 +865,7 @@
 
     let filtered = [...items];
 
-    if (activeCats.length) {
-      filtered = filtered.filter(item => activeCats.every(cat => item.cats.includes(cat)));
-    }
+    filtered = filtered.filter(matchesActiveCategories);
 
     filtered = filtered.filter(item => matchesQuery(item, q));
     filtered.sort((a, b) => priceValue(a.price) - priceValue(b.price));
@@ -850,7 +887,7 @@
           </div>
           <div class="detail-info">
             <div class="detail-tag-row">${buildTags(selectedItem)}</div>
-            <h2 class="detail-title">${escapeHtml(selectedItem.name)}</h2>
+            <h2 class="detail-title">${formatTitle(selectedItem.name)}</h2>
             <div class="detail-desc">${escapeHtml(selectedItem.desc || 'No description')}</div>
             <div class="detail-price-box">
               <div class="detail-price-label">Price</div>
@@ -888,7 +925,7 @@
             <div class="tag-row">${tags}</div>
           </div>
           <div class="card-body">
-            <h2 class="title">${escapeHtml(item.name)}</h2>
+            <h2 class="title">${formatTitle(item.name)}</h2>
             <div class="desc">${escapeHtml(item.desc || '')}</div>
             <div class="meta">
               <div class="price">${escapeHtml(item.price)}</div>
