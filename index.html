@@ -758,8 +758,27 @@
   }
 
   function scrollToDetailView(behavior = 'auto') {
-    const detailTarget = document.querySelector('#detailView .detail-layout') || document.getElementById('detailView');
-    scrollToElementTop(detailTarget, behavior, 12);
+    const detailView = document.getElementById('detailView');
+    const detailLayout = detailView?.querySelector('.detail-layout');
+    const detailMedia = detailView?.querySelector('.detail-media');
+    const detailPriceBox = detailView?.querySelector('.detail-price-box');
+
+    if (!detailView) return;
+
+    if (window.matchMedia('(max-width: 768px)').matches && detailMedia && detailPriceBox) {
+      afterLayout(() => {
+        const mediaTop = detailMedia.getBoundingClientRect().top + getCurrentScrollY();
+        const priceBottom = detailPriceBox.getBoundingClientRect().bottom + getCurrentScrollY();
+        const maxTarget = Math.max(mediaTop - 12, 0);
+        const preferredTarget = Math.max(priceBottom - window.innerHeight + 28, 0);
+        const targetTop = Math.min(preferredTarget, maxTarget);
+
+        window.scrollTo({ top: targetTop, behavior });
+      });
+      return;
+    }
+
+    scrollToElementTop(detailLayout || detailView, behavior, 12);
   }
 
   function restoreCatalogScroll(behavior = 'auto') {
@@ -860,7 +879,7 @@
     }
 
     render();
-    scrollToDetailView(options.scrollBehavior ?? 'smooth');
+    scrollToDetailView(options.scrollBehavior ?? 'auto');
   }
 
   function closeItem(options = {}) {
@@ -873,7 +892,7 @@
     }
 
     render();
-    restoreCatalogScroll(options.scrollBehavior ?? 'smooth');
+    restoreCatalogScroll(options.scrollBehavior ?? 'auto');
   }
 
   function handleCardKey(event, id) {
