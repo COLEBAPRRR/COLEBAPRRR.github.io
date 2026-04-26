@@ -31,14 +31,19 @@
     --shadow:0 16px 40px rgba(0,0,0,.35);
   }
   *{box-sizing:border-box}
-  html{scroll-behavior:smooth}
+  html{
+    scroll-behavior:smooth;
+    background:#081017;
+  }
   body{
     margin:0;
+    position:relative;
     font-family:Arial,Helvetica,sans-serif;
     background:
       radial-gradient(1200px 600px at 20% -10%, rgba(26,159,255,.10), transparent 55%),
       radial-gradient(900px 500px at 100% 100%, rgba(164,208,7,.08), transparent 50%),
       linear-gradient(180deg, #081017 0%, var(--bg) 100%);
+    background-color:#081017;
     color:var(--text);
     min-height:100vh;
     overflow-x:hidden;
@@ -59,6 +64,10 @@
     animation:floatGlow 16s ease-in-out infinite alternate;
     opacity:.9;
   }
+  html.is-scrolling body::before{
+    animation-play-state:paused;
+    opacity:.35;
+  }
   @keyframes floatGlow{
     0%{transform:translate3d(-1%,0,0)}
     100%{transform:translate3d(1%,0,0)}
@@ -71,6 +80,10 @@
     background:rgba(11,15,20,.86);
     backdrop-filter:blur(14px);
     border-bottom:1px solid rgba(42,71,94,.75);
+  }
+  html.is-scrolling .topbar{
+    background:rgba(11,15,20,.97);
+    backdrop-filter:none;
   }
   .topbar-inner{
     max-width:1400px;
@@ -404,6 +417,10 @@
     background:radial-gradient(circle at center, rgba(102,192,244,.20), transparent 70%);
     filter:blur(12px);
     animation:shine 5.5s ease-in-out infinite alternate;
+  }
+  html.is-scrolling .thumb::after{
+    animation-play-state:paused;
+    opacity:.28;
   }
   @keyframes shine{
     0%{transform:translateX(-6%)}
@@ -842,9 +859,18 @@
   let selectedItemId = getItemIdFromHash();
   let catalogScrollY = typeof history.state?.catalogScrollY === 'number' ? history.state.catalogScrollY : 0;
   const mobileDetailQuery = window.matchMedia('(max-width: 768px)');
+  let scrollingEffectsTimer = 0;
 
   function getCurrentScrollY() {
     return window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0;
+  }
+
+  function markScrollingActivity() {
+    document.documentElement.classList.add('is-scrolling');
+    window.clearTimeout(scrollingEffectsTimer);
+    scrollingEffectsTimer = window.setTimeout(() => {
+      document.documentElement.classList.remove('is-scrolling');
+    }, 140);
   }
 
   function isMobileDetailLayout() {
@@ -1264,7 +1290,11 @@
   document.getElementById('floatingTopBtn').addEventListener('click', () => {
     scrollCatalogToTop('smooth');
   });
-  window.addEventListener('scroll', updateScrollTopButtonVisibility, { passive: true });
+  window.addEventListener('scroll', () => {
+    updateScrollTopButtonVisibility();
+    markScrollingActivity();
+  }, { passive: true });
+  document.getElementById('detailView').addEventListener('scroll', markScrollingActivity, { passive: true });
 
   window.addEventListener('popstate', event => {
     if (typeof event.state?.catalogScrollY === 'number') {
