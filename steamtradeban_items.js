@@ -838,7 +838,7 @@
     {
         "id":  77,
         "name":  "Falchion Rust + Gloves + Guns",
-        "price":  "$159",
+        "price":  "$129",
         "desc":  "Total skins price: 1350$\nOriginal Email+Steam log:pass",
         "cats":  [
                      1,
