@@ -1,4 +1,4 @@
-﻿window.catalogItems = [
+window.catalogItems = [
     {
         "id":  1,
         "name":  "Navaja Knife",
@@ -838,7 +838,7 @@
     {
         "id":  77,
         "name":  "Falchion Rust + Gloves + Guns",
-        "price":  "$129",
+        "price":  "$159",
         "desc":  "Total skins price: 1350$\nOriginal Email+Steam log:pass",
         "cats":  [
                      1,
@@ -860,7 +860,7 @@
     {
         "id":  79,
         "name":  "Survival Knife | Night Stripe",
-        "price":  "$25",
+        "price":  "Sold",
         "desc":  "Total skins price: 100$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -889,6 +889,170 @@
                      3
                  ],
         "img":  "images/Screenshot_81.png"
+    },
+    {
+        "id":  82,
+        "name":  "Survival Knife | Night Stripe",
+        "price":  "$129",
+        "desc":  "Total skins price: 705$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_82.png"
+    },
+    {
+        "id":  83,
+        "name":  "Huntsman Knife | Doppler (Phase 1)",
+        "price":  "$110",
+        "desc":  "Total skins price: 440$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_83.png"
+    },
+    {
+        "id":  84,
+        "name":  "Nomad Knife | Doppler (Phase 3)",
+        "price":  "$149",
+        "desc":  "Total skins price: 650$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_84.png"
+    },
+    {
+        "id":  85,
+        "name":  "Paracord Knife",
+        "price":  "$59",
+        "desc":  "Total skins price: 280$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     3
+                 ],
+        "img":  "images/Screenshot_85.png"
+    },
+    {
+        "id":  86,
+        "name":  "Falchion Knife | Ultraviolet",
+        "price":  "$129",
+        "desc":  "Total skins price: 810$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_86.png"
+    },
+    {
+        "id":  87,
+        "name":  "Shadow Daggers | Tiger Tooth",
+        "price":  "$30",
+        "desc":  "Total skins price: 145$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     2
+                 ],
+        "img":  "images/Screenshot_87.png"
+    },
+    {
+        "id":  88,
+        "name":  "Huntsman Knife | Freehand",
+        "price":  "$33",
+        "desc":  "Total skins price: 155$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     2
+                 ],
+        "img":  "images/Screenshot_88.png"
+    },
+    {
+        "id":  89,
+        "name":  "Flip Knife | Rust Coat",
+        "price":  "$45",
+        "desc":  "Total skins price: 190$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     2
+                 ],
+        "img":  "images/Screenshot_89.png"
+    },
+    {
+        "id":  90,
+        "name":  "AK-47 | In the Monster",
+        "price":  "$75",
+        "desc":  "Total skins price: 410$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     3
+                 ],
+        "img":  "images/Screenshot_90.png"
+    },
+    {
+        "id":  91,
+        "name":  "Paracord Knife | Tiger Tooth",
+        "price":  "$90",
+        "desc":  "Total skins price: 475$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     3
+                 ],
+        "img":  "images/Screenshot_91.png"
+    },
+    {
+        "id":  92,
+        "name":  "Bayonet | Case Hardened",
+        "price":  "$119",
+        "desc":  "Total skins price: 545$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_92.png"
+    },
+    {
+        "id":  93,
+        "name":  "AWP | Hyper Beast",
+        "price":  "$25",
+        "desc":  "Total skins price: 255$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     2
+                 ],
+        "img":  "images/Screenshot_93.png"
+    },
+    {
+        "id":  94,
+        "name":  "Shadow Daggers | Damascus Steel",
+        "price":  "$20",
+        "desc":  "Total skins price: 95$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     2
+                 ],
+        "img":  "images/Screenshot_94.png"
+    },
+    {
+        "id":  95,
+        "name":  "Skeleton Knife | Ultraviolet",
+        "price":  "$59",
+        "desc":  "Total skins price: 300$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     3
+                 ],
+        "img":  "images/Screenshot_95.png"
+    },
+    {
+        "id":  96,
+        "name":  "StatTrak Paracord Knife | Crimson Web",
+        "price":  "$67",
+        "desc":  "Total skins price: 270$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     3
+                 ],
+        "img":  "images/Screenshot_96.png"
     }
 ];
-
