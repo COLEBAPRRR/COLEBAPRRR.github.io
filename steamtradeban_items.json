@@ -838,7 +838,7 @@
     {
         "id":  77,
         "name":  "Falchion Rust + Gloves + Guns",
-        "price":  "$159",
+        "price":  "Sold",
         "desc":  "Total skins price: 1350$\nOriginal Email+Steam log:pass",
         "cats":  [
                      1,
@@ -882,7 +882,7 @@
     {
         "id":  81,
         "name":  "Skeleton Knife | Rust Coast",
-        "price":  "$59",
+        "price":  "Sold",
         "desc":  "Total skins price: 235$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -1025,7 +1025,7 @@
     {
         "id":  94,
         "name":  "Shadow Daggers | Damascus Steel",
-        "price":  "$20",
+        "price":  "Sold",
         "desc":  "Total skins price: 95$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
