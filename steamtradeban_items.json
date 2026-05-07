@@ -683,34 +683,34 @@
     },
     {
         "id":  63,
-        "name":  "Gut + Gloves + Guns",
-        "price":  "$129",
-        "desc":  "Total skins price: 975$\nOriginal Email+Steam log:pass",
+        "name":  "Bayonet|Boreal Forest+Gloves+Guns",
+        "price":  "$249",
+        "desc":  "Total skins price: 1445$\nPrime+Premier ready + Original Email+Steam log:pass",
         "cats":  [
                      1,
-                     4
+                     5
                  ],
         "img":  "images/Screenshot_63.png"
     },
     {
         "id":  64,
-        "name":  "Bayonet Tiger Tooth + Guns",
-        "price":  "$220",
-        "desc":  "Total skins price: 1020$\nOriginal Email+Steam log:pass",
+        "name":  "Ursus Knife|Doppler",
+        "price":  "$110",
+        "desc":  "Total skins price: 470$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
-                     5
+                     4
                  ],
         "img":  "images/Screenshot_64.png"
     },
     {
         "id":  65,
-        "name":  "Talon Knife Tiger Tooth",
-        "price":  "$219",
-        "desc":  "Total skins price: 1240$\nOriginal Email+Steam log:pass",
+        "name":  "Flip Knife|Urban Masked",
+        "price":  "$39",
+        "desc":  "Total skins price: 195$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
-                     5
+                     2
                  ],
         "img":  "images/Screenshot_65.png"
     },
