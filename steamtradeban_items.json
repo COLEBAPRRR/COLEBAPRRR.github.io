@@ -1054,5 +1054,38 @@
                      3
                  ],
         "img":  "images/Screenshot_96.png"
+    },
+     {
+        "id":  97,
+        "name":  "ST Bowie Knife | Fade",
+        "price":  "109",
+        "desc":  "Total skins price: 450$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_97.png"
+    },
+    {
+        "id":  98,
+        "name":  "AWP | Fade",
+        "price":  "129",
+        "desc":  "Total skins price: 1300$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_98.png"
+    },
+    {
+        "id":  99,
+        "name":  "M9 Doppler+Karambit Doppler+Guns",
+        "price":  "$1400",
+        "desc":  "Total skins price: 5630$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     5
+                 ],
+        "img":  "images/Screenshot_99.png"
     }
 ]
