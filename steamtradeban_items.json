@@ -134,7 +134,7 @@
     {
         "id":  13,
         "name":  "Bowie Knife + Guns",
-        "price":  "$39",
+        "price":  "Sold",
         "desc":  "Total skins price: 185$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -519,7 +519,7 @@
     {
         "id":  48,
         "name":  "Kukri Knife",
-        "price":  "$45",
+        "price":  "Sold",
         "desc":  "Total skins price: 190$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -662,7 +662,7 @@
     {
         "id":  61,
         "name":  "ST FN Kukri + Guns",
-        "price":  "$99",
+        "price":  "Sold",
         "desc":  "Total skins price: 495$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
