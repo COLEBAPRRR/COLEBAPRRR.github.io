@@ -673,7 +673,7 @@ window.catalogItems = [
     {
         "id":  64,
         "name":  "Ursus Knife|Doppler",
-        "price":  "$110",
+        "price":  "$99",
         "desc":  "Total skins price: 470$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -1036,7 +1036,7 @@ window.catalogItems = [
     {
         "id":  97,
         "name":  "ST Bowie Knife | Fade",
-        "price":  "109",
+        "price":  "$99",
         "desc":  "Total skins price: 450$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -1047,7 +1047,7 @@ window.catalogItems = [
     {
         "id":  98,
         "name":  "AWP | Fade",
-        "price":  "129",
+        "price":  "$129",
         "desc":  "Total skins price: 1300$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
