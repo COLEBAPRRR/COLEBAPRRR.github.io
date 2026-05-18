@@ -66,17 +66,6 @@ window.catalogItems = [
         "img":  "images/Screenshot_6.png"
     },
     {
-        "id":  7,
-        "name":  "Huntsman Knife + Guns",
-        "price":  "$99",
-        "desc":  "Total skins price: 485$\nOriginal Email+Steam log:pass",
-        "cats":  [
-                     0,
-                     3
-                 ],
-        "img":  "images/Screenshot_7.png"
-    },
-    {
         "id":  8,
         "name":  "Huntsman Knife + Guns",
         "price":  "$85",
@@ -196,17 +185,6 @@ window.catalogItems = [
                      3
                  ],
         "img":  "images/Screenshot_18.png"
-    },
-    {
-        "id":  19,
-        "name":  "Classic Knife + Shadow Daggers + Guns",
-        "price":  "$105",
-        "desc":  "Total skins price: 500$\nOriginal Email+Steam log:pass",
-        "cats":  [
-                     0,
-                     4
-                 ],
-        "img":  "images/Screenshot_19.png"
     },
     {
         "id":  20,
@@ -1003,7 +981,7 @@ window.catalogItems = [
     {
         "id":  92,
         "name":  "Bayonet | Case Hardened",
-        "price":  "$119",
+        "price":  "Sold",
         "desc":  "Total skins price: 545$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
