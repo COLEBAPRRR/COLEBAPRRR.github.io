@@ -222,7 +222,7 @@ window.catalogItems = [
     {
         "id":  23,
         "name":  "Huntsman Lore FT",
-        "price":  "$53",
+        "price":  "Sold",
         "desc":  "Total skins price: 245$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
