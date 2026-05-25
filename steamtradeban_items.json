@@ -110,17 +110,6 @@
         "img":  "images/Screenshot_11.png"
     },
     {
-        "id":  12,
-        "name":  "Huntsman Knife MW + Guns",
-        "price":  "$49",
-        "desc":  "Total skins price: 215$\nOriginal Email+Steam log:pass",
-        "cats":  [
-                     0,
-                     2
-                 ],
-        "img":  "images/Screenshot_12.png"
-    },
-    {
         "id":  13,
         "name":  "Bowie Knife + Guns",
         "price":  "Sold",
@@ -130,17 +119,6 @@
                      2
                  ],
         "img":  "images/Screenshot_13.png"
-    },
-    {
-        "id":  14,
-        "name":  "Huntsman Knife + Guns",
-        "price":  "$159",
-        "desc":  "Total skins price: 895$\nOriginal Email+Steam log:pass",
-        "cats":  [
-                     0,
-                     4
-                 ],
-        "img":  "images/Screenshot_14.png"
     },
     {
         "id":  15,
@@ -332,7 +310,7 @@
     {
         "id":  33,
         "name":  "Bowie Fade FN + Guns",
-        "price":  "$99",
+        "price":  "Sold",
         "desc":  "Total skins price: 500$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -361,17 +339,6 @@
                      2
                  ],
         "img":  "images/Screenshot_35.png"
-    },
-    {
-        "id":  36,
-        "name":  "Falchion Knife Marble Fade",
-        "price":  "$93",
-        "desc":  "Total skins price: 440$\nOriginal Email+Steam log:pass",
-        "cats":  [
-                     0,
-                     3
-                 ],
-        "img":  "images/Screenshot_36.png"
     },
     {
         "id":  37,
@@ -449,17 +416,6 @@
                      3
                  ],
         "img":  "images/Screenshot_43.png"
-    },
-    {
-        "id":  44,
-        "name":  "Ursus Knife + Guns",
-        "price":  "$53",
-        "desc":  "Total skins price: 275$\nOriginal Email+Steam log:pass",
-        "cats":  [
-                     0,
-                     3
-                 ],
-        "img":  "images/Screenshot_44.png"
     },
     {
         "id":  45,
