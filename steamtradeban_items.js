@@ -39,7 +39,6 @@
         "desc":  "Total skins price: 375$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
-                     6,
                      3
                  ],
         "img":  "images/Screenshot_4.png"
@@ -84,7 +83,6 @@
         "desc":  "Total skins price: 815$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
-                     6,
                      4
                  ],
         "img":  "images/Screenshot_9.png"
