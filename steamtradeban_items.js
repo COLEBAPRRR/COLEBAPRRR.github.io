@@ -145,7 +145,7 @@
     {
         "id":  17,
         "name":  "Paracord Knife + Guns",
-        "price":  "$39",
+        "price":  "Sold",
         "desc":  "Total skins price: 170$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -366,7 +366,7 @@
     {
         "id":  39,
         "name":  "Bayonet + Shadow Daggers + Guns",
-        "price":  "$149",
+        "price":  "Sold",
         "desc":  "Total skins price: 770$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -378,7 +378,7 @@
     {
         "id":  40,
         "name":  "Huntsman Case Hardened",
-        "price":  "$79",
+        "price":  "Sold",
         "desc":  "Total skins price: 390$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -554,7 +554,7 @@
     {
         "id":  57,
         "name":  "Bowie Knife",
-        "price":  "$28",
+        "price":  "Sold",
         "desc":  "Total skins price: 110$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -631,7 +631,7 @@
     {
         "id":  64,
         "name":  "Ursus Knife|Doppler",
-        "price":  "$99",
+        "price":  "Sold",
         "desc":  "Total skins price: 470$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -642,7 +642,7 @@
     {
         "id":  65,
         "name":  "Flip Knife|Urban Masked",
-        "price":  "$39",
+        "price":  "Sold",
         "desc":  "Total skins price: 195$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -995,7 +995,7 @@
     {
         "id":  97,
         "name":  "ST Bowie Knife | Fade",
-        "price":  "$85",
+        "price":  "Sold",
         "desc":  "Total skins price: 450$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
