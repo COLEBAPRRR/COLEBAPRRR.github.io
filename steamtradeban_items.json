@@ -211,7 +211,7 @@
     {
         "id":  24,
         "name":  "Shadow Daggers",
-        "price":  "$35",
+        "price":  "Sold",
         "desc":  "Total skins price: 170$\nOriginal Email+Steam log:pass",
         "cats":  [
                      2,
@@ -233,7 +233,7 @@
     {
         "id":  26,
         "name":  "Falchion + Guns",
-        "price":  "$59",
+        "price":  "Sold",
         "desc":  "Total skins price: 290$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -244,7 +244,7 @@
     {
         "id":  27,
         "name":  "Falchion + Guns",
-        "price":  "$49",
+        "price":  "Sold",
         "desc":  "Total skins price: 240$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -400,7 +400,7 @@
     {
         "id":  42,
         "name":  "Falchion + Guns",
-        "price":  "$79",
+        "price":  "Sold",
         "desc":  "Total skins price: 390$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -720,7 +720,7 @@
     {
         "id":  72,
         "name":  "Classic Knife Slaughter",
-        "price":  "$99",
+        "price":  "Sold",
         "desc":  "Total skins price: 450$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -731,7 +731,7 @@
     {
         "id":  73,
         "name":  "Bowie Marble Fade + Guns",
-        "price":  "$575",
+        "price":  "Sold",
         "desc":  "Total skins price: 5760$\nOriginal Email+Steam log:pass",
         "cats":  [
                      1,
