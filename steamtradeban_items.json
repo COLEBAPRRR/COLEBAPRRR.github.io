@@ -156,7 +156,7 @@
     {
         "id":  18,
         "name":  "Survival FT + Gloves + Guns",
-        "price":  "$79",
+        "price":  "Sold",
         "desc":  "Total skins price: 385$\nOriginal Email+Steam log:pass",
         "cats":  [
                      1,
@@ -255,7 +255,7 @@
     {
         "id":  28,
         "name":  "ST Navaja Tiger Tooth + Guns",
-        "price":  "$49",
+        "price":  "Sold",
         "desc":  "Total skins price: 195$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -464,15 +464,16 @@
         "img":  "images/Screenshot_48.png"
     },
     {
-        "id":  49,
-        "name":  "Flip Knife",
-        "price":  "$62",
-        "desc":  "Total skins price: 290$\nOriginal Email+Steam log:pass",
+        "id":  134,
+        "name":  "Karambit Doppler+Falchion Ruby+Bayonet Fade+Flip Marble",
+        "price":  "$800",
+        "desc":  "Total skins price: 5000$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
-                     3
+                     5,
+                     6
                  ],
-        "img":  "images/Screenshot_49.png"
+        "img":  "images/Screenshot_134.png"
     },
     {
         "id":  50,
@@ -532,7 +533,7 @@
     {
         "id":  55,
         "name":  "Navaja Knife + Guns",
-        "price":  "$59",
+        "price":  "Sold",
         "desc":  "Total skins price: 530$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -676,7 +677,7 @@
     {
         "id":  68,
         "name":  "Gut Knife Forest + Guns",
-        "price":  "$69",
+        "price":  "Sold",
         "desc":  "Total skins price: 470$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -863,7 +864,7 @@
     {
         "id":  85,
         "name":  "Paracord Knife",
-        "price":  "$59",
+        "price":  "Sold",
         "desc":  "Total skins price: 280$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -905,15 +906,15 @@
         "img":  "images/Screenshot_88.png"
     },
     {
-        "id":  89,
-        "name":  "Flip Knife | Rust Coat",
-        "price":  "$45",
-        "desc":  "Total skins price: 190$\nOriginal Email+Steam log:pass",
+        "id":  133,
+        "name":  "Ursus Knife | Damascus Steel + Guns",
+        "price":  "$120",
+        "desc":  "Total skins price: 740$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
-                     2
+                     4
                  ],
-        "img":  "images/Screenshot_89.png"
+        "img":  "images/Screenshot_133.png"
     },
     {
         "id":  90,
