@@ -1496,5 +1496,17 @@
                      4
                  ],
         "img":  "images/Screenshot_143.png"
+    },
+    {
+        "id":  144,
+        "name":  "Butterfly+Ruby Daggers+Guns",
+        "price":  "$1065,
+        "desc":  "Total skins price: 4260$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     6,
+                     7
+                 ],
+        "img":  "images/Screenshot_144.png"
     }
 ];
