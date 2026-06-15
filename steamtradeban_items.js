@@ -466,12 +466,12 @@
     {
         "id":  134,
         "name":  "Karambit Doppler+Falchion Ruby+Bayonet Fade+Flip Marble",
-        "price":  "$800",
+        "price":  "$550",
         "desc":  "Total skins price: 5000$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
-                     5,
-                     6
+                     6,
+                     7
                  ],
         "img":  "images/Screenshot_134.png"
     },
@@ -610,7 +610,7 @@
     {
         "id":  62,
         "name":  "Stiletto + Gloves + Guns",
-        "price":  "$159",
+        "price":  "Sold",
         "desc":  "Total skins price: 790$\nOriginal Email+Steam log:pass",
         "cats":  [
                      1,
@@ -842,7 +842,7 @@
     {
         "id":  83,
         "name":  "Huntsman Knife | Doppler (Phase 1)",
-        "price":  "$90",
+        "price":  "Sold",
         "desc":  "Total skins price: 440$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -908,7 +908,7 @@
     {
         "id":  133,
         "name":  "Ursus Knife | Damascus Steel + Guns",
-        "price":  "$120",
+        "price":  "$100",
         "desc":  "Total skins price: 740$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -1414,5 +1414,87 @@
                      4
                  ],
         "img":  "images/Screenshot_132.png"
+    },
+    {
+        "id":  137,
+        "name":  "Butterfly+Guns",
+        "price":  "$1300",
+        "desc":  "Total skins price: 6900$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     6,
+                     7
+                 ],
+        "img":  "images/Screenshot_137.png"
+    },
+    {
+        "id":  138,
+        "name":  "Talon+Gloves+Guns",
+        "price":  "$350",
+        "desc":  "Total skins price: 2630$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     1,
+                     6,
+                     5
+                 ],
+        "img":  "images/Screenshot_138.png"
+    },
+    {
+        "id":  139,
+        "name":  "Bayonet|Doppler+Knives+Guns",
+        "price":  "$420",
+        "desc":  "Total skins price: 2200$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     6,
+                     5
+                 ],
+        "img":  "images/Screenshot_139.png"
+    },
+    {
+        "id":  140,
+        "name":  "Karambit+5 Knives+Gloves+Guns",
+        "price":  "$1250",
+        "desc":  "Total skins price: 7000$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     1,
+                     6,
+                     7
+                 ],
+        "img":  "images/Screenshot_140.png"
+    },
+    {
+        "id":  141,
+        "name":  "Huntsman Knife+Gloves+Guns",
+        "price":  "$350",
+        "desc":  "Total skins price: 3300$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     1,
+                     5
+                 ],
+        "img":  "images/Screenshot_141.png"
+    },
+    {
+        "id":  142,
+        "name":  "Falchion|Slaughter+Guns",
+        "price":  "$150",
+        "desc":  "Total skins price: 740$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_142.png"
+    },
+    {
+        "id":  143,
+        "name":  "Bayonet+Guns",
+        "price":  "$185",
+        "desc":  "Total skins price: 1080$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     6,
+                     4
+                 ],
+        "img":  "images/Screenshot_143.png"
     }
 ];
