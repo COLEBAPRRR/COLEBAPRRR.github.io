@@ -1500,7 +1500,7 @@
     {
         "id":  144,
         "name":  "Butterfly+Ruby Daggers+Guns",
-        "price":  "$1065,
+        "price":  "$1065",
         "desc":  "Total skins price: 4260$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
