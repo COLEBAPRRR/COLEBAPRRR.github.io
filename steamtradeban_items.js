@@ -478,7 +478,7 @@
     {
         "id":  50,
         "name":  "Specialist Glove + Guns",
-        "price":  "$110",
+        "price":  "$85",
         "desc":  "Total skins price: 1095$\nOriginal Email+Steam log:pass",
         "cats":  [
                      4,
@@ -710,7 +710,7 @@
     {
         "id":  71,
         "name":  "Ursus Knife Ultraviolet + Guns",
-        "price":  "$350",
+        "price":  "$320",
         "desc":  "Total skins price: 2895$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -832,7 +832,7 @@
     {
         "id":  82,
         "name":  "Survival Knife | Night Stripe",
-        "price":  "$129",
+        "price":  "$90",
         "desc":  "Total skins price: 705$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -876,7 +876,7 @@
     {
         "id":  86,
         "name":  "Falchion Knife | Ultraviolet",
-        "price":  "$129",
+        "price":  "$105",
         "desc":  "Total skins price: 810$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -921,7 +921,7 @@
     {
         "id":  90,
         "name":  "Kukri + AK-47 | In the Monster",
-        "price":  "$75",
+        "price":  "$65",
         "desc":  "Total skins price: 410$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
