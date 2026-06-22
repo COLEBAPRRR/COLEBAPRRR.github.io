@@ -466,7 +466,7 @@
     {
         "id":  134,
         "name":  "Karambit Doppler+Falchion Ruby+Bayonet Fade+Flip Marble",
-        "price":  "$550",
+        "price":  "Sold",
         "desc":  "Total skins price: 5000$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -763,15 +763,15 @@
         "img":  "images/Screenshot_75.png"
     },
     {
-        "id":  76,
-        "name":  "Top Guns + Prime",
-        "price":  "$69",
-        "desc":  "Total skins price: 710$\nOriginal Email+Steam log:pass",
+        "id":  146,
+        "name":  "Talon Knife + Guns",
+        "price":  "$165",
+        "desc":  "Total skins price: 810$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
-                     3
+                     4
                  ],
-        "img":  "images/Screenshot_76.png"
+        "img":  "images/Screenshot_146.png"
     },
     {
         "id":  77,
@@ -807,15 +807,16 @@
         "img":  "images/Screenshot_79.png"
     },
     {
-        "id":  80,
-        "name":  "Shadow Daggers | Gamma Doppler",
-        "price":  "$55",
-        "desc":  "Total skins price: 220$\nOriginal Email+Steam log:pass",
+        "id":  145,
+        "name":  "ST M9 Bayonet | Doppler",
+        "price":  "$450",
+        "desc":  "Total skins price: 2355$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
-                     3
+                     5,
+                     7
                  ],
-        "img":  "images/Screenshot_80.png"
+        "img":  "images/Screenshot_145.png"
     },
     {
         "id":  81,
@@ -906,15 +907,16 @@
         "img":  "images/Screenshot_88.png"
     },
     {
-        "id":  133,
-        "name":  "Ursus Knife | Damascus Steel + Guns",
-        "price":  "$100",
-        "desc":  "Total skins price: 740$\nOriginal Email+Steam log:pass",
+        "id":  147,
+        "name":  "Ursus Knife + Knives + Guns",
+        "price":  "$180",
+        "desc":  "Total skins price: 1220$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
-                     4
+                     4,
+                     6
                  ],
-        "img":  "images/Screenshot_133.png"
+        "img":  "images/Screenshot_147.png"
     },
     {
         "id":  90,
@@ -1430,7 +1432,7 @@
     {
         "id":  138,
         "name":  "Talon+Gloves+Guns",
-        "price":  "$350",
+        "price":  "Sold",
         "desc":  "Total skins price: 2630$\nOriginal Email+Steam log:pass",
         "cats":  [
                      1,
@@ -1442,7 +1444,7 @@
     {
         "id":  139,
         "name":  "Bayonet|Doppler+Knives+Guns",
-        "price":  "$420",
+        "price":  "Sold",
         "desc":  "Total skins price: 2200$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -1500,7 +1502,7 @@
     {
         "id":  144,
         "name":  "Butterfly+Ruby Daggers+Guns",
-        "price":  "$1065",
+        "price":  "Sold",
         "desc":  "Total skins price: 4260$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
