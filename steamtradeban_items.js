@@ -234,7 +234,7 @@ window.catalogItems = [
     {
         "id": 43,
         "name": "Paracord Knife",
-        "price": "$65",
+        "price": "Sold",
         "desc": "Total skins price: 250$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -334,7 +334,7 @@ window.catalogItems = [
     {
         "id": 70,
         "name": "Bayonet Forest DDPAT",
-        "price": "$59",
+        "price": "Sold",
         "desc": "Total skins price: 205$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
