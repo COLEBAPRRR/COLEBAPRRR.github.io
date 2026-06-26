@@ -569,7 +569,7 @@ window.catalogItems = [
     {
         "id": 148,
         "name": "Gut Knife | Autotronic + Gloves + Guns",
-        "price": "$75",
+        "price": "Sold",
         "desc": "Total skins price: 290$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
@@ -615,7 +615,7 @@ window.catalogItems = [
     {
         "id": 153,
         "name": "Nomad Knife | Doppler + Gloves + Guns",
-        "price": "$350",
+        "price": "Sold",
         "desc": "Total skins price: 1500$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
