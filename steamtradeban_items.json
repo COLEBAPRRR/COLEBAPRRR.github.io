@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "id": 1,
         "name": "Navaja Knife",
@@ -174,17 +174,6 @@
             4
         ],
         "img": "images/Screenshot_30.png"
-    },
-    {
-        "id": 31,
-        "name": "Ursus Doppler+Bowie Lore+Guns",
-        "price": "$500",
-        "desc": "Total skins price: 3365$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            5
-        ],
-        "img": "images/Screenshot_31.png"
     },
     {
         "id": 32,
@@ -466,102 +455,6 @@
         "img": "images/Screenshot_99.png"
     },
     {
-        "id": 100,
-        "name": "Navaja|Fade+Bowie+Huntsman+Guns",
-        "price": "$105",
-        "desc": "Total skins price: 480$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_100.png"
-    },
-    {
-        "id": 101,
-        "name": "Huntsman+Bayonet+Shadow Daggers+Gloves",
-        "price": "$220",
-        "desc": "Total skins price: 990$\nOriginal Email+Steam log:pass",
-        "cats": [
-            1,
-            6,
-            5
-        ],
-        "img": "images/Screenshot_101.png"
-    },
-    {
-        "id": 102,
-        "name": "Ursus+Daggers+Gloves",
-        "price": "$155",
-        "desc": "Total skins price: 710$\nOriginal Email+Steam log:pass",
-        "cats": [
-            1,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_102.png"
-    },
-    {
-        "id": 103,
-        "name": "Survival|Slaughter+Gut+Daggers+Guns",
-        "price": "$135",
-        "desc": "Total skins price: 610$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_103.png"
-    },
-    {
-        "id": 104,
-        "name": "Falchion|Autotronic+Kukri+Guns",
-        "price": "$100",
-        "desc": "Total skins price: 460$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            6,
-            3
-        ],
-        "img": "images/Screenshot_104.png"
-    },
-    {
-        "id": 105,
-        "name": "Flip+Bowie+Gut+Gloves",
-        "price": "$165",
-        "desc": "Total skins price: 740$\nOriginal Email+Steam log:pass",
-        "cats": [
-            1,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_105.png"
-    },
-    {
-        "id": 106,
-        "name": "Kukri+Falchion+Gut+Guns",
-        "price": "$145",
-        "desc": "Total skins price: 670$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_106.png"
-    },
-    {
-        "id": 107,
-        "name": "Nomad+Falchion+Guns",
-        "price": "$135",
-        "desc": "Total skins price: 745$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_107.png"
-    },
-    {
         "id": 108,
         "name": "Survival+Guns",
         "price": "$115",
@@ -571,42 +464,6 @@
             4
         ],
         "img": "images/Screenshot_108.png"
-    },
-    {
-        "id": 109,
-        "name": "Survival|Case Hardened+Ursus+Falchion+Guns",
-        "price": "$155",
-        "desc": "Total skins price: 695$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_109.png"
-    },
-    {
-        "id": 110,
-        "name": "Navaja|Case Hardened+Navaja+Guns",
-        "price": "$100",
-        "desc": "Total skins price: 445$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            6,
-            3
-        ],
-        "img": "images/Screenshot_110.png"
-    },
-    {
-        "id": 111,
-        "name": "Gut+Navaja+Guns",
-        "price": "$130",
-        "desc": "Total skins price: 590$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_111.png"
     },
     {
         "id": 112,
@@ -631,78 +488,6 @@
         "img": "images/Screenshot_113.png"
     },
     {
-        "id": 114,
-        "name": "Nomad+Nomad+Guns",
-        "price": "$175",
-        "desc": "Total skins price: 800$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_114.png"
-    },
-    {
-        "id": 115,
-        "name": "Nomad+Bowie+Daggers+Gloves",
-        "price": "$130",
-        "desc": "Total skins price: 590$\nOriginal Email+Steam log:pass",
-        "cats": [
-            1,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_115.png"
-    },
-    {
-        "id": 116,
-        "name": "4 Knives+Gloves",
-        "price": "$155",
-        "desc": "Total skins price: 705$\nOriginal Email+Steam log:pass",
-        "cats": [
-            1,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_116.png"
-    },
-    {
-        "id": 117,
-        "name": "Bowie|Autotronic+Ursus+Kukri+Guns",
-        "price": "$120",
-        "desc": "Total skins price: 540$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_117.png"
-    },
-    {
-        "id": 118,
-        "name": "Gut+Huntsman+Guns",
-        "price": "$125",
-        "desc": "Total skins price: 625$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_118.png"
-    },
-    {
-        "id": 119,
-        "name": "Stiletto+Classic+Navaja+Guns",
-        "price": "$155",
-        "desc": "Total skins price: 710$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_119.png"
-    },
-    {
         "id": 120,
         "name": "Huntsman|Lore+Gloves+Guns",
         "price": "$125",
@@ -712,30 +497,6 @@
             4
         ],
         "img": "images/Screenshot_120.png"
-    },
-    {
-        "id": 121,
-        "name": "Ursus+3Knives+Guns",
-        "price": "$140",
-        "desc": "Total skins price: 635$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_121.png"
-    },
-    {
-        "id": 122,
-        "name": "2 Knives+2 Gloves+Guns",
-        "price": "$165",
-        "desc": "Total skins price: 740$\nOriginal Email+Steam log:pass",
-        "cats": [
-            1,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_122.png"
     },
     {
         "id": 123,
@@ -749,30 +510,6 @@
         "img": "images/Screenshot_123.png"
     },
     {
-        "id": 124,
-        "name": "Bowie+Daggers+Gloves+Guns",
-        "price": "$135",
-        "desc": "Total skins price: 610$\nOriginal Email+Steam log:pass",
-        "cats": [
-            1,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_124.png"
-    },
-    {
-        "id": 125,
-        "name": "Navaja+Gloves+Guns",
-        "price": "$160",
-        "desc": "Total skins price: 725$\nOriginal Email+Steam log:pass",
-        "cats": [
-            1,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_125.png"
-    },
-    {
         "id": 126,
         "name": "Navaja+Guns",
         "price": "$90",
@@ -782,18 +519,6 @@
             3
         ],
         "img": "images/Screenshot_126.png"
-    },
-    {
-        "id": 127,
-        "name": "5 Knives+Gloves+Guns",
-        "price": "$200",
-        "desc": "Total skins price: 900$\nOriginal Email+Steam log:pass",
-        "cats": [
-            1,
-            6,
-            5
-        ],
-        "img": "images/Screenshot_127.png"
     },
     {
         "id": 128,
@@ -807,89 +532,6 @@
         "img": "images/Screenshot_128.png"
     },
     {
-        "id": 129,
-        "name": "Kukri|Crimson Web+Classic+Gloves+Guns",
-        "price": "$175",
-        "desc": "Total skins price: 795$\nOriginal Email+Steam log:pass",
-        "cats": [
-            1,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_129.png"
-    },
-    {
-        "id": 130,
-        "name": "Kukri+Paracord+Daggers+Guns",
-        "price": "$185",
-        "desc": "Total skins price: 835$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_130.png"
-    },
-    {
-        "id": 131,
-        "name": "2 Knives|Ultraviolet+2 Gloves+Guns",
-        "price": "$155",
-        "desc": "Total skins price: 700$\nOriginal Email+Steam log:pass",
-        "cats": [
-            1,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_131.png"
-    },
-    {
-        "id": 132,
-        "name": "Gut|Damascus+Bowie+Guns",
-        "price": "$140",
-        "desc": "Total skins price: 625$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_132.png"
-    },
-    {
-        "id": 137,
-        "name": "Butterfly+Guns",
-        "price": "$1300",
-        "desc": "Total skins price: 6900$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            6,
-            7
-        ],
-        "img": "images/Screenshot_137.png"
-    },
-    {
-        "id": 140,
-        "name": "Karambit+5 Knives+Gloves+Guns",
-        "price": "$1250",
-        "desc": "Total skins price: 7000$\nOriginal Email+Steam log:pass",
-        "cats": [
-            1,
-            6,
-            7
-        ],
-        "img": "images/Screenshot_140.png"
-    },
-    {
-        "id": 141,
-        "name": "Huntsman Knife+Gloves+Guns",
-        "price": "$350",
-        "desc": "Total skins price: 3300$\nOriginal Email+Steam log:pass",
-        "cats": [
-            1,
-            5
-        ],
-        "img": "images/Screenshot_141.png"
-    },
-    {
         "id": 142,
         "name": "Falchion|Slaughter+Guns",
         "price": "$150",
@@ -899,18 +541,6 @@
             4
         ],
         "img": "images/Screenshot_142.png"
-    },
-    {
-        "id": 143,
-        "name": "Bayonet+Guns",
-        "price": "$185",
-        "desc": "Total skins price: 1080$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            6,
-            4
-        ],
-        "img": "images/Screenshot_143.png"
     },
     {
         "id": 148,
@@ -931,7 +561,7 @@
         "cats": [
             1,
             5,
-			6
+            6
         ],
         "img": "images/Screenshot_150.png"
     },
@@ -943,7 +573,7 @@
         "cats": [
             0,
             5,
-			7
+            7
         ],
         "img": "images/Screenshot_151.png"
     },
@@ -966,7 +596,7 @@
         "cats": [
             1,
             5,
-			6
+            6
         ],
         "img": "images/Screenshot_153.png"
     },
@@ -978,7 +608,7 @@
         "cats": [
             0,
             4,
-			6
+            6
         ],
         "img": "images/Screenshot_154.png"
     },
@@ -990,7 +620,7 @@
         "cats": [
             0,
             5,
-			6
+            6
         ],
         "img": "images/Screenshot_155.png"
     },
@@ -1002,7 +632,7 @@
         "cats": [
             0,
             5,
-			6
+            6
         ],
         "img": "images/Screenshot_156.png"
     },
@@ -1014,9 +644,8 @@
         "cats": [
             1,
             4,
-			6
+            6
         ],
         "img": "images/Screenshot_157.png"
     }
 ]
-
