@@ -965,7 +965,8 @@ window.catalogItems = [
         "desc": "Total skins price: 1500$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
-            5
+            5,
+			6
         ],
         "img": "images/Screenshot_153.png"
     },
@@ -976,7 +977,8 @@ window.catalogItems = [
         "desc": "Total skins price: 710$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
-            4
+            4,
+			6
         ],
         "img": "images/Screenshot_154.png"
     },
