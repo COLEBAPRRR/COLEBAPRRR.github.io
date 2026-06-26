@@ -343,17 +343,6 @@
         "img": "images/Screenshot_71.png"
     },
     {
-        "id": 146,
-        "name": "Talon Knife + Guns",
-        "price": "$165",
-        "desc": "Total skins price: 810$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            4
-        ],
-        "img": "images/Screenshot_146.png"
-    },
-    {
         "id": 78,
         "name": "Driver Gloves + gloves",
         "price": "$65",
@@ -363,18 +352,6 @@
             3
         ],
         "img": "images/Screenshot_78.png"
-    },
-    {
-        "id": 145,
-        "name": "ST M9 Bayonet | Doppler",
-        "price": "$450",
-        "desc": "Total skins price: 2355$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            5,
-            7
-        ],
-        "img": "images/Screenshot_145.png"
     },
     {
         "id": 82,
@@ -397,18 +374,6 @@
             4
         ],
         "img": "images/Screenshot_86.png"
-    },
-    {
-        "id": 147,
-        "name": "Ursus Knife + Knives + Guns",
-        "price": "$180",
-        "desc": "Total skins price: 1220$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            4,
-            6
-        ],
-        "img": "images/Screenshot_147.png"
     },
     {
         "id": 90,
@@ -532,6 +497,30 @@
         "img": "images/Screenshot_128.png"
     },
     {
+        "id": 137,
+        "name": "Butterfly+Guns",
+        "price": "$1300",
+        "desc": "Total skins price: 6900$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            6,
+            7
+        ],
+        "img": "images/Screenshot_137.png"
+    },
+    {
+        "id": 140,
+        "name": "Karambit+5 Knives+Gloves+Guns",
+        "price": "$1250",
+        "desc": "Total skins price: 7000$\nOriginal Email+Steam log:pass",
+        "cats": [
+            1,
+            6,
+            7
+        ],
+        "img": "images/Screenshot_140.png"
+    },
+    {
         "id": 142,
         "name": "Falchion|Slaughter+Guns",
         "price": "$150",
@@ -541,6 +530,41 @@
             4
         ],
         "img": "images/Screenshot_142.png"
+    },
+    {
+        "id": 145,
+        "name": "ST M9 Bayonet | Doppler",
+        "price": "$450",
+        "desc": "Total skins price: 2355$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            5,
+            7
+        ],
+        "img": "images/Screenshot_145.png"
+    },
+    {
+        "id": 146,
+        "name": "Talon Knife + Guns",
+        "price": "$165",
+        "desc": "Total skins price: 810$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            4
+        ],
+        "img": "images/Screenshot_146.png"
+    },
+    {
+        "id": 147,
+        "name": "Ursus Knife + Knives + Guns",
+        "price": "$180",
+        "desc": "Total skins price: 1220$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            4,
+            6
+        ],
+        "img": "images/Screenshot_147.png"
     },
     {
         "id": 148,
