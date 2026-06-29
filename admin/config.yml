@@ -1,38 +1,30 @@
 backend:
   name: git-gateway
-  branch: main # или master, укажи ветку своего репозитория
+  branch: main # или master
 
-media_folder: "images" # папка, куда CMS будет сохранять новые картинки
-public_folder: "images" # путь к картинкам, который запишется в JSON
+media_folder: "images"
+public_folder: "images"
 
 collections:
   - name: "catalog"
     label: "Каталог аккаунтов"
+    folder: "items_data" # Любое техническое имя папки, CMS проигнорирует его для файлов
+    extension: "json"
+    format: "json"
     files:
       - file: "steamtradeban_items.json"
         label: "Список товаров"
         name: "items"
+        json_root: "items" # Говорим CMS искать данные внутри этого ключа
         fields:
           - label: "Товары"
             name: "items"
             widget: "list"
-            summary: "{{fields.name}} ({{fields.price}})"
+            summary: "ID {{fields.id}}: {{fields.name}} ({{fields.price}})"
             fields:
               - { label: "ID товара", name: "id", widget: "number", value_type: "int" }
               - { label: "Название (name)", name: "name", widget: "string" }
               - { label: "Цена (price)", name: "price", widget: "string" }
               - { label: "Описание (desc)", name: "desc", widget: "text" }
-              - label: "Категории (cats)"
-                name: "cats"
-                widget: "select"
-                multiple: true
-                options:
-                  - { label: "Knife", value: 0 }
-                  - { label: "Knife + Gloves", value: 1 }
-                  - { label: "up to $50", value: 2 }
-                  - { label: "$50 - $100", value: 3 }
-                  - { label: "$100 - $200", value: 4 }
-                  - { label: "$200+", value: 5 }
-                  - { label: "2+ Knives", value: 6 }
-                  - { label: "$500+", value: 7 }
+              - { label: "Категории (cats)", name: "cats", widget: "list", value_type: "int" }
               - { label: "Картинка", name: "img", widget: "image" }
