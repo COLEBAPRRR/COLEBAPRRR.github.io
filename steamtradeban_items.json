@@ -1,4 +1,5 @@
-[
+{
+  "items": [
     {
         "id": 1,
         "name": "Navaja Knife",
@@ -672,4 +673,5 @@
         ],
         "img": "images/Screenshot_157.png"
     }
-]
+  ]
+}
