@@ -671,5 +671,16 @@ window.catalogItems = [
             6
         ],
         "img": "images/Screenshot_157.png"
+    },
+    {
+      "id": 158,
+      "name": "Shadow Daggers + AK Bloodsport",
+      "price": "$65",
+      "desc": "Total skins price: 480$\nOriginal Email+Steam log:pass",
+      "cats": [
+         0,
+         3
+      ],
+      "img": "images/screenshot_158.png"
     }
 ];
