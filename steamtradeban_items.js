@@ -221,17 +221,6 @@ window.catalogItems = [
         "img": "images/Screenshot_38.png"
     },
     {
-        "id": 43,
-        "name": "Paracord Knife",
-        "price": "Sold",
-        "desc": "Total skins price: 250$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            3
-        ],
-        "img": "images/Screenshot_43.png"
-    },
-    {
         "id": 45,
         "name": "Shadow Daggers + Guns",
         "price": "$99",
@@ -319,17 +308,6 @@ window.catalogItems = [
             6
         ],
         "img": "images/Screenshot_67.png"
-    },
-    {
-        "id": 70,
-        "name": "Bayonet Forest DDPAT",
-        "price": "Sold",
-        "desc": "Total skins price: 205$\nOriginal Email+Steam log:pass",
-        "cats": [
-            0,
-            3
-        ],
-        "img": "images/Screenshot_70.png"
     },
     {
         "id": 71,
@@ -567,17 +545,6 @@ window.catalogItems = [
         "img": "images/Screenshot_147.png"
     },
     {
-        "id": 148,
-        "name": "Gut Knife | Autotronic + Gloves + Guns",
-        "price": "Sold",
-        "desc": "Total skins price: 290$\nOriginal Email+Steam log:pass",
-        "cats": [
-            1,
-            3
-        ],
-        "img": "images/Screenshot_148.png"
-    },
-    {
         "id": 150,
         "name": "St Navaja | Fade + Gloves + Guns",
         "price": "$475",
@@ -611,18 +578,6 @@ window.catalogItems = [
             2
         ],
         "img": "images/Screenshot_152.png"
-    },
-    {
-        "id": 153,
-        "name": "Nomad Knife | Doppler + Gloves + Guns",
-        "price": "Sold",
-        "desc": "Total skins price: 1500$\nOriginal Email+Steam log:pass",
-        "cats": [
-            1,
-            5,
-            6
-        ],
-        "img": "images/Screenshot_153.png"
     },
     {
         "id": 154,
@@ -671,5 +626,211 @@ window.catalogItems = [
             6
         ],
         "img": "images/Screenshot_157.png"
+    },
+    {
+        "id": 158,
+        "name": "Shadow Daggers | Blue Steel + Guns",
+        "price": "$65",
+        "desc": "Total skins price: 480$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            3
+        ],
+        "img": "images/Screenshot_158.png"
+    },
+    {
+        "id": 159,
+        "name": "Navaja Knife | Doppler + Guns",
+        "price": "$90",
+        "desc": "Total skins price: 580$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            3,
+			6
+        ],
+        "img": "images/Screenshot_159.png"
+    },
+    {
+        "id": 160,
+        "name": "Stiletto Knife | Ultraviolet + Knives",
+        "price": "$130",
+        "desc": "Total skins price: 700$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            6,
+            4
+        ],
+        "img": "images/Screenshot_160.png"
+    },
+    {
+        "id": 161,
+        "name": "Flip Knife | Freehand",
+        "price": "$45",
+        "desc": "Total skins price: 225$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_161.png"
+    },
+    {
+        "id": 162,
+        "name": "Bayonet | Rust Coat + Guns",
+        "price": "$110",
+        "desc": "Total skins price: 1080$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            4,
+			6
+        ],
+        "img": "images/Screenshot_162.png"
+    },
+    {
+        "id": 163,
+        "name": "Classic | Scorched + Huntsman + Guns",
+        "price": "$75",
+        "desc": "Total skins price: 620$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            6,
+            3
+        ],
+        "img": "images/Screenshot_163.png"
+    },
+    {
+        "id": 164,
+        "name": "Butterfly Knife | Night + Gut",
+        "price": "$250",
+        "desc": "Total skins price: 1020$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            6,
+			5
+        ],
+        "img": "images/Screenshot_164.png"
+    },
+    {
+        "id": 165,
+        "name": "Skeleton Knife | Fade",
+        "price": "$185",
+        "desc": "Total skins price: 995$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            4
+        ],
+        "img": "images/Screenshot_165.png"
+    },
+    {
+        "id": 166,
+        "name": "Navaja Knife | Fade",
+        "price": "$39",
+        "desc": "Total skins price: 180$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_166.png"
+    },
+    {
+        "id": 167,
+        "name": "Bayonet | Boreal Forest + Guns",
+        "price": "$42",
+        "desc": "Total skins price: 210$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_167.png"
+    },
+    {
+        "id": 168,
+        "name": "Bayonet | Damascus Steel + Gut Doppler + Knives",
+        "price": "$150",
+        "desc": "Total skins price: 995$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            6,
+            4
+        ],
+        "img": "images/Screenshot_168.png"
+    },
+    {
+        "id": 169,
+        "name": "Talon Knife | Stained + Guns",
+        "price": "$220",
+        "desc": "Total skins price: 1310$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            5
+        ],
+        "img": "images/Screenshot_169.png"
+    },
+    {
+        "id": 170,
+        "name": "Bayonet | Blue Steel + Guns",
+        "price": "$185",
+        "desc": "Total skins price: 1285$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            4,
+			6
+        ],
+        "img": "images/Screenshot_170.png"
+    },
+    {
+        "id": 171,
+        "name": "Falchion Knife | Slaughter + Guns",
+        "price": "$180",
+        "desc": "Total skins price: 1335$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            4
+        ],
+        "img": "images/Screenshot_171.png"
+    },
+    {
+        "id": 172,
+        "name": "Navaja Knife | Fade",
+        "price": "$39",
+        "desc": "Total skins price: 180$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_172.png"
+    },
+    {
+        "id": 173,
+        "name": "Butterfly Knife | Safari Mesh + Guns",
+        "price": "$350",
+        "desc": "Total skins price: 1900$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            5
+        ],
+        "img": "images/Screenshot_173.png"
+    },
+    {
+        "id": 174,
+        "name": "Ursus Knife + Gloves + Guns",
+        "price": "$110",
+        "desc": "Total skins price: 820$\nOriginal Email+Steam log:pass",
+        "cats": [
+            1,
+            6,
+            4
+        ],
+        "img": "images/Screenshot_174.png"
+    },
+    {
+        "id": 175,
+        "name": "Bowie Knife | Fade + Guns",
+        "price": "$140",
+        "desc": "Total skins price: 900$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            4
+        ],
+        "img": "images/Screenshot_175.png"
     }
 ];
