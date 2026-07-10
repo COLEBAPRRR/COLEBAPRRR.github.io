@@ -159,7 +159,7 @@
     {
         "id":  145,
         "name":  "ST M9 Bayonet | Doppler",
-        "price":  "$600",
+        "price":  "Sold",
         "desc":  "Total skins price: 2355$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -229,7 +229,7 @@
     {
         "id":  154,
         "name":  "Bowie Knife | Freehand + Knife + Guns",
-        "price":  "$150",
+        "price":  "Sold",
         "desc":  "Total skins price: 1060$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -312,7 +312,7 @@
     {
         "id":  161,
         "name":  "Flip Knife | Freehand",
-        "price":  "$45",
+        "price":  "Sold",
         "desc":  "Total skins price: 225$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -347,7 +347,7 @@
     {
         "id":  164,
         "name":  "Butterfly Knife | Night + Gut",
-        "price":  "$250",
+        "price":  "Sold",
         "desc":  "Total skins price: 1020$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -479,6 +479,50 @@
                      4
                  ],
         "img":  "images/Screenshot_175.png"
+    },
+	{
+        "id":  176,
+        "name":  "ST Butterfly Knife | Damascus",
+        "price":  "$250",
+        "desc":  "Total skins price: 900$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_176.png"
+    },
+	{
+        "id":  177,
+        "name":  "ST Bayonet | Boreal Forest",
+        "price":  "$45",
+        "desc":  "Total skins price: 175$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_177.png"
+    },
+	{
+        "id":  178,
+        "name":  "ST Bayonet | Stained",
+        "price":  "$55",
+        "desc":  "Total skins price: 240$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_178.png"
+    },
+	{
+        "id":  179,
+        "name":  "ST Talon Knife | Marble Fade",
+        "price":  "$230",
+        "desc":  "Total skins price: 960$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_179.png"
     }
 ];
 

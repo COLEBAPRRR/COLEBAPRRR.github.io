@@ -237,6 +237,27 @@
     align-items:center;
     justify-content:space-between;
   }
+  .panel-head-actions{
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .clear-filters-btn{
+    border:1px solid rgba(102,192,244,.28);
+    background:rgba(17,24,34,.72);
+    color:var(--text);
+    border-radius:999px;
+    padding:6px 9px;
+    font-size:11px;
+    font-weight:800;
+    cursor:pointer;
+    transition:border-color .18s ease, background .18s ease, transform .18s ease;
+  }
+  .clear-filters-btn:hover{
+    transform:translateY(-1px);
+    border-color:rgba(102,192,244,.62);
+    background:rgba(26,159,255,.12);
+  }
 
   .filters{
     display:flex;
@@ -279,6 +300,198 @@
     box-shadow:0 0 0 3px rgba(102,192,244,.18);
   }
   .filter span{font-size:14px;font-weight:700;line-height:1.2}
+
+  .price-filter{
+    padding:12px 12px 14px;
+    border:1px solid rgba(42,71,94,.7);
+    background:rgba(17,24,34,.72);
+    border-radius:12px;
+  }
+  .price-filter-head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    margin-bottom:12px;
+    color:var(--text);
+    font-size:13px;
+    font-weight:800;
+  }
+  .price-filter-value{
+    color:var(--accent);
+    white-space:nowrap;
+  }
+  .price-histogram{
+    height:42px;
+    display:flex;
+    align-items:flex-end;
+    gap:3px;
+    padding:0 2px;
+    margin-bottom:8px;
+  }
+  .price-bar{
+    flex:1 1 0;
+    min-width:2px;
+    border-radius:3px 3px 0 0;
+    background:rgba(139,160,176,.22);
+  }
+  .range-wrap {
+    position: relative;
+    height: 28px;
+    margin-top: 10px;
+    touch-action: none; /* Prevents mobile page scrolling while dragging */
+  }
+  .range-track,
+  .range-fill {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 12px;
+    height: 4px;
+    border-radius: 999px;
+  }
+  .range-track { background: rgba(139, 160, 176, .24); }
+  .range-fill { background: var(--accent); }
+  .range-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 28px;
+    margin: 0;
+    background: none;
+    pointer-events: none;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  .range-input::-webkit-slider-thumb {
+    position: relative;
+    z-index: 2;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #087bff;
+    border: 2px solid var(--bg2);
+    cursor: grab;
+    pointer-events: auto;
+    appearance: none;
+    -webkit-appearance: none;
+    box-shadow: 0 3px 10px rgba(0,0,0,.35);
+    transition: transform 0.1s ease, background-color 0.1s ease;
+  }
+  .range-input::-webkit-slider-thumb:active {
+    cursor: grabbing;
+    transform: scale(1.2);
+    background: var(--accent);
+  }
+  .range-input::-moz-range-thumb {
+    position: relative;
+    z-index: 2;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #087bff;
+    border: 2px solid var(--bg2);
+    cursor: grab;
+    pointer-events: auto;
+    box-shadow: 0 3px 10px rgba(0,0,0,.35);
+    transition: transform 0.1s ease, background-color 0.1s ease;
+  }
+  .range-input::-moz-range-thumb:active {
+    cursor: grabbing;
+    transform: scale(1.2);
+    background: var(--accent);
+  }
+  .range-input::-moz-range-track{background:transparent;border:0}
+
+  .filter-group{
+    border:1px solid rgba(42,71,94,.7);
+    background:rgba(17,24,34,.72);
+    border-radius:12px;
+    overflow:hidden;
+  }
+  .filter-group-head{
+    width:100%;
+    border:0;
+    background:none;
+    color:var(--text);
+    padding:10px 12px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    text-align:left;
+    cursor:pointer;
+  }
+  .filter-check{
+    width:16px;
+    height:16px;
+    accent-color:#1a9fff;
+    flex:0 0 auto;
+  }
+  .filter-group-title{
+    flex:1 1 auto;
+    min-width:0;
+    font-size:14px;
+    font-weight:800;
+  }
+  .filter-chevron{
+    width:18px;
+    height:18px;
+    border-radius:50%;
+    display:grid;
+    place-items:center;
+    color:var(--muted);
+    transition:transform .18s ease;
+  }
+  .filter-group.open .filter-chevron{transform:rotate(90deg)}
+  .filter-sublist{
+    display:none;
+    padding:0 10px 10px 34px;
+    gap:6px;
+    flex-direction:column;
+  }
+  .filter-group.open .filter-sublist{display:flex}
+  .filter-option{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    min-height:30px;
+    color:var(--text);
+    font-size:13px;
+    font-weight:700;
+    cursor:pointer;
+  }
+  .filter-option-count{
+    margin-left:auto;
+    color:var(--muted);
+    font-size:11px;
+  }
+
+  .sort-wrap{
+    position:relative;
+  }
+  .sort-menu{
+    position:absolute;
+    top:calc(100% + 8px);
+    right:0;
+    z-index:10;
+    min-width:190px;
+    padding:8px;
+    border:1px solid rgba(42,71,94,.8);
+    border-radius:12px;
+    background:rgba(17,24,34,.98);
+    box-shadow:0 18px 34px rgba(0,0,0,.32);
+  }
+  .sort-option{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    padding:8px;
+    color:var(--text);
+    font-size:13px;
+    font-weight:700;
+    cursor:pointer;
+  }
 
   .toolbar{
     display:flex;
@@ -812,7 +1025,10 @@
       <div class="panel">
         <div class="panel-head">
           <span>Categories</span>
-          <span id="activeState">All</span>
+          <span class="panel-head-actions">
+            <button type="button" class="clear-filters-btn" id="clearFiltersBtn">Clear filters</button>
+            <span id="activeState">All</span>
+          </span>
         </div>
         <div class="filters" id="filters"></div>
       </div>
@@ -828,6 +1044,19 @@
           </div>
           <div class="chips" aria-label="Quick actions">
             <div class="chip active" id="clearBtn">Show all</div>
+            <div class="sort-wrap">
+              <button type="button" class="chip" id="sortToggle" aria-expanded="false" aria-controls="sortMenu">Filter</button>
+              <div class="sort-menu" id="sortMenu" hidden>
+                <label class="sort-option">
+                  <input class="filter-check" type="checkbox" name="sortOrder" value="asc" checked>
+                  <span>Cheap first</span>
+                </label>
+                <label class="sort-option">
+                  <input class="filter-check" type="checkbox" name="sortOrder" value="desc">
+                  <span>Expensive first</span>
+                </label>
+              </div>
+            </div>
             <div class="chip" id="topBtn">Top</div>
           </div>
         </div>
@@ -853,20 +1082,44 @@
 <script>
   const sellerLink = 'https://t.me/SsKrasavaSs';
 
-  const categories = [
-    'Knife',
-    'Knife + Gloves',
-    'up to $50',
-    '$50 - $100',
-    '$100 - $200',
-    '$200+',
-    '2+ Knives',
-	  '$500+'
+  const items = window.catalogItems || [];
+  const gunsOnlyItemNames = [
+    'StatTrak AK-47 | Neon Rider + Guns',
+    'AWP | Containment Breach+Guns',
+    'Specialist Glove + Guns'
+  ];
+  const priceStep = 10;
+  const knifeTypes = [
+    { id: 'butterfly', label: 'Butterfly', pattern: /\bButterfly\b/i },
+    { id: 'm9', label: 'M9', pattern: /\bM9\b/i },
+    { id: 'talon', label: 'Talon', pattern: /\bTalon\b/i },
+    { id: 'bowie', label: 'Bowie', pattern: /\bBowie\b/i },
+    { id: 'navaja', label: 'Navaja', pattern: /\bNavaja\b/i },
+    { id: 'skeleton', label: 'Skeleton', pattern: /\bSkeleton\b/i },
+    { id: 'ursus', label: 'Ursus', pattern: /\bUrsus\b/i },
+    { id: 'classic', label: 'Classic', pattern: /\bClassic\b/i },
+    { id: 'stiletto', label: 'Stiletto', pattern: /\bStiletto\b/i },
+    { id: 'bayonet', label: 'Bayonet', pattern: /(^|[^a-z0-9])Bayonet\b/i },
+    { id: 'karambit', label: 'Karambit', pattern: /\bKarambit\b/i },
+    { id: 'survival', label: 'Survival', pattern: /\bSurvival\b/i },
+    { id: 'falchion', label: 'Falchion', pattern: /\bFalchion\b/i },
+    { id: 'kukri', label: 'Kukri', pattern: /\bKukri\b/i },
+    { id: 'paracord', label: 'Paracord', pattern: /\bParacord\b/i },
+    { id: 'huntsman', label: 'Huntsman', pattern: /\bHuntsman\b/i },
+    { id: 'shadow-daggers', label: 'Shadow Daggers', pattern: /\bShadow Daggers\b/i },
+    { id: 'flip', label: 'Flip', pattern: /\bFlip\b/i },
+    { id: 'gut', label: 'Gut', pattern: /\bGut\b/i },
+    { id: 'nomad', label: 'Nomad', pattern: /\bNomad\b/i }
   ];
 
-  const items = window.catalogItems || [];
-
-  let activeCats = [];
+  let activeGroups = [];
+  let activeKnifeTypes = {
+    knife: [],
+    knifeGloves: []
+  };
+  let expandedGroups = ['knife', 'knifeGloves'];
+  let sortOrder = 'asc';
+  let priceRange = getDefaultPriceRange();
   let selectedItemId = getItemIdFromHash();
   let catalogScrollY = typeof history.state?.catalogScrollY === 'number' ? history.state.catalogScrollY : 0;
   const mobileDetailQuery = window.matchMedia('(max-width: 768px)');
@@ -1014,6 +1267,93 @@
     return num ? Number(num) : Number.POSITIVE_INFINITY;
   }
 
+  function roundDownToStep(value) {
+    return Math.floor(value / priceStep) * priceStep;
+  }
+
+  function roundUpToStep(value) {
+    return Math.ceil(value / priceStep) * priceStep;
+  }
+
+  function getFinitePrices() {
+    return items
+      .map(item => priceValue(item.price))
+      .filter(Number.isFinite);
+  }
+
+  function getDefaultPriceRange() {
+    const prices = getFinitePrices();
+    if (!prices.length) return { min: 0, max: priceStep };
+
+    const min = roundDownToStep(Math.min(...prices));
+    const max = roundUpToStep(Math.max(...prices));
+    return { min, max: Math.max(max, min + priceStep) };
+  }
+
+  function clampPriceRange(min, max) {
+    const bounds = getDefaultPriceRange();
+    const nextMin = Math.min(Math.max(roundDownToStep(Number(min)), bounds.min), bounds.max - priceStep);
+    const nextMax = Math.max(Math.min(roundUpToStep(Number(max)), bounds.max), bounds.min + priceStep);
+
+    if (nextMin >= nextMax) {
+      return { min: Math.max(bounds.min, nextMax - priceStep), max: nextMax };
+    }
+
+    return { min: nextMin, max: nextMax };
+  }
+
+  function formatPrice(value) {
+    return `$${Number(value).toLocaleString('en-US')}`;
+  }
+
+  function itemText(item) {
+    return `${item.name || ''} ${item.desc || ''}`;
+  }
+
+  function getItemKnifeTypes(item) {
+    const text = itemText(item);
+    const hasM9 = /\bM9\b/i.test(text);
+
+    return knifeTypes
+      .filter(type => {
+        if (type.id === 'bayonet' && hasM9) return false;
+        return type.pattern.test(text);
+      })
+      .map(type => type.id);
+  }
+
+  function itemHasKnife(item) {
+    return getItemKnifeTypes(item).length > 0 || /\b(Knife|Knives)\b/i.test(itemText(item));
+  }
+
+  function itemHasGloves(item) {
+    return /\bGlove(s)?\b/i.test(itemText(item)) || item.cats?.includes(1);
+  }
+
+  function itemHasGuns(item) {
+    return gunsOnlyItemNames.includes(String(item.name || '').trim());
+  }
+
+  function itemInGroup(item, groupId) {
+    if (groupId === 'knife') return itemHasKnife(item) && !itemHasGloves(item);
+    if (groupId === 'knifeGloves') return itemHasKnife(item) && itemHasGloves(item);
+    if (groupId === 'guns') return itemHasGuns(item);
+    return false;
+  }
+
+  function getAvailableKnifeTypes(groupId) {
+    return knifeTypes
+      .map(type => ({
+        ...type,
+        count: items.filter(item => itemInGroup(item, groupId) && getItemKnifeTypes(item).includes(type.id)).length
+      }))
+      .filter(type => type.count > 0);
+  }
+
+  function getGroupCount(groupId) {
+    return items.filter(item => itemInGroup(item, groupId)).length;
+  }
+
   function matchesQuery(item, q) {
     if (!q) return true;
     const haystack = `${item.name} ${item.price} ${item.desc}`.toLowerCase();
@@ -1030,9 +1370,19 @@
   }
 
   function buildTags(item) {
-    return item.cats
+    const tags = [];
+    const knifeLabels = getItemKnifeTypes(item)
+      .map(id => knifeTypes.find(type => type.id === id)?.label)
+      .filter(Boolean);
+
+    if (itemInGroup(item, 'knifeGloves')) tags.push('Knife + Gloves');
+    else if (itemInGroup(item, 'knife')) tags.push('Knife');
+    if (itemHasGuns(item)) tags.push('Guns');
+    tags.push(...knifeLabels);
+
+    return [...new Set(tags)]
       .slice(0, 4)
-      .map(c => `<span class="tag">${escapeHtml(categories[c] ?? '')}</span>`)
+      .map(tag => `<span class="tag">${escapeHtml(tag)}</span>`)
       .join('');
   }
 
@@ -1045,21 +1395,30 @@
       .join('');
   }
 
-  function getGroupedSelections() {
-    return {
-      itemTypes: activeCats.filter(cat => cat <= 1),
-      priceRanges: activeCats.filter(cat => cat >= 2)
-    };
+  function matchesActiveCategories(item) {
+    const selectedGroups = new Set(activeGroups);
+    const selectedTypeGroups = Object.entries(activeKnifeTypes)
+      .filter(([, types]) => types.length)
+      .map(([group]) => group);
+
+    selectedTypeGroups.forEach(group => selectedGroups.add(group));
+
+    if (!selectedGroups.size) return true;
+
+    return [...selectedGroups].some(group => {
+      if (!itemInGroup(item, group)) return false;
+
+      const selectedTypes = activeKnifeTypes[group] || [];
+      if (!selectedTypes.length) return true;
+
+      const itemTypes = getItemKnifeTypes(item);
+      return selectedTypes.some(type => itemTypes.includes(type));
+    });
   }
 
-  function matchesActiveCategories(item) {
-    if (!activeCats.length) return true;
-
-    const { itemTypes, priceRanges } = getGroupedSelections();
-    const matchesItemType = !itemTypes.length || itemTypes.some(cat => item.cats.includes(cat));
-    const matchesPriceRange = !priceRanges.length || priceRanges.some(cat => item.cats.includes(cat));
-
-    return matchesItemType && matchesPriceRange;
+  function matchesPriceRange(item) {
+    const value = priceValue(item.price);
+    return Number.isFinite(value) && value >= priceRange.min && value <= priceRange.max;
   }
 
   function buildThumbImage(item) {
@@ -1097,10 +1456,14 @@
 
     let filtered = [...items];
 
+    filtered = filtered.filter(matchesPriceRange);
     filtered = filtered.filter(matchesActiveCategories);
 
     filtered = filtered.filter(item => matchesQuery(item, q));
-    filtered.sort((a, b) => priceValue(a.price) - priceValue(b.price));
+    filtered.sort((a, b) => {
+      const diff = priceValue(a.price) - priceValue(b.price);
+      return sortOrder === 'desc' ? -diff : diff;
+    });
 
     document.getElementById('countPill').textContent = `${filtered.length} item${filtered.length === 1 ? '' : 's'} shown`;
 
@@ -1259,25 +1622,226 @@
 
   function renderFilters() {
     const el = document.getElementById('filters');
-    el.innerHTML = '';
+    
+    // Create price filter container and category wrapper exactly once to avoid losing drag focus
+    let priceFilterBox = el.querySelector('.price-filter');
+    if (!priceFilterBox) {
+      el.innerHTML = ''; // Clear only once on initialization
+      renderPriceFilter(el);
+      
+      const catsContainer = document.createElement('div');
+      catsContainer.className = 'categories-list';
+      catsContainer.style.display = 'flex';
+      catsContainer.style.flexDirection = 'column';
+      catsContainer.style.gap = '8px';
+      el.appendChild(catsContainer);
+    }
+    
+    // Dynamically update slider positions and labels without recreating DOM nodes
+    const minInput = el.querySelector('#priceMin');
+    const maxInput = el.querySelector('#priceMax');
+    const bounds = getDefaultPriceRange();
+    
+    if (minInput && document.activeElement !== minInput) {
+      minInput.value = priceRange.min;
+    }
+    if (maxInput && document.activeElement !== maxInput) {
+      maxInput.value = priceRange.max;
+    }
+    
+    const left = ((priceRange.min - bounds.min) / (bounds.max - bounds.min)) * 100;
+    const right = ((priceRange.max - bounds.min) / (bounds.max - bounds.min)) * 100;
+    
+    const rangeFill = el.querySelector('.range-fill');
+    if (rangeFill) {
+      rangeFill.style.left = left + '%';
+      rangeFill.style.right = (100 - right) + '%';
+    }
+    
+    const valueLabel = el.querySelector('.price-filter-value');
+    if (valueLabel) {
+      valueLabel.textContent = `${formatPrice(priceRange.min)} - ${formatPrice(priceRange.max)}`;
+    }
+    
+    // Re-render categories only
+    const catsContainer = el.querySelector('.categories-list');
+    if (catsContainer) {
+      catsContainer.innerHTML = '';
+      renderCategoryGroup(catsContainer, 'knife', 'Knife', true);
+      renderCategoryGroup(catsContainer, 'knifeGloves', 'Knife + Gloves', true);
+      renderCategoryGroup(catsContainer, 'guns', 'Guns', false);
+    }
 
-    categories.forEach((c, i) => {
-      const btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'filter' + (activeCats.includes(i) ? ' active' : '');
-      btn.innerHTML = `<span class="filter-dot"></span><span>${c}</span>`;
-      btn.onclick = () => {
-        if (activeCats.includes(i)) {
-          activeCats = activeCats.filter(x => x !== i);
-        } else {
-          activeCats.push(i);
-        }
-        renderCatalog();
-      };
-      el.appendChild(btn);
+    const selectedCount = activeGroups.length + activeKnifeTypes.knife.length + activeKnifeTypes.knifeGloves.length;
+    document.getElementById('activeState').textContent = selectedCount ? `${selectedCount} selected` : 'All';
+  }
+
+  function renderPriceFilter(parent) {
+    const bounds = getDefaultPriceRange();
+    priceRange = clampPriceRange(priceRange.min, priceRange.max);
+    const left = ((priceRange.min - bounds.min) / (bounds.max - bounds.min)) * 100;
+    const right = ((priceRange.max - bounds.min) / (bounds.max - bounds.min)) * 100;
+    const prices = getFinitePrices();
+    const bins = 24;
+    const counts = Array.from({ length: bins }, () => 0);
+    const span = Math.max(bounds.max - bounds.min, priceStep);
+
+    prices.forEach(price => {
+      const index = Math.min(bins - 1, Math.floor(((price - bounds.min) / span) * bins));
+      counts[index] += 1;
     });
 
-    document.getElementById('activeState').textContent = activeCats.length ? `${activeCats.length} selected` : 'All';
+    const maxCount = Math.max(...counts, 1);
+    const box = document.createElement('div');
+    box.className = 'price-filter';
+    box.innerHTML = `
+      <div class="price-filter-head">
+        <span>Price</span>
+        <span class="price-filter-value">${formatPrice(priceRange.min)} - ${formatPrice(priceRange.max)}</span>
+      </div>
+      <div class="price-histogram" aria-hidden="true">
+        ${counts.map(count => `<span class="price-bar" style="height:${Math.max(10, (count / maxCount) * 42)}px"></span>`).join('')}
+      </div>
+      <div class="range-wrap">
+        <span class="range-track"></span>
+        <span class="range-fill" style="left:${left}%;right:${100 - right}%"></span>
+        <input class="range-input" id="priceMin" type="range" min="${bounds.min}" max="${bounds.max}" step="${priceStep}" value="${priceRange.min}" aria-label="Minimum price">
+        <input class="range-input" id="priceMax" type="range" min="${bounds.min}" max="${bounds.max}" step="${priceStep}" value="${priceRange.max}" aria-label="Maximum price">
+      </div>
+    `;
+
+    parent.appendChild(box);
+
+    const minInput = box.querySelector('#priceMin');
+    const maxInput = box.querySelector('#priceMax');
+    const rangeWrap = box.querySelector('.range-wrap');
+
+    // Dynamic z-index prioritizing the thumb closer to the pointer/touch position
+    const handleZIndex = (e) => {
+      const rect = rangeWrap.getBoundingClientRect();
+      const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+      const percent = (clientX - rect.left) / rect.width;
+      const hoverValue = bounds.min + percent * (bounds.max - bounds.min);
+      
+      const distToMin = Math.abs(hoverValue - priceRange.min);
+      const distToMax = Math.abs(hoverValue - priceRange.max);
+      
+      if (distToMin < distToMax) {
+        minInput.style.zIndex = '10';
+        maxInput.style.zIndex = '9';
+      } else {
+        minInput.style.zIndex = '9';
+        maxInput.style.zIndex = '10';
+      }
+    };
+
+    rangeWrap.addEventListener('mousemove', handleZIndex);
+    rangeWrap.addEventListener('touchmove', handleZIndex, { passive: true });
+
+    minInput.addEventListener('input', event => {
+      let val = Math.min(Number(event.target.value), priceRange.max - priceStep);
+      priceRange.min = val;
+      event.target.value = val;
+      
+      const nextLeft = ((priceRange.min - bounds.min) / (bounds.max - bounds.min)) * 100;
+      box.querySelector('.range-fill').style.left = nextLeft + '%';
+      box.querySelector('.price-filter-value').textContent = `${formatPrice(priceRange.min)} - ${formatPrice(priceRange.max)}`;
+      
+      minInput.style.zIndex = '10';
+      maxInput.style.zIndex = '9';
+      renderCatalog();
+    });
+
+    maxInput.addEventListener('input', event => {
+      let val = Math.max(Number(event.target.value), priceRange.min + priceStep);
+      priceRange.max = val;
+      event.target.value = val;
+      
+      const nextRight = ((priceRange.max - bounds.min) / (bounds.max - bounds.min)) * 100;
+      box.querySelector('.range-fill').style.right = (100 - nextRight) + '%';
+      box.querySelector('.price-filter-value').textContent = `${formatPrice(priceRange.min)} - ${formatPrice(priceRange.max)}`;
+      
+      minInput.style.zIndex = '9';
+      maxInput.style.zIndex = '10';
+      renderCatalog();
+    });
+  }
+
+  function renderCategoryGroup(parent, id, label, hasSubtypes) {
+    const groupCount = getGroupCount(id);
+    if (!groupCount) return;
+
+    const availableTypes = hasSubtypes ? getAvailableKnifeTypes(id) : [];
+    const selectedTypes = activeKnifeTypes[id] || [];
+    const group = document.createElement('div');
+    group.className = `filter-group${expandedGroups.includes(id) ? ' open' : ''}`;
+    group.innerHTML = `
+      <button type="button" class="filter-group-head" aria-expanded="${expandedGroups.includes(id)}">
+        <input class="filter-check" type="checkbox" ${activeGroups.includes(id) ? 'checked' : ''} aria-label="${escapeHtml(label)}">
+        <span class="filter-group-title">${escapeHtml(label)}</span>
+        ${hasSubtypes && availableTypes.length ? '<span class="filter-chevron">›</span>' : ''}
+      </button>
+      ${hasSubtypes && availableTypes.length ? `
+        <div class="filter-sublist">
+          ${availableTypes.map(type => `
+            <label class="filter-option">
+              <input class="filter-check" type="checkbox" value="${type.id}" ${selectedTypes.includes(type.id) ? 'checked' : ''}>
+              <span>${escapeHtml(type.label)}</span>
+              <span class="filter-option-count">${type.count}</span>
+            </label>
+          `).join('')}
+        </div>
+      ` : ''}
+    `;
+
+    const head = group.querySelector('.filter-group-head');
+    const groupCheckbox = head.querySelector('input');
+
+    head.addEventListener('click', event => {
+      if (event.target === groupCheckbox) return;
+      if (!hasSubtypes || !availableTypes.length) {
+        toggleGroup(id);
+        return;
+      }
+
+      toggleExpandedGroup(id);
+    });
+
+    groupCheckbox.addEventListener('click', event => {
+      event.stopPropagation();
+      toggleGroup(id);
+    });
+
+    group.querySelectorAll('.filter-sublist input').forEach(input => {
+      input.addEventListener('change', () => toggleKnifeType(id, input.value));
+    });
+
+    parent.appendChild(group);
+  }
+
+  function toggleGroup(id) {
+    activeGroups = activeGroups.includes(id)
+      ? activeGroups.filter(group => group !== id)
+      : [...activeGroups, id];
+    renderCatalog();
+  }
+
+  function toggleExpandedGroup(id) {
+    expandedGroups = expandedGroups.includes(id)
+      ? expandedGroups.filter(group => group !== id)
+      : [...expandedGroups, id];
+    renderFilters();
+  }
+
+  function toggleKnifeType(group, type) {
+    const selected = activeKnifeTypes[group] || [];
+    activeKnifeTypes = {
+      ...activeKnifeTypes,
+      [group]: selected.includes(type)
+        ? selected.filter(value => value !== type)
+        : [...selected, type]
+    };
+    renderCatalog();
   }
 
   function escapeHtml(str) {
@@ -1290,10 +1854,44 @@
   }
 
   document.getElementById('search').addEventListener('input', renderCatalog);
+  document.getElementById('clearFiltersBtn').addEventListener('click', () => {
+    activeGroups = [];
+    activeKnifeTypes = { knife: [], knifeGloves: [] };
+    priceRange = getDefaultPriceRange();
+    renderCatalog();
+  });
   document.getElementById('clearBtn').addEventListener('click', () => {
-    activeCats = [];
+    activeGroups = [];
+    activeKnifeTypes = { knife: [], knifeGloves: [] };
+    priceRange = getDefaultPriceRange();
+    sortOrder = 'asc';
+    document.querySelector('input[name="sortOrder"][value="asc"]').checked = true;
+    document.querySelector('input[name="sortOrder"][value="desc"]').checked = false;
     document.getElementById('search').value = '';
     renderCatalog();
+  });
+  document.getElementById('sortToggle').addEventListener('click', () => {
+    const menu = document.getElementById('sortMenu');
+    const isOpen = !menu.hidden;
+    menu.hidden = isOpen;
+    document.getElementById('sortToggle').setAttribute('aria-expanded', String(!isOpen));
+  });
+  document.querySelectorAll('input[name="sortOrder"]').forEach(input => {
+    input.addEventListener('change', () => {
+      sortOrder = input.value;
+      document.querySelectorAll('input[name="sortOrder"]').forEach(other => {
+        other.checked = other === input;
+      });
+      renderCatalog();
+    });
+  });
+  document.addEventListener('click', event => {
+    const sortWrap = event.target.closest('.sort-wrap');
+    if (sortWrap) return;
+
+    const menu = document.getElementById('sortMenu');
+    menu.hidden = true;
+    document.getElementById('sortToggle').setAttribute('aria-expanded', 'false');
   });
   document.getElementById('topBtn').addEventListener('click', () => {
     scrollCatalogToTop('smooth');
