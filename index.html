@@ -1197,7 +1197,6 @@
 
   function scrollToDetailView(behavior = 'auto') {
     const detailView = document.getElementById('detailView');
-    const detailLayout = detailView?.querySelector('.detail-layout');
     const detailMedia = detailView?.querySelector('.detail-media');
     const detailPriceBox = detailView?.querySelector('.detail-price-box');
     const scrollHost = getDetailScrollHost(detailView);
@@ -1218,7 +1217,7 @@
       return;
     }
 
-    scrollToElementTop(detailLayout || detailView, behavior, 12, scrollHost);
+    afterLayout(() => scrollHostTo(scrollHost, 0, behavior));
   }
 
   function restoreCatalogScroll(behavior = 'auto') {
@@ -1265,6 +1264,10 @@
   function priceValue(value) {
     const num = String(value || '').replace(/[^0-9.]/g, '');
     return num ? Number(num) : Number.POSITIVE_INFINITY;
+  }
+
+  function isItemSold(item) {
+    return !Number.isFinite(priceValue(item.price));
   }
 
   function roundDownToStep(value) {
@@ -1345,14 +1348,14 @@
     return knifeTypes
       .map(type => ({
         ...type,
-        count: items.filter(item => itemInGroup(item, groupId) && getItemKnifeTypes(item).includes(type.id)).length
+        count: items.filter(item => !isItemSold(item) && itemInGroup(item, groupId) && getItemKnifeTypes(item).includes(type.id)).length
       }))
       .filter(type => type.count > 0)
       .sort((a, b) => a.label.localeCompare(b.label));
   }
 
   function getGroupCount(groupId) {
-    return items.filter(item => itemInGroup(item, groupId)).length;
+    return items.filter(item => !isItemSold(item) && itemInGroup(item, groupId)).length;
   }
 
   function matchesQuery(item, q) {
