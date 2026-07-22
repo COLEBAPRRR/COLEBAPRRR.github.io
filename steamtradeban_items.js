@@ -171,7 +171,7 @@
     {
         "id":  146,
         "name":  "Talon Knife + Guns",
-        "price":  "$165",
+        "price":  "$130",
         "desc":  "Total skins price: 810$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -182,7 +182,7 @@
     {
         "id":  147,
         "name":  "Ursus Knife + Knives + Guns",
-        "price":  "$180",
+        "price":  "$140",
         "desc":  "Total skins price: 1220$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -194,7 +194,7 @@
     {
         "id":  150,
         "name":  "St Navaja | Fade + Gloves + Guns",
-        "price":  "$475",
+        "price":  "$350",
         "desc":  "Total skins price: 2935$\nOriginal Email+Steam log:pass",
         "cats":  [
                      1,
@@ -206,7 +206,7 @@
     {
         "id":  151,
         "name":  "Karambit | Tiger Tooth + Knives +  Guns",
-        "price":  "$600",
+        "price":  "$490",
         "desc":  "Total skins price: 2985$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -241,7 +241,7 @@
     {
         "id":  155,
         "name":  "StatTrak Skeleton | Urban Masked + Knives + Guns",
-        "price":  "$200",
+        "price":  "$150",
         "desc":  "Total skins price: 1210$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -253,7 +253,7 @@
     {
         "id":  156,
         "name":  "Talon | Ultraviolet + Knives + Guns",
-        "price":  "$350",
+        "price":  "$280",
         "desc":  "Total skins price: 2275$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -265,7 +265,7 @@
     {
         "id":  157,
         "name":  "StatTrak Huntsman Knife | Autotronic + Guns",
-        "price":  "$190",
+        "price":  "$140",
         "desc":  "Total skins price: 800$\nOriginal Email+Steam log:pass",
         "cats":  [
                      1,
@@ -277,7 +277,7 @@
     {
         "id":  158,
         "name":  "Shadow Daggers | Blue Steel + Guns",
-        "price":  "$65",
+        "price":  "$55",
         "desc":  "Total skins price: 480$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -288,7 +288,7 @@
     {
         "id":  159,
         "name":  "Navaja Knife | Doppler + Guns",
-        "price":  "$90",
+        "price":  "$80",
         "desc":  "Total skins price: 580$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -300,7 +300,7 @@
     {
         "id":  160,
         "name":  "Stiletto Knife | Ultraviolet + Knives",
-        "price":  "$130",
+        "price":  "$99",
         "desc":  "Total skins price: 700$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -323,7 +323,7 @@
     {
         "id":  162,
         "name":  "Bayonet | Rust Coat + Guns",
-        "price":  "$110",
+        "price":  "$99",
         "desc":  "Total skins price: 1080$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -381,7 +381,7 @@
     {
         "id":  167,
         "name":  "Bayonet | Boreal Forest + Guns",
-        "price":  "$42",
+        "price":  "Sold",
         "desc":  "Total skins price: 210$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -392,7 +392,7 @@
     {
         "id":  168,
         "name":  "Bayonet | Damascus Steel + Gut Doppler + Knives",
-        "price":  "$150",
+        "price":  "$120",
         "desc":  "Total skins price: 995$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -415,7 +415,7 @@
     {
         "id":  170,
         "name":  "Bayonet | Blue Steel + Guns",
-        "price":  "$185",
+        "price":  "$150",
         "desc":  "Total skins price: 1285$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -460,7 +460,7 @@
     {
         "id":  174,
         "name":  "Ursus Knife + Gloves + Guns",
-        "price":  "$110",
+        "price":  "$99",
         "desc":  "Total skins price: 820$\nOriginal Email+Steam log:pass",
         "cats":  [
                      1,
