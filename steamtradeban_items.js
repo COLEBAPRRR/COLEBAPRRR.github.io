@@ -13,7 +13,7 @@
     {
         "id":  52,
         "name":  "Survival Knife Crimson Web + Guns",
-        "price":  "$79",
+        "price":  "Sold",
         "desc":  "Total skins price: 400$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -80,7 +80,7 @@
     {
         "id":  90,
         "name":  "Kukri + AK-47 | In the Monster",
-        "price":  "$65",
+        "price":  "Sold",
         "desc":  "Total skins price: 410$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -113,7 +113,7 @@
     {
         "id":  99,
         "name":  "M9 Doppler+Karambit Doppler+Guns",
-        "price":  "$1400",
+        "price":  "Sold",
         "desc":  "Total skins price: 5630$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -135,7 +135,7 @@
     {
         "id":  137,
         "name":  "Butterfly+Guns",
-        "price":  "$1300",
+        "price":  "Sold",
         "desc":  "Total skins price: 6900$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -147,7 +147,7 @@
     {
         "id":  140,
         "name":  "Karambit+5 Knives+Gloves+Guns",
-        "price":  "$1250",
+        "price":  "Sold",
         "desc":  "Total skins price: 7000$\nOriginal Email+Steam log:pass",
         "cats":  [
                      1,
@@ -335,7 +335,7 @@
     {
         "id":  163,
         "name":  "Classic | Scorched + Huntsman + Guns",
-        "price":  "$75",
+        "price":  "Sold",
         "desc":  "Total skins price: 620$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -359,7 +359,7 @@
     {
         "id":  165,
         "name":  "Skeleton Knife | Fade",
-        "price":  "$185",
+        "price":  "Sold",
         "desc":  "Total skins price: 995$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -370,7 +370,7 @@
     {
         "id":  166,
         "name":  "Navaja Knife | Fade",
-        "price":  "$39",
+        "price":  "Sold",
         "desc":  "Total skins price: 180$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -404,7 +404,7 @@
     {
         "id":  169,
         "name":  "Talon Knife | Stained + Guns",
-        "price":  "$220",
+        "price":  "Sold",
         "desc":  "Total skins price: 1310$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -427,7 +427,7 @@
     {
         "id":  171,
         "name":  "Falchion Knife | Slaughter + Guns",
-        "price":  "$180",
+        "price":  "Sold",
         "desc":  "Total skins price: 1335$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -438,7 +438,7 @@
     {
         "id":  172,
         "name":  "Navaja Knife | Fade",
-        "price":  "$39",
+        "price":  "Sold",
         "desc":  "Total skins price: 180$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -449,7 +449,7 @@
     {
         "id":  173,
         "name":  "Butterfly Knife | Safari Mesh + Guns",
-        "price":  "$350",
+        "price":  "Sold",
         "desc":  "Total skins price: 1900$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -483,7 +483,7 @@
 	{
         "id":  176,
         "name":  "ST Butterfly Knife | Damascus",
-        "price":  "$250",
+        "price":  "Sold",
         "desc":  "Total skins price: 900$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -516,7 +516,7 @@
 	{
         "id":  179,
         "name":  "ST Talon Knife | Marble Fade",
-        "price":  "$230",
+        "price":  "Sold",
         "desc":  "Total skins price: 960$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
