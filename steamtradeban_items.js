@@ -2,7 +2,7 @@
     {
         "id":  50,
         "name":  "Specialist Glove + Guns",
-        "price":  "$85",
+        "price":  "$60",
         "desc":  "Total skins price: 1095$\nOriginal Email+Steam log:pass",
         "cats":  [
                      4,
@@ -24,7 +24,7 @@
     {
         "id":  58,
         "name":  "Skeleton Knife + Guns",
-        "price":  "$149",
+        "price":  "$120",
         "desc":  "Total skins price: 795$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -35,7 +35,7 @@
     {
         "id":  67,
         "name":  "Stiletto Knife + Survival Knife",
-        "price":  "$100",
+        "price":  "$75",
         "desc":  "Total skins price: 480$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -47,7 +47,7 @@
     {
         "id":  71,
         "name":  "Ursus Knife Ultraviolet + Guns",
-        "price":  "$320",
+        "price":  "$200",
         "desc":  "Total skins price: 2895$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -58,7 +58,7 @@
     {
         "id":  82,
         "name":  "Survival Knife | Night Stripe",
-        "price":  "$90",
+        "price":  "$60",
         "desc":  "Total skins price: 705$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -69,7 +69,7 @@
     {
         "id":  86,
         "name":  "Falchion Knife | Ultraviolet",
-        "price":  "$105",
+        "price":  "$70",
         "desc":  "Total skins price: 810$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -91,7 +91,7 @@
     {
         "id":  91,
         "name":  "Paracord Knife | Tiger Tooth",
-        "price":  "$90",
+        "price":  "$65",
         "desc":  "Total skins price: 475$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -206,7 +206,7 @@
     {
         "id":  151,
         "name":  "Karambit | Tiger Tooth + Knives +  Guns",
-        "price":  "$490",
+        "price":  "Sold",
         "desc":  "Total skins price: 2985$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -472,7 +472,7 @@
     {
         "id":  175,
         "name":  "Bowie Knife | Fade + Guns",
-        "price":  "$140",
+        "price":  "Sold",
         "desc":  "Total skins price: 900$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -523,6 +523,61 @@
                      4
                  ],
         "img":  "images/Screenshot_179.png"
+    },
+	{
+        "id":  180,
+        "name":  "Huntsman Damascus + Survival + Guns",
+        "price":  "$60",
+        "desc":  "Total skins price: 380$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_180.png"
+    },
+	{
+        "id":  181,
+        "name":  "Moto Gloves + Guns",
+        "price":  "$45",
+        "desc":  "Total skins price: 530$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_181.png"
+    },
+	{
+        "id":  182,
+        "name":  "Bowie + Paracord + Guns",
+        "price":  "$45",
+        "desc":  "Total skins price: 200$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_182.png"
+    },
+	{
+        "id":  183,
+        "name":  "ST Kukri | Urban Masked",
+        "price":  "$29",
+        "desc":  "Total skins price: 110$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_183.png"
+    },
+	{
+        "id":  184,
+        "name":  "Ursus Knife | Doppler",
+        "price":  "$110",
+        "desc":  "Total skins price: 470$\nOriginal Email+Steam log:pass",
+        "cats":  [
+                     0,
+                     4
+                 ],
+        "img":  "images/Screenshot_184.png"
     }
 ];
 
