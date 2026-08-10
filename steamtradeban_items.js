@@ -2,7 +2,7 @@
     {
         "id":  50,
         "name":  "Specialist Glove + Guns",
-        "price":  "$60",
+        "price":  "Sold",
         "desc":  "Total skins price: 1095$\nOriginal Email+Steam log:pass",
         "cats":  [
                      4,
@@ -24,7 +24,7 @@
     {
         "id":  58,
         "name":  "Skeleton Knife + Guns",
-        "price":  "$120",
+        "price":  "Sold",
         "desc":  "Total skins price: 795$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -47,7 +47,7 @@
     {
         "id":  71,
         "name":  "Ursus Knife Ultraviolet + Guns",
-        "price":  "$200",
+        "price":  "Sold",
         "desc":  "Total skins price: 2895$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -69,7 +69,7 @@
     {
         "id":  86,
         "name":  "Falchion Knife | Ultraviolet",
-        "price":  "$70",
+        "price":  "Sold",
         "desc":  "Total skins price: 810$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -194,7 +194,7 @@
     {
         "id":  150,
         "name":  "St Navaja | Fade + Gloves + Guns",
-        "price":  "$350",
+        "price":  "Sold",
         "desc":  "Total skins price: 2935$\nOriginal Email+Steam log:pass",
         "cats":  [
                      1,
@@ -253,7 +253,7 @@
     {
         "id":  156,
         "name":  "Talon | Ultraviolet + Knives + Guns",
-        "price":  "$280",
+        "price":  "Sold",
         "desc":  "Total skins price: 2275$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -277,7 +277,7 @@
     {
         "id":  158,
         "name":  "Shadow Daggers | Blue Steel + Guns",
-        "price":  "$55",
+        "price":  "Sold",
         "desc":  "Total skins price: 480$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -288,7 +288,7 @@
     {
         "id":  159,
         "name":  "Navaja Knife | Doppler + Guns",
-        "price":  "$80",
+        "price":  "Sold",
         "desc":  "Total skins price: 580$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -323,7 +323,7 @@
     {
         "id":  162,
         "name":  "Bayonet | Rust Coat + Guns",
-        "price":  "$99",
+        "price":  "Sold",
         "desc":  "Total skins price: 1080$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -415,7 +415,7 @@
     {
         "id":  170,
         "name":  "Bayonet | Blue Steel + Guns",
-        "price":  "$150",
+        "price":  "Sold",
         "desc":  "Total skins price: 1285$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -505,7 +505,7 @@
 	{
         "id":  178,
         "name":  "ST Bayonet | Stained",
-        "price":  "$55",
+        "price":  "Sold",
         "desc":  "Total skins price: 240$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -527,7 +527,7 @@
 	{
         "id":  180,
         "name":  "Huntsman Damascus + Survival + Guns",
-        "price":  "$60",
+        "price":  "Sold",
         "desc":  "Total skins price: 380$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
@@ -560,7 +560,7 @@
 	{
         "id":  183,
         "name":  "ST Kukri | Urban Masked",
-        "price":  "$29",
+        "price":  "Sold",
         "desc":  "Total skins price: 110$\nOriginal Email+Steam log:pass",
         "cats":  [
                      0,
