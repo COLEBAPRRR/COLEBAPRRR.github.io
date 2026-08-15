@@ -1109,7 +1109,7 @@ window.catalogItems = [
     },
     {
         "id": 233,
-        "name": "Karambit | Night",
+        "name": "Karambit | Night + M9 | Ultraviolet",
         "price": "$435",
         "desc": "Total skins price: 1445$\nOriginal Email+Steam log:pass",
         "cats": [
