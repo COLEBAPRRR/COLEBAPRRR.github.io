@@ -1263,7 +1263,7 @@ window.catalogItems = [
     },
     {
         "id": 247,
-        "name": "M4A4 | Buzz Kill",
+        "name": "Bayonet | Ultraviolet + Guns",
         "price": "$180",
         "desc": "Total skins price: 715$\nOriginal Email+Steam log:pass",
         "cats": [
@@ -1318,7 +1318,7 @@ window.catalogItems = [
     },
     {
         "id": 252,
-        "name": "M4A4 | Hellfire",
+        "name": "Talon Knife + Guns",
         "price": "$435",
         "desc": "Total skins price: 1745$\nOriginal Email+Steam log:pass",
         "cats": [
@@ -1417,7 +1417,7 @@ window.catalogItems = [
     },
     {
         "id": 261,
-        "name": "M4A4 | Buzz Kill",
+        "name": "StatTrak™ Bayonet | Black Laminate + Guns",
         "price": "$290",
         "desc": "Total skins price: 1165$\nOriginal Email+Steam log:pass",
         "cats": [
@@ -1505,7 +1505,7 @@ window.catalogItems = [
     },
     {
         "id": 269,
-        "name": "AK-47 | Case Hardened",
+        "name": "Falchion Knife | Damascus Steel + Guns",
         "price": "$310",
         "desc": "Total skins price: 1240$\nOriginal Email+Steam log:pass",
         "cats": [
