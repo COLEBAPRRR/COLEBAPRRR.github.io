@@ -835,7 +835,7 @@ window.catalogItems = [
     {
         "id": 208,
         "name": "PP-Bizon | Photic Zone",
-        "price": "$0",
+        "price": "Sold",
         "desc": "Total skins price: 5$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1792,7 +1792,7 @@ window.catalogItems = [
     {
         "id": 295,
         "name": "Prisma Case",
-        "price": "$0",
+        "price": "Sold",
         "desc": "Total skins price: 0$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1880,7 +1880,7 @@ window.catalogItems = [
     {
         "id": 303,
         "name": "Chroma 3 Case",
-        "price": "$0",
+        "price": "Sold",
         "desc": "Total skins price: 5$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2243,7 +2243,7 @@ window.catalogItems = [
     {
         "id": 336,
         "name": "Sealed Graffiti | Double (Frog Green)",
-        "price": "$0",
+        "price": "Sold",
         "desc": "Total skins price: 0$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
