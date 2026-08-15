@@ -1083,11 +1083,6 @@
   const sellerLink = 'https://t.me/SsKrasavaSs';
 
   const items = window.catalogItems || [];
-  const gunsOnlyItemNames = [
-    'StatTrak AK-47 | Neon Rider + Guns',
-    'AWP | Containment Breach+Guns',
-    'Specialist Glove + Guns'
-  ];
   const priceStep = 10;
   const knifeTypes = [
     { id: 'butterfly', label: 'Butterfly', pattern: /\bButterfly\b/i },
@@ -1313,8 +1308,12 @@
     return `${item.name || ''} ${item.desc || ''}`;
   }
 
+  function itemName(item) {
+    return String(item.name || '');
+  }
+
   function getItemKnifeTypes(item) {
-    const text = itemText(item);
+    const text = itemName(item);
     const hasM9 = /\bM9\b/i.test(text);
 
     return knifeTypes
@@ -1326,7 +1325,7 @@
   }
 
   function itemHasKnife(item) {
-    return getItemKnifeTypes(item).length > 0 || /\b(Knife|Knives)\b/i.test(itemText(item));
+    return getItemKnifeTypes(item).length > 0 || /\b(Knife|Knives)\b/i.test(itemName(item));
   }
 
   function itemHasGloves(item) {
@@ -1334,7 +1333,7 @@
   }
 
   function itemHasGuns(item) {
-    return gunsOnlyItemNames.includes(String(item.name || '').trim());
+    return !itemHasKnife(item);
   }
 
   function itemInGroup(item, groupId) {
@@ -1381,7 +1380,7 @@
 
     if (itemInGroup(item, 'knifeGloves')) tags.push('Knife + Gloves');
     else if (itemInGroup(item, 'knife')) tags.push('Knife');
-    if (itemHasGuns(item)) tags.push('Guns');
+    if (itemHasGuns(item)) tags.push('Guns & Gloves');
     tags.push(...knifeLabels);
 
     return [...new Set(tags)]
@@ -1673,7 +1672,7 @@
       catsContainer.innerHTML = '';
       renderCategoryGroup(catsContainer, 'knife', 'Knife', true);
       renderCategoryGroup(catsContainer, 'knifeGloves', 'Knife + Gloves', true);
-      renderCategoryGroup(catsContainer, 'guns', 'Guns', false);
+      renderCategoryGroup(catsContainer, 'guns', 'Guns & Gloves', false);
     }
 
     const selectedCount = activeGroups.length + activeKnifeTypes.knife.length + activeKnifeTypes.knifeGloves.length;
