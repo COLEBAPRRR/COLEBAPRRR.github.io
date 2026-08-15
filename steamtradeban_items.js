@@ -35,7 +35,7 @@ window.catalogItems = [
     {
         "id": 67,
         "name": "Stiletto Knife + Survival Knife",
-        "price": "$75",
+        "price": "Sold",
         "desc": "Total skins price: 480$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
