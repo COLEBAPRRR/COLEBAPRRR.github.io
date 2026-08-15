@@ -1208,7 +1208,7 @@ window.catalogItems = [
     },
     {
         "id": 242,
-        "name": "Moto Gloves | Cool Mint",
+        "name": "Shadow Daggers + Moto Gloves | Cool Mint",
         "price": "$640",
         "desc": "Total skins price: 2555$\nOriginal Email+Steam log:pass",
         "cats": [
@@ -1241,7 +1241,7 @@ window.catalogItems = [
     },
     {
         "id": 245,
-        "name": "Moto Gloves | Cool Mint",
+        "name": "Talon + Moto Gloves | Cool Mint",
         "price": "$695",
         "desc": "Total skins price: 2775$\nOriginal Email+Steam log:pass",
         "cats": [
@@ -1252,7 +1252,7 @@ window.catalogItems = [
     },
     {
         "id": 246,
-        "name": "M4A4 | Buzz Kill",
+        "name": "Ursus Knife + Gloves + Guns",
         "price": "$480",
         "desc": "Total skins price: 1915$\nOriginal Email+Steam log:pass",
         "cats": [
