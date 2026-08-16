@@ -582,7 +582,7 @@ window.catalogItems = [
     {
         "id": 185,
         "name": "Flip Knife | Gamma Doppler (Phase 4)",
-        "price": "$155",
+        "price": "$130",
         "desc": "Total skins price: 620$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -604,7 +604,7 @@ window.catalogItems = [
     {
         "id": 187,
         "name": "Bayonet | Doppler (Phase 2)",
-        "price": "$345",
+        "price": "$300",
         "desc": "Total skins price: 1370$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -615,7 +615,7 @@ window.catalogItems = [
     {
         "id": 188,
         "name": "Gut Knife | Lore + Gloves",
-        "price": "$185",
+        "price": "$130",
         "desc": "Total skins price: 745$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
@@ -626,7 +626,7 @@ window.catalogItems = [
     {
         "id": 189,
         "name": "Flip Knife | Autotronic + Gloves",
-        "price": "$340",
+        "price": "$250",
         "desc": "Total skins price: 1370$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
@@ -636,8 +636,8 @@ window.catalogItems = [
     },
     {
         "id": 190,
-        "name": "ST Butterfly Knife | Damascus Steel",
-        "price": "$615",
+        "name": "ST Butterfly Knife | Damascus Steel + Karambit",
+        "price": "$550",
         "desc": "Total skins price: 2050$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -648,7 +648,7 @@ window.catalogItems = [
     {
         "id": 191,
         "name": "Stiletto Knife + Gloves",
-        "price": "$310",
+        "price": "$250",
         "desc": "Total skins price: 1245$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
@@ -670,7 +670,7 @@ window.catalogItems = [
     {
         "id": 193,
         "name": "AK-47 | Bloodsport",
-        "price": "$245",
+        "price": "$100",
         "desc": "Total skins price: 990$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -692,7 +692,7 @@ window.catalogItems = [
     {
         "id": 195,
         "name": "Stiletto Knife | Safari Mesh",
-        "price": "$60",
+        "price": "$50",
         "desc": "Total skins price: 230$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -724,8 +724,8 @@ window.catalogItems = [
     },
     {
         "id": 198,
-        "name": "Ursus Knife | Boreal Forest",
-        "price": "$320",
+        "name": "Ursus Knife | Boreal Forest + Guns",
+        "price": "$150",
         "desc": "Total skins price: 1280$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -735,8 +735,8 @@ window.catalogItems = [
     },
     {
         "id": 199,
-        "name": "ST Classic Knife | Night Stripe",
-        "price": "$125",
+        "name": "ST Classic Knife | Night Stripe + Knives",
+        "price": "$120",
         "desc": "Total skins price: 495$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -747,7 +747,7 @@ window.catalogItems = [
     {
         "id": 200,
         "name": "Flip Knife | Slaughter",
-        "price": "$135",
+        "price": "$120",
         "desc": "Total skins price: 540$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -769,7 +769,7 @@ window.catalogItems = [
     {
         "id": 202,
         "name": "Skeleton Knife | Safari Mesh",
-        "price": "$400",
+        "price": "$200",
         "desc": "Total skins price: 1600$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -791,7 +791,7 @@ window.catalogItems = [
     {
         "id": 204,
         "name": "Flip Knife | Slaughter",
-        "price": "$190",
+        "price": "$130",
         "desc": "Total skins price: 750$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -812,8 +812,8 @@ window.catalogItems = [
     },
     {
         "id": 206,
-        "name": "Navaja Knife | Case Hardened",
-        "price": "$280",
+        "name": "Navaja Knife | Case Hardened + Guns",
+        "price": "$180",
         "desc": "Total skins price: 1125$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -824,7 +824,7 @@ window.catalogItems = [
     {
         "id": 207,
         "name": "Bowie Knife | Safari Mesh",
-        "price": "$135",
+        "price": "$55",
         "desc": "Total skins price: 540$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -857,7 +857,7 @@ window.catalogItems = [
     {
         "id": 210,
         "name": "Bayonet | Blue Steel",
-        "price": "$195",
+        "price": "$150",
         "desc": "Total skins price: 780$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -867,8 +867,8 @@ window.catalogItems = [
     },
     {
         "id": 211,
-        "name": "Ursus Knife | Case Hardened",
-        "price": "$180",
+        "name": "Ursus Knife | Case Hardened + Guns",
+        "price": "$100",
         "desc": "Total skins price: 720$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -890,7 +890,7 @@ window.catalogItems = [
     {
         "id": 213,
         "name": "M4A1-S | Printstream",
-        "price": "$315",
+        "price": "$100",
         "desc": "Total skins price: 1265$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -912,7 +912,7 @@ window.catalogItems = [
     {
         "id": 215,
         "name": "Falchion Knife | Freehand",
-        "price": "$180",
+        "price": "$120",
         "desc": "Total skins price: 730$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -934,7 +934,7 @@ window.catalogItems = [
     {
         "id": 217,
         "name": "Stiletto Knife | Ultraviolet",
-        "price": "$145",
+        "price": "$100",
         "desc": "Total skins price: 580$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -945,7 +945,7 @@ window.catalogItems = [
     {
         "id": 218,
         "name": "ST AK-47 | Leet Museo",
-        "price": "$60",
+        "price": "$25",
         "desc": "Total skins price: 240$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -956,7 +956,7 @@ window.catalogItems = [
     {
         "id": 219,
         "name": "M4A1-S | Printstream",
-        "price": "$105",
+        "price": "$25",
         "desc": "Total skins price: 420$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -967,7 +967,7 @@ window.catalogItems = [
     {
         "id": 220,
         "name": "Gut Knife | Urban Masked",
-        "price": "$45",
+        "price": "$50",
         "desc": "Total skins price: 180$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -977,8 +977,8 @@ window.catalogItems = [
     },
     {
         "id": 221,
-        "name": "Classic Knife | Case Hardened",
-        "price": "$355",
+        "name": "Classic Knife | Case Hardened + Guns",
+        "price": "$180",
         "desc": "Total skins price: 1415$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -988,8 +988,8 @@ window.catalogItems = [
     },
     {
         "id": 222,
-        "name": "Bayonet | Autotronic",
-        "price": "$325",
+        "name": "Bayonet | Autotronic + Guns",
+        "price": "$235",
         "desc": "Total skins price: 1305$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1011,7 +1011,7 @@ window.catalogItems = [
     {
         "id": 224,
         "name": "Survival Knife",
-        "price": "$170",
+        "price": "$85",
         "desc": "Total skins price: 675$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1021,8 +1021,8 @@ window.catalogItems = [
     },
     {
         "id": 225,
-        "name": "Falchion Knife | Damascus Steel",
-        "price": "$385",
+        "name": "Falchion Knife | Damascus Steel + Guns",
+        "price": "$200",
         "desc": "Total skins price: 1550$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1044,7 +1044,7 @@ window.catalogItems = [
     {
         "id": 227,
         "name": "Sticker | Gambit Esports (Foil) | London 2018",
-        "price": "$45",
+        "price": "$10",
         "desc": "Total skins price: 170$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1055,7 +1055,7 @@ window.catalogItems = [
     {
         "id": 228,
         "name": "AWP | Asiimov",
-        "price": "$40",
+        "price": "$20",
         "desc": "Total skins price: 160$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1066,7 +1066,7 @@ window.catalogItems = [
     {
         "id": 229,
         "name": "Stiletto Knife | Forest DDPAT",
-        "price": "$230",
+        "price": "$140",
         "desc": "Total skins price: 920$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1077,7 +1077,7 @@ window.catalogItems = [
     {
         "id": 230,
         "name": "SSG 08 | Death Strike",
-        "price": "$110",
+        "price": "$25",
         "desc": "Total skins price: 430$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1087,8 +1087,8 @@ window.catalogItems = [
     },
     {
         "id": 231,
-        "name": "Survival Knife | Case Hardened",
-        "price": "$150",
+        "name": "Survival Knife | Case Hardened + Guns",
+        "price": "$75",
         "desc": "Total skins price: 600$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1099,7 +1099,7 @@ window.catalogItems = [
     {
         "id": 232,
         "name": "Ursus Knife | Slaughter",
-        "price": "$485",
+        "price": "$200",
         "desc": "Total skins price: 1935$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1121,7 +1121,7 @@ window.catalogItems = [
     {
         "id": 234,
         "name": "Talon Knife",
-        "price": "$145",
+        "price": "$140",
         "desc": "Total skins price: 575$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1143,7 +1143,7 @@ window.catalogItems = [
     {
         "id": 236,
         "name": "Butterfly Knife | Doppler (Phase 3)",
-        "price": "$990",
+        "price": "$750",
         "desc": "Total skins price: 3305$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1154,7 +1154,7 @@ window.catalogItems = [
     {
         "id": 237,
         "name": "Stiletto Knife | Marble Fade",
-        "price": "$195",
+        "price": "$185",
         "desc": "Total skins price: 780$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1209,7 +1209,7 @@ window.catalogItems = [
     {
         "id": 242,
         "name": "Shadow Daggers | Tiger tooth + Moto Gloves | Cool Mint",
-        "price": "$640",
+        "price": "$200",
         "desc": "Total skins price: 2555$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
@@ -1231,7 +1231,7 @@ window.catalogItems = [
     {
         "id": 244,
         "name": "Bayonet | Safari Mesh + Gloves",
-        "price": "$95",
+        "price": "$90",
         "desc": "Total skins price: 390$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
@@ -1242,7 +1242,7 @@ window.catalogItems = [
     {
         "id": 245,
         "name": "Talon | Urban Masked + Moto Gloves | Cool Mint",
-        "price": "$695",
+        "price": "$300",
         "desc": "Total skins price: 2775$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1253,7 +1253,7 @@ window.catalogItems = [
     {
         "id": 246,
         "name": "Ursus Knife | Ultraviolet + Gloves + Guns",
-        "price": "$480",
+        "price": "$200",
         "desc": "Total skins price: 1915$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1264,7 +1264,7 @@ window.catalogItems = [
     {
         "id": 247,
         "name": "Bayonet | Ultraviolet + Guns",
-        "price": "$180",
+        "price": "$100",
         "desc": "Total skins price: 715$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1286,7 +1286,7 @@ window.catalogItems = [
     {
         "id": 249,
         "name": "Talon Knife | Urban Masked",
-        "price": "$110",
+        "price": "$100",
         "desc": "Total skins price: 445$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1308,7 +1308,7 @@ window.catalogItems = [
     {
         "id": 251,
         "name": "Ursus Knife | Doppler (Phase 4)",
-        "price": "$130",
+        "price": "$120",
         "desc": "Total skins price: 515$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1319,7 +1319,7 @@ window.catalogItems = [
     {
         "id": 252,
         "name": "Talon Knife + Guns",
-        "price": "$435",
+        "price": "$200",
         "desc": "Total skins price: 1745$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1396,7 +1396,7 @@ window.catalogItems = [
     {
         "id": 259,
         "name": "Bayonet | Bright Water",
-        "price": "$130",
+        "price": "$100",
         "desc": "Total skins price: 515$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1418,7 +1418,7 @@ window.catalogItems = [
     {
         "id": 261,
         "name": "StatTrak™ Bayonet | Black Laminate + Guns",
-        "price": "$290",
+        "price": "$160",
         "desc": "Total skins price: 1165$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1428,8 +1428,8 @@ window.catalogItems = [
     },
     {
         "id": 262,
-        "name": "Talon Knife | Marble Fade",
-        "price": "$645",
+        "name": "Talon Knife | Marble Fade + Guns",
+        "price": "$350",
         "desc": "Total skins price: 2575$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1451,7 +1451,7 @@ window.catalogItems = [
     {
         "id": 264,
         "name": "Driver Gloves | Convoy",
-        "price": "$185",
+        "price": "$50",
         "desc": "Total skins price: 740$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1461,8 +1461,8 @@ window.catalogItems = [
     },
     {
         "id": 265,
-        "name": "Nomad Knife | Slaughter",
-        "price": "$125",
+        "name": "Nomad Knife | Slaughter + Guns",
+        "price": "$120",
         "desc": "Total skins price: 495$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1472,8 +1472,8 @@ window.catalogItems = [
     },
     {
         "id": 266,
-        "name": "Ursus Knife | Urban Masked",
-        "price": "$375",
+        "name": "Ursus Knife | Urban Masked + Guns",
+        "price": "$200",
         "desc": "Total skins price: 1495$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1484,7 +1484,7 @@ window.catalogItems = [
     {
         "id": 267,
         "name": "Falchion Knife | Tiger Tooth",
-        "price": "$110",
+        "price": "$85",
         "desc": "Total skins price: 435$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1495,7 +1495,7 @@ window.catalogItems = [
     {
         "id": 268,
         "name": "Falchion Knife",
-        "price": "$175",
+        "price": "$60",
         "desc": "Total skins price: 690$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1506,7 +1506,7 @@ window.catalogItems = [
     {
         "id": 269,
         "name": "Falchion Knife | Damascus Steel + Guns",
-        "price": "$310",
+        "price": "$120",
         "desc": "Total skins price: 1240$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1517,7 +1517,7 @@ window.catalogItems = [
     {
         "id": 270,
         "name": "M4A1-S | Printstream",
-        "price": "$70",
+        "price": "$30",
         "desc": "Total skins price: 275$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1527,8 +1527,8 @@ window.catalogItems = [
     },
     {
         "id": 271,
-        "name": "SSG 08 | Dragonfire",
-        "price": "$255",
+        "name": "Falchion | Marble Fade + Guns",
+        "price": "$160",
         "desc": "Total skins price: 1010$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1561,7 +1561,7 @@ window.catalogItems = [
     {
         "id": 274,
         "name": "AK-47 | Vulcan",
-        "price": "$70",
+        "price": "$30",
         "desc": "Total skins price: 270$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1572,7 +1572,7 @@ window.catalogItems = [
     {
         "id": 275,
         "name": "Glock-18 | Wasteland Rebel",
-        "price": "$310",
+        "price": "$80",
         "desc": "Total skins price: 1245$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1583,7 +1583,7 @@ window.catalogItems = [
     {
         "id": 276,
         "name": "AK-47 | Fuel Injector",
-        "price": "$70",
+        "price": "$30",
         "desc": "Total skins price: 285$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1594,7 +1594,7 @@ window.catalogItems = [
     {
         "id": 277,
         "name": "M4A4 | Buzz Kill",
-        "price": "$500",
+        "price": "$100",
         "desc": "Total skins price: 2005$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1616,7 +1616,7 @@ window.catalogItems = [
     {
         "id": 279,
         "name": "AWP | Wildfire",
-        "price": "$145",
+        "price": "$60",
         "desc": "Total skins price: 585$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1638,7 +1638,7 @@ window.catalogItems = [
     {
         "id": 281,
         "name": "AWP | Asiimov",
-        "price": "$40",
+        "price": "$20",
         "desc": "Total skins price: 160$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1660,7 +1660,7 @@ window.catalogItems = [
     {
         "id": 283,
         "name": "SSG 08 | Dragonfire",
-        "price": "$865",
+        "price": "$100",
         "desc": "Total skins price: 3455$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1682,7 +1682,7 @@ window.catalogItems = [
     {
         "id": 285,
         "name": "Flip Knife | Crimson Web",
-        "price": "$110",
+        "price": "$85",
         "desc": "Total skins price: 435$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1703,8 +1703,8 @@ window.catalogItems = [
     },
     {
         "id": 287,
-        "name": "Stiletto Knife | Safari Mesh",
-        "price": "$150",
+        "name": "Stiletto Knife | Safari Mesh + Guns",
+        "price": "$100",
         "desc": "Total skins price: 610$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1715,7 +1715,7 @@ window.catalogItems = [
     {
         "id": 288,
         "name": "AWP | Man-o'-war",
-        "price": "$90",
+        "price": "$40",
         "desc": "Total skins price: 360$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1737,7 +1737,7 @@ window.catalogItems = [
     {
         "id": 290,
         "name": "ST Stiletto Knife | Damascus Steel",
-        "price": "$420",
+        "price": "$240",
         "desc": "Total skins price: 1685$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1748,7 +1748,7 @@ window.catalogItems = [
     {
         "id": 291,
         "name": "Ursus Knife | Night Stripe",
-        "price": "$65",
+        "price": "$50",
         "desc": "Total skins price: 255$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1770,7 +1770,7 @@ window.catalogItems = [
     {
         "id": 293,
         "name": "AWP | Hyper Beast",
-        "price": "$65",
+        "price": "$25",
         "desc": "Total skins price: 260$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1814,7 +1814,7 @@ window.catalogItems = [
     {
         "id": 297,
         "name": "Gut Knife | Doppler (Phase 2)",
-        "price": "$490",
+        "price": "$200",
         "desc": "Total skins price: 1955$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1825,7 +1825,7 @@ window.catalogItems = [
     {
         "id": 298,
         "name": "Huntsman Knife | Rust Coat",
-        "price": "$135",
+        "price": "$75",
         "desc": "Total skins price: 535$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1858,7 +1858,7 @@ window.catalogItems = [
     {
         "id": 301,
         "name": "M4A1-S | Printstream",
-        "price": "$70",
+        "price": "$25",
         "desc": "Total skins price: 275$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1869,7 +1869,7 @@ window.catalogItems = [
     {
         "id": 302,
         "name": "AWP | Containment Breach",
-        "price": "$60",
+        "price": "$20",
         "desc": "Total skins price: 240$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1891,7 +1891,7 @@ window.catalogItems = [
     {
         "id": 304,
         "name": "AK-47 | Neon Revolution",
-        "price": "$90",
+        "price": "$40",
         "desc": "Total skins price: 350$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1902,7 +1902,7 @@ window.catalogItems = [
     {
         "id": 305,
         "name": "Bayonet | Crimson Web",
-        "price": "$450",
+        "price": "$200",
         "desc": "Total skins price: 1805$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1913,7 +1913,7 @@ window.catalogItems = [
     {
         "id": 306,
         "name": "SSG 08 | Dragonfire",
-        "price": "$185",
+        "price": "$40",
         "desc": "Total skins price: 745$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1924,7 +1924,7 @@ window.catalogItems = [
     {
         "id": 307,
         "name": "Gut Knife | Rust Coat",
-        "price": "$270",
+        "price": "$150",
         "desc": "Total skins price: 1075$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1935,7 +1935,7 @@ window.catalogItems = [
     {
         "id": 308,
         "name": "Classic Knife | Forest DDPAT",
-        "price": "$55",
+        "price": "$45",
         "desc": "Total skins price: 220$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1946,7 +1946,7 @@ window.catalogItems = [
     {
         "id": 309,
         "name": "Flip Knife | Boreal Forest",
-        "price": "$150",
+        "price": "$90",
         "desc": "Total skins price: 605$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1957,7 +1957,7 @@ window.catalogItems = [
     {
         "id": 310,
         "name": "M4A1-S | Printstream",
-        "price": "$130",
+        "price": "$50",
         "desc": "Total skins price: 520$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1967,7 +1967,7 @@ window.catalogItems = [
     },
     {
         "id": 311,
-        "name": "Bowie Knife | Urban Masked",
+        "name": "Stiletto + Bowie Knife | Urban Masked",
         "price": "$160",
         "desc": "Total skins price: 635$\nOriginal Email+Steam log:pass",
         "cats": [
@@ -1979,7 +1979,7 @@ window.catalogItems = [
     {
         "id": 312,
         "name": "Falchion Knife | Damascus Steel",
-        "price": "$220",
+        "price": "$100",
         "desc": "Total skins price: 880$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2023,7 +2023,7 @@ window.catalogItems = [
     {
         "id": 316,
         "name": "SSG 08 | Dragonfire",
-        "price": "$460",
+        "price": "$120",
         "desc": "Total skins price: 1830$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2034,7 +2034,7 @@ window.catalogItems = [
     {
         "id": 317,
         "name": "Falchion Knife | Rust Coat",
-        "price": "$110",
+        "price": "$60",
         "desc": "Total skins price: 430$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2056,7 +2056,7 @@ window.catalogItems = [
     {
         "id": 319,
         "name": "Stiletto Knife | Blue Steel",
-        "price": "$220",
+        "price": "$150",
         "desc": "Total skins price: 885$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2088,8 +2088,8 @@ window.catalogItems = [
     },
     {
         "id": 322,
-        "name": "Flip Knife | Scorched",
-        "price": "$120",
+        "name": "Flip Knife | Scorched + Guns",
+        "price": "$90",
         "desc": "Total skins price: 485$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2099,8 +2099,8 @@ window.catalogItems = [
     },
     {
         "id": 323,
-        "name": "Gut Knife | Doppler (Phase 3)",
-        "price": "$125",
+        "name": "Gut Knife | Doppler (Phase 3) + Knives",
+        "price": "$100",
         "desc": "Total skins price: 500$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2111,7 +2111,7 @@ window.catalogItems = [
     {
         "id": 324,
         "name": "AWP | Lightning Strike",
-        "price": "$165",
+        "price": "$75",
         "desc": "Total skins price: 665$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2122,7 +2122,7 @@ window.catalogItems = [
     {
         "id": 325,
         "name": "P250 | See Ya Later",
-        "price": "$90",
+        "price": "$40",
         "desc": "Total skins price: 360$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2133,7 +2133,7 @@ window.catalogItems = [
     {
         "id": 326,
         "name": "M4A4 | Royal Paladin",
-        "price": "$205",
+        "price": "$40",
         "desc": "Total skins price: 820$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2144,7 +2144,7 @@ window.catalogItems = [
     {
         "id": 327,
         "name": "AK-47 | Fuel Injector",
-        "price": "$185",
+        "price": "$50",
         "desc": "Total skins price: 735$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2254,7 +2254,7 @@ window.catalogItems = [
     {
         "id": 337,
         "name": "AK-47 | Case Hardened",
-        "price": "$420",
+        "price": "$150",
         "desc": "Total skins price: 1685$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2265,7 +2265,7 @@ window.catalogItems = [
     {
         "id": 338,
         "name": "Flip Knife | Slaughter",
-        "price": "$95",
+        "price": "$90",
         "desc": "Total skins price: 390$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2276,7 +2276,7 @@ window.catalogItems = [
     {
         "id": 339,
         "name": "M4A4 | Asiimov",
-        "price": "$90",
+        "price": "$40",
         "desc": "Total skins price: 365$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2287,7 +2287,7 @@ window.catalogItems = [
     {
         "id": 340,
         "name": "AWP | Asiimov",
-        "price": "$40",
+        "price": "$20",
         "desc": "Total skins price: 160$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2298,7 +2298,7 @@ window.catalogItems = [
     {
         "id": 341,
         "name": "AK-47 | The Empress",
-        "price": "$75",
+        "price": "$40",
         "desc": "Total skins price: 300$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2309,7 +2309,7 @@ window.catalogItems = [
     {
         "id": 342,
         "name": "Desert Eagle | Fennec Fox",
-        "price": "$60",
+        "price": "$20",
         "desc": "Total skins price: 240$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2364,7 +2364,7 @@ window.catalogItems = [
     {
         "id": 347,
         "name": "USP-S | Neo-Noir",
-        "price": "$180",
+        "price": "$85",
         "desc": "Total skins price: 715$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2375,7 +2375,7 @@ window.catalogItems = [
     {
         "id": 348,
         "name": "M4A1-S | Printstream",
-        "price": "$165",
+        "price": "$40",
         "desc": "Total skins price: 655$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2397,7 +2397,7 @@ window.catalogItems = [
     {
         "id": 350,
         "name": "P90 | Asiimov",
-        "price": "$120",
+        "price": "$45",
         "desc": "Total skins price: 485$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2408,7 +2408,7 @@ window.catalogItems = [
     {
         "id": 351,
         "name": "M4A1-S | Printstream",
-        "price": "$300",
+        "price": "$90",
         "desc": "Total skins price: 1190$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2430,7 +2430,7 @@ window.catalogItems = [
     {
         "id": 353,
         "name": "Bloodhound Gloves | Snakebite",
-        "price": "$110",
+        "price": "$50",
         "desc": "Total skins price: 445$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2441,7 +2441,7 @@ window.catalogItems = [
     {
         "id": 354,
         "name": "Flip Knife | Black Laminate + Gloves",
-        "price": "$510",
+        "price": "$200",
         "desc": "Total skins price: 2030$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
