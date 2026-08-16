@@ -923,7 +923,7 @@ window.catalogItems = [
     {
         "id": 216,
         "name": "Ursus Knife | Rust Coat",
-        "price": "$20",
+        "price": "Sold",
         "desc": "Total skins price: 85$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2331,7 +2331,7 @@ window.catalogItems = [
     {
         "id": 344,
         "name": "Gut Knife | Bright Water",
-        "price": "$20",
+        "price": "Sold",
         "desc": "Total skins price: 75$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2440,7 +2440,7 @@ window.catalogItems = [
     },
     {
         "id": 354,
-        "name": "Flip Knife | Black Laminate",
+        "name": "Flip Knife | Black Laminate + Gloves",
         "price": "$510",
         "desc": "Total skins price: 2030$\nOriginal Email+Steam log:pass",
         "cats": [
