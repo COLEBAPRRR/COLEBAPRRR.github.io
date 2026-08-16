@@ -846,7 +846,7 @@ window.catalogItems = [
     {
         "id": 209,
         "name": "Gut Knife | Bright Water",
-        "price": "$20",
+        "price": "Sold",
         "desc": "Total skins price: 85$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
