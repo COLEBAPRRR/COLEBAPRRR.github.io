@@ -1044,7 +1044,7 @@ window.catalogItems = [
     {
         "id": 227,
         "name": "Sticker | Gambit Esports (Foil) | London 2018",
-        "price": "$10",
+        "price": "Sold",
         "desc": "Total skins price: 170$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
