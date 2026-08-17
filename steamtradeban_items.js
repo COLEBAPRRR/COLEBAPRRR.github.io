@@ -758,7 +758,7 @@ window.catalogItems = [
     {
         "id": 201,
         "name": "Bayonet | Safari Mesh",
-        "price": "$40",
+        "price": "Sold",
         "desc": "Total skins price: 160$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1176,7 +1176,7 @@ window.catalogItems = [
     {
         "id": 239,
         "name": "Flip Knife | Night + Gloves",
-        "price": "$65",
+        "price": "Sold",
         "desc": "Total skins price: 260$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
@@ -1352,7 +1352,7 @@ window.catalogItems = [
     {
         "id": 255,
         "name": "Karambit | Forest DDPAT",
-        "price": "$180",
+        "price": "Sold",
         "desc": "Total skins price: 595$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1374,7 +1374,7 @@ window.catalogItems = [
     {
         "id": 257,
         "name": "Talon Knife | Damascus Steel",
-        "price": "$120",
+        "price": "Sold",
         "desc": "Total skins price: 475$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1440,7 +1440,7 @@ window.catalogItems = [
     {
         "id": 263,
         "name": "Nomad Knife | Blue Steel",
-        "price": "$45",
+        "price": "Sold",
         "desc": "Total skins price: 185$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1550,7 +1550,7 @@ window.catalogItems = [
     {
         "id": 273,
         "name": "Stiletto Knife | Safari Mesh",
-        "price": "$40",
+        "price": "Sold",
         "desc": "Total skins price: 165$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1671,7 +1671,7 @@ window.catalogItems = [
     {
         "id": 284,
         "name": "Stiletto Knife | Night Stripe",
-        "price": "$50",
+        "price": "Sold",
         "desc": "Total skins price: 200$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2155,7 +2155,7 @@ window.catalogItems = [
     {
         "id": 328,
         "name": "Nomad Knife | Scorched",
-        "price": "$30",
+        "price": "Sold",
         "desc": "Total skins price: 120$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2210,7 +2210,7 @@ window.catalogItems = [
     {
         "id": 333,
         "name": "Survival Knife | Safari Mesh",
-        "price": "$15",
+        "price": "Sold",
         "desc": "Total skins price: 55$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2353,7 +2353,7 @@ window.catalogItems = [
     {
         "id": 346,
         "name": "Nomad Knife | Blue Steel",
-        "price": "$50",
+        "price": "Sold",
         "desc": "Total skins price: 200$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
