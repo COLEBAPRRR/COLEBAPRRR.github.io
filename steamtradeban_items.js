@@ -1253,7 +1253,7 @@ window.catalogItems = [
     {
         "id": 246,
         "name": "Ursus Knife | Ultraviolet + Gloves + Guns",
-        "price": "$200",
+        "price": "Sold",
         "desc": "Total skins price: 1915$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2023,7 +2023,7 @@ window.catalogItems = [
     {
         "id": 316,
         "name": "SSG 08 | Dragonfire",
-        "price": "$120",
+        "price": "Sold",
         "desc": "Total skins price: 1830$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2463,7 +2463,7 @@ window.catalogItems = [
     {
         "id": 356,
         "name": "StatTrak™ Huntsman Knife | Gamma Doppler + Guns",
-        "price": "$205",
+        "price": "$175",
         "desc": "Total skins price: 820$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2474,7 +2474,7 @@ window.catalogItems = [
     {
         "id": 357,
         "name": "AK-47 | Neon Revolution (Field-Tested)",
-        "price": "$165",
+        "price": "$35",
         "desc": "Total skins price: 670$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
