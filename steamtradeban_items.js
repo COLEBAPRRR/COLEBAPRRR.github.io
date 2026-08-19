@@ -2448,5 +2448,60 @@ window.catalogItems = [
             5
         ],
         "img": "images/Screenshot_354.png"
+    },
+    {
+        "id": 355,
+        "name": "Kukri Knife | Case Hardened (Field-Tested)",
+        "price": "$35",
+        "desc": "Total skins price: 145$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_355.png"
+    },
+    {
+        "id": 356,
+        "name": "StatTrak™ Huntsman Knife | Gamma Doppler + Guns",
+        "price": "$205",
+        "desc": "Total skins price: 820$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            5
+        ],
+        "img": "images/Screenshot_356.png"
+    },
+    {
+        "id": 357,
+        "name": "AK-47 | Neon Revolution (Field-Tested)",
+        "price": "$165",
+        "desc": "Total skins price: 670$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            4
+        ],
+        "img": "images/Screenshot_357.png"
+    },
+    {
+        "id": 358,
+        "name": "StatTrak™ Bowie Knife + Guns",
+        "price": "$55",
+        "desc": "Total skins price: 215$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            3
+        ],
+        "img": "images/Screenshot_358.png"
+    },
+    {
+        "id": 359,
+        "name": "Paracord Knife | Boreal Forest (Battle-Scarred)",
+        "price": "$15",
+        "desc": "Total skins price: 60$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_359.png"
     }
 ];
