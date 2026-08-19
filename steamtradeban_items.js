@@ -582,7 +582,7 @@ window.catalogItems = [
     {
         "id": 185,
         "name": "Flip Knife | Gamma Doppler (Phase 4)",
-        "price": "$130",
+        "price": "Sold",
         "desc": "Total skins price: 620$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -637,7 +637,7 @@ window.catalogItems = [
     {
         "id": 190,
         "name": "ST Butterfly Knife | Damascus Steel + Karambit",
-        "price": "$550",
+        "price": "Sold",
         "desc": "Total skins price: 2050$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1143,7 +1143,7 @@ window.catalogItems = [
     {
         "id": 236,
         "name": "Butterfly Knife | Doppler (Phase 3)",
-        "price": "$750",
+        "price": "Sold",
         "desc": "Total skins price: 3305$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1242,7 +1242,7 @@ window.catalogItems = [
     {
         "id": 245,
         "name": "Talon | Urban Masked + Moto Gloves | Cool Mint",
-        "price": "$300",
+        "price": "Sold",
         "desc": "Total skins price: 2775$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1495,7 +1495,7 @@ window.catalogItems = [
     {
         "id": 268,
         "name": "Falchion Knife",
-        "price": "$60",
+        "price": "Sold",
         "desc": "Total skins price: 690$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1660,7 +1660,7 @@ window.catalogItems = [
     {
         "id": 283,
         "name": "SSG 08 | Dragonfire",
-        "price": "$100",
+        "price": "Sold",
         "desc": "Total skins price: 3455$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2133,7 +2133,7 @@ window.catalogItems = [
     {
         "id": 326,
         "name": "M4A4 | Royal Paladin",
-        "price": "$40",
+        "price": "Sold",
         "desc": "Total skins price: 820$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2364,7 +2364,7 @@ window.catalogItems = [
     {
         "id": 347,
         "name": "USP-S | Neo-Noir",
-        "price": "$85",
+        "price": "Sold",
         "desc": "Total skins price: 715$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
