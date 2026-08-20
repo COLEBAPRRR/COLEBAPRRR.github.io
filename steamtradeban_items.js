@@ -615,7 +615,7 @@ window.catalogItems = [
     {
         "id": 188,
         "name": "Gut Knife | Lore + Gloves",
-        "price": "$130",
+        "price": "Sold",
         "desc": "Total skins price: 745$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
@@ -1099,7 +1099,7 @@ window.catalogItems = [
     {
         "id": 232,
         "name": "Ursus Knife | Slaughter",
-        "price": "$200",
+        "price": "Sold",
         "desc": "Total skins price: 1935$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1407,7 +1407,7 @@ window.catalogItems = [
     {
         "id": 260,
         "name": "Butterfly Knife | Forest DDPAT",
-        "price": "$230",
+        "price": "Sold",
         "desc": "Total skins price: 770$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1473,7 +1473,7 @@ window.catalogItems = [
     {
         "id": 266,
         "name": "Ursus Knife | Urban Masked + Guns",
-        "price": "$200",
+        "price": "Sold",
         "desc": "Total skins price: 1495$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
