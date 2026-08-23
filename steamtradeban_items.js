@@ -648,7 +648,7 @@ window.catalogItems = [
     {
         "id": 191,
         "name": "Stiletto Knife + Gloves",
-        "price": "$250",
+        "price": "Sold",
         "desc": "Total skins price: 1245$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
@@ -989,7 +989,7 @@ window.catalogItems = [
     {
         "id": 222,
         "name": "Bayonet | Autotronic + Guns",
-        "price": "$235",
+        "price": "Sold",
         "desc": "Total skins price: 1305$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1594,7 +1594,7 @@ window.catalogItems = [
     {
         "id": 277,
         "name": "M4A4 | Buzz Kill",
-        "price": "$100",
+        "price": "Sold",
         "desc": "Total skins price: 2005$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1682,7 +1682,7 @@ window.catalogItems = [
     {
         "id": 285,
         "name": "Flip Knife | Crimson Web",
-        "price": "$85",
+        "price": "Sold",
         "desc": "Total skins price: 435$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1814,7 +1814,7 @@ window.catalogItems = [
     {
         "id": 297,
         "name": "Gut Knife | Doppler (Phase 2)",
-        "price": "$200",
+        "price": "Sold",
         "desc": "Total skins price: 1955$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
