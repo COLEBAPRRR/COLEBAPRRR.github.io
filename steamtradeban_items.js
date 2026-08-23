@@ -890,7 +890,7 @@ window.catalogItems = [
     {
         "id": 213,
         "name": "M4A1-S | Printstream",
-        "price": "$100",
+        "price": "Sold",
         "desc": "Total skins price: 1265$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
