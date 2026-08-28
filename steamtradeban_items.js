@@ -58,7 +58,7 @@ window.catalogItems = [
     {
         "id": 82,
         "name": "Survival Knife | Night Stripe",
-        "price": "$60",
+        "price": "Sold",
         "desc": "Total skins price: 705$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -670,7 +670,7 @@ window.catalogItems = [
     {
         "id": 193,
         "name": "AK-47 | Bloodsport",
-        "price": "$100",
+        "price": "Sold",
         "desc": "Total skins price: 990$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1132,7 +1132,7 @@ window.catalogItems = [
     {
         "id": 235,
         "name": "Karambit | Forest DDPAT + Gloves",
-        "price": "$360",
+        "price": "Sold",
         "desc": "Total skins price: 1200$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
