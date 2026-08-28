@@ -58,7 +58,7 @@ window.catalogItems = [
     {
         "id": 82,
         "name": "Survival Knife | Night Stripe",
-        "price": "$60",
+        "price": "Sold",
         "desc": "Total skins price: 705$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -670,7 +670,7 @@ window.catalogItems = [
     {
         "id": 193,
         "name": "AK-47 | Bloodsport",
-        "price": "$100",
+        "price": "Sold",
         "desc": "Total skins price: 990$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -769,7 +769,7 @@ window.catalogItems = [
     {
         "id": 202,
         "name": "Skeleton Knife | Safari Mesh",
-        "price": "$200",
+        "price": "Sold",
         "desc": "Total skins price: 1600$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -978,7 +978,7 @@ window.catalogItems = [
     {
         "id": 221,
         "name": "Classic Knife | Case Hardened + Guns",
-        "price": "$180",
+        "price": "Sold",
         "desc": "Total skins price: 1415$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1022,7 +1022,7 @@ window.catalogItems = [
     {
         "id": 225,
         "name": "Falchion Knife | Damascus Steel + Guns",
-        "price": "$200",
+        "price": "Sold",
         "desc": "Total skins price: 1550$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1110,7 +1110,7 @@ window.catalogItems = [
     {
         "id": 233,
         "name": "Karambit | Night + M9 | Ultraviolet",
-        "price": "$435",
+        "price": "Sold",
         "desc": "Total skins price: 1445$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1132,7 +1132,7 @@ window.catalogItems = [
     {
         "id": 235,
         "name": "Karambit | Forest DDPAT + Gloves",
-        "price": "$360",
+        "price": "Sold",
         "desc": "Total skins price: 1200$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
@@ -1165,7 +1165,7 @@ window.catalogItems = [
     {
         "id": 238,
         "name": "ST Butterfly Knife | Forest DDPAT + Gloves",
-        "price": "$355",
+        "price": "Sold",
         "desc": "Total skins price: 1175$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
@@ -1341,7 +1341,7 @@ window.catalogItems = [
     {
         "id": 254,
         "name": "M9 Bayonet | Night",
-        "price": "$185",
+        "price": "Sold",
         "desc": "Total skins price: 610$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1385,7 +1385,7 @@ window.catalogItems = [
     {
         "id": 258,
         "name": "M9 Bayonet | Bright Water",
-        "price": "$160",
+        "price": "Sold",
         "desc": "Total skins price: 525$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1506,7 +1506,7 @@ window.catalogItems = [
     {
         "id": 269,
         "name": "Falchion Knife | Damascus Steel + Guns",
-        "price": "$120",
+        "price": "Sold",
         "desc": "Total skins price: 1240$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1572,7 +1572,7 @@ window.catalogItems = [
     {
         "id": 275,
         "name": "Glock-18 | Wasteland Rebel",
-        "price": "$80",
+        "price": "Sold",
         "desc": "Total skins price: 1245$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1737,7 +1737,7 @@ window.catalogItems = [
     {
         "id": 290,
         "name": "ST Stiletto Knife | Damascus Steel",
-        "price": "$240",
+        "price": "Sold",
         "desc": "Total skins price: 1685$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1902,7 +1902,7 @@ window.catalogItems = [
     {
         "id": 305,
         "name": "Bayonet | Crimson Web",
-        "price": "$200",
+        "price": "Sold",
         "desc": "Total skins price: 1805$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1979,7 +1979,7 @@ window.catalogItems = [
     {
         "id": 312,
         "name": "Falchion Knife | Damascus Steel",
-        "price": "$100",
+        "price": "Sold",
         "desc": "Total skins price: 880$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
