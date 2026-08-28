@@ -241,7 +241,7 @@ window.catalogItems = [
     {
         "id": 155,
         "name": "StatTrak Skeleton | Urban Masked + Knives + Guns",
-        "price": "$150",
+        "price": "Sold",
         "desc": "Total skins price: 1210$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -265,7 +265,7 @@ window.catalogItems = [
     {
         "id": 157,
         "name": "StatTrak Huntsman Knife | Autotronic + Guns",
-        "price": "$140",
+        "price": "Sold",
         "desc": "Total skins price: 800$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
