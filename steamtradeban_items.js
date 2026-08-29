@@ -1011,7 +1011,7 @@ window.catalogItems = [
     {
         "id": 224,
         "name": "Survival Knife",
-        "price": "$85",
+        "price": "$75",
         "desc": "Total skins price: 675$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1264,7 +1264,7 @@ window.catalogItems = [
     {
         "id": 247,
         "name": "Bayonet | Ultraviolet + Guns",
-        "price": "$100",
+        "price": "$80",
         "desc": "Total skins price: 715$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1946,7 +1946,7 @@ window.catalogItems = [
     {
         "id": 309,
         "name": "Flip Knife | Boreal Forest",
-        "price": "$90",
+        "price": "$80",
         "desc": "Total skins price: 605$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
