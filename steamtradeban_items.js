@@ -725,7 +725,7 @@ window.catalogItems = [
     {
         "id": 198,
         "name": "Ursus Knife | Boreal Forest + Guns",
-        "price": "$150",
+        "price": "$130",
         "desc": "Total skins price: 1280$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -912,7 +912,7 @@ window.catalogItems = [
     {
         "id": 215,
         "name": "Falchion Knife | Freehand",
-        "price": "$120",
+        "price": "$100",
         "desc": "Total skins price: 730$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1924,7 +1924,7 @@ window.catalogItems = [
     {
         "id": 307,
         "name": "Gut Knife | Rust Coat",
-        "price": "$150",
+        "price": "$120",
         "desc": "Total skins price: 1075$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1968,7 +1968,7 @@ window.catalogItems = [
     {
         "id": 311,
         "name": "Stiletto + Bowie Knife | Urban Masked",
-        "price": "$160",
+        "price": "$130",
         "desc": "Total skins price: 635$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
