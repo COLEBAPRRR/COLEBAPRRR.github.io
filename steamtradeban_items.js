@@ -593,7 +593,7 @@ window.catalogItems = [
     {
         "id": 186,
         "name": "Navaja Knife | Tiger Tooth + Gloves",
-        "price": "$75",
+        "price": "Sold",
         "desc": "Total skins price: 305$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
@@ -725,7 +725,7 @@ window.catalogItems = [
     {
         "id": 198,
         "name": "Ursus Knife | Boreal Forest + Guns",
-        "price": "$130",
+        "price": "Sold",
         "desc": "Total skins price: 1280$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1275,7 +1275,7 @@ window.catalogItems = [
     {
         "id": 248,
         "name": "Bayonet | Fade",
-        "price": "$170",
+        "price": "Sold",
         "desc": "Total skins price: 675$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1781,7 +1781,7 @@ window.catalogItems = [
     {
         "id": 294,
         "name": "Falchion Knife | Rust Coat",
-        "price": "$35",
+        "price": "Sold",
         "desc": "Total skins price: 145$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1825,7 +1825,7 @@ window.catalogItems = [
     {
         "id": 298,
         "name": "Huntsman Knife | Rust Coat",
-        "price": "$75",
+        "price": "Sold",
         "desc": "Total skins price: 535$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1935,7 +1935,7 @@ window.catalogItems = [
     {
         "id": 308,
         "name": "Classic Knife | Forest DDPAT",
-        "price": "$45",
+        "price": "Sold",
         "desc": "Total skins price: 220$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1990,7 +1990,7 @@ window.catalogItems = [
     {
         "id": 313,
         "name": "Ursus Knife | Boreal Forest",
-        "price": "$20",
+        "price": "Sold",
         "desc": "Total skins price: 80$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
