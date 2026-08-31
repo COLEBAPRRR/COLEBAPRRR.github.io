@@ -2503,5 +2503,38 @@ window.catalogItems = [
             2
         ],
         "img": "images/Screenshot_359.png"
+    },
+    {
+        "id": 360,
+        "name": "Skeleton Knife | Blue Steel + Guns",
+        "price": "$85",
+        "desc": "Total skins price: 330$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            3
+        ],
+        "img": "images/Screenshot_360.png"
+    },
+    {
+        "id": 361,
+        "name": "Stiletto Knife | Boreal Forest + Guns",
+        "price": "$45",
+        "desc": "Total skins price: 170$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_361.png"
+    },
+    {
+        "id": 362,
+        "name": "Nomad Knife | Slaughter (Minimal Wear)",
+        "price": "$85",
+        "desc": "Total skins price: 335$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            3
+        ],
+        "img": "images/Screenshot_362.png"
     }
 ];
