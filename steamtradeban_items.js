@@ -703,7 +703,7 @@ window.catalogItems = [
     {
         "id": 196,
         "name": "Ursus Knife | Urban Masked",
-        "price": "$25",
+        "price": "Sold",
         "desc": "Total skins price: 100$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1220,7 +1220,7 @@ window.catalogItems = [
     {
         "id": 243,
         "name": "Skeleton Knife | Crimson Web",
-        "price": "$145",
+        "price": "Sold",
         "desc": "Total skins price: 580$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2232,7 +2232,7 @@ window.catalogItems = [
     {
         "id": 335,
         "name": "Skeleton Knife | Scorched",
-        "price": "$50",
+        "price": "Sold",
         "desc": "Total skins price: 190$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2452,7 +2452,7 @@ window.catalogItems = [
     {
         "id": 355,
         "name": "Kukri Knife | Case Hardened (Field-Tested)",
-        "price": "$35",
+        "price": "Sold",
         "desc": "Total skins price: 145$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
