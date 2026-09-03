@@ -956,7 +956,7 @@ window.catalogItems = [
     {
         "id": 219,
         "name": "M4A1-S | Printstream",
-        "price": "$25",
+        "price": "Sold",
         "desc": "Total skins price: 420$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1363,7 +1363,7 @@ window.catalogItems = [
     {
         "id": 256,
         "name": "Bayonet | Freehand",
-        "price": "$65",
+        "price": "Sold",
         "desc": "Total skins price: 260$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1869,7 +1869,7 @@ window.catalogItems = [
     {
         "id": 302,
         "name": "AWP | Containment Breach",
-        "price": "$20",
+        "price": "Sold",
         "desc": "Total skins price: 240$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2144,7 +2144,7 @@ window.catalogItems = [
     {
         "id": 327,
         "name": "AK-47 | Fuel Injector",
-        "price": "$50",
+        "price": "Sold",
         "desc": "Total skins price: 735$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2166,7 +2166,7 @@ window.catalogItems = [
     {
         "id": 329,
         "name": "Ursus Knife | Safari Mesh",
-        "price": "$20",
+        "price": "Sold",
         "desc": "Total skins price: 75$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2496,7 +2496,7 @@ window.catalogItems = [
     {
         "id": 359,
         "name": "Paracord Knife | Boreal Forest (Battle-Scarred)",
-        "price": "$15",
+        "price": "Sold",
         "desc": "Total skins price: 60$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
