@@ -901,7 +901,7 @@ window.catalogItems = [
     {
         "id": 214,
         "name": "Ursus Knife | Damascus Steel",
-        "price": "$30",
+        "price": "Sold",
         "desc": "Total skins price: 115$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1011,7 +1011,7 @@ window.catalogItems = [
     {
         "id": 224,
         "name": "Survival Knife",
-        "price": "$75",
+        "price": "Sold",
         "desc": "Total skins price: 675$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1649,7 +1649,7 @@ window.catalogItems = [
     {
         "id": 282,
         "name": "Falchion Knife | Tiger Tooth",
-        "price": "$50",
+        "price": "Sold",
         "desc": "Total skins price: 210$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1726,7 +1726,7 @@ window.catalogItems = [
     {
         "id": 289,
         "name": "Paracord Knife | Urban Masked",
-        "price": "$30",
+        "price": "Sold",
         "desc": "Total skins price: 125$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2056,7 +2056,7 @@ window.catalogItems = [
     {
         "id": 319,
         "name": "Stiletto Knife | Blue Steel",
-        "price": "$150",
+        "price": "Sold",
         "desc": "Total skins price: 885$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
