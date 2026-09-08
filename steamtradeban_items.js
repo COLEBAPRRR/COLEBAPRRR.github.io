@@ -868,7 +868,7 @@ window.catalogItems = [
     {
         "id": 211,
         "name": "Ursus Knife | Case Hardened + Guns",
-        "price": "$100",
+        "price": "Sold",
         "desc": "Total skins price: 720$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -912,7 +912,7 @@ window.catalogItems = [
     {
         "id": 215,
         "name": "Falchion Knife | Freehand",
-        "price": "$100",
+        "price": "Sold",
         "desc": "Total skins price: 730$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1187,7 +1187,7 @@ window.catalogItems = [
     {
         "id": 240,
         "name": "Talon Knife | Night Stripe",
-        "price": "$145",
+        "price": "Sold",
         "desc": "Total skins price: 580$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
