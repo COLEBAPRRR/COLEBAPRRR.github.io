@@ -868,7 +868,7 @@ window.catalogItems = [
     {
         "id": 211,
         "name": "Ursus Knife | Case Hardened + Guns",
-        "price": "$100",
+        "price": "Sold",
         "desc": "Total skins price: 720$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
