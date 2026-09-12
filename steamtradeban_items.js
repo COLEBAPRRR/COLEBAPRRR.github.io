@@ -714,7 +714,7 @@ window.catalogItems = [
     {
         "id": 197,
         "name": "Nomad Knife | Scorched",
-        "price": "$30",
+        "price": "Sold",
         "desc": "Total skins price: 120$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1429,7 +1429,7 @@ window.catalogItems = [
     {
         "id": 262,
         "name": "Talon Knife | Marble Fade + Guns",
-        "price": "$350",
+        "price": "Sold",
         "desc": "Total skins price: 2575$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1605,7 +1605,7 @@ window.catalogItems = [
     {
         "id": 278,
         "name": "Falchion Knife | Urban Masked",
-        "price": "$25",
+        "price": "Sold",
         "desc": "Total skins price: 90$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2067,7 +2067,7 @@ window.catalogItems = [
     {
         "id": 320,
         "name": "Survival Knife | Blue Steel",
-        "price": "$30",
+        "price": "Sold",
         "desc": "Total skins price: 115$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2177,7 +2177,7 @@ window.catalogItems = [
     {
         "id": 330,
         "name": "Gut Knife | Bright Water",
-        "price": "$25",
+        "price": "Sold",
         "desc": "Total skins price: 100$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
