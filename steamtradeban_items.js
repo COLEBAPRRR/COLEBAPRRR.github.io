@@ -1693,7 +1693,7 @@ window.catalogItems = [
     {
         "id": 286,
         "name": "Ursus Knife | Urban Masked",
-        "price": "$30",
+        "price": "Sold",
         "desc": "Total skins price: 125$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
