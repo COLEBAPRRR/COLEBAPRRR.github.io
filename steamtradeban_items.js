@@ -2536,5 +2536,27 @@ window.catalogItems = [
             3
         ],
         "img": "images/Screenshot_362.png"
+    },
+    {
+        "id": 363,
+        "name": "Navaja Knife | Boreal Forest (Field-Tested)",
+        "price": "$15",
+        "desc": "Total skins price: 55$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_363.png"
+    },
+    {
+        "id": 364,
+        "name": "Gut Knife | Boreal Forest (Battle-Scarred)",
+        "price": "$15",
+        "desc": "Total skins price: 60$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_364.png"
     }
 ];
