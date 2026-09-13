@@ -1231,7 +1231,7 @@ window.catalogItems = [
     {
         "id": 244,
         "name": "Bayonet | Safari Mesh + Gloves",
-        "price": "$90",
+        "price": "Sold",
         "desc": "Total skins price: 390$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
@@ -1297,7 +1297,7 @@ window.catalogItems = [
     {
         "id": 250,
         "name": "Talon Knife | Scorched",
-        "price": "$75",
+        "price": "Sold",
         "desc": "Total skins price: 300$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2188,7 +2188,7 @@ window.catalogItems = [
     {
         "id": 331,
         "name": "Ursus Knife | Boreal Forest",
-        "price": "$20",
+        "price": "Sold",
         "desc": "Total skins price: 75$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
