@@ -1264,7 +1264,7 @@ window.catalogItems = [
     {
         "id": 247,
         "name": "Bayonet | Ultraviolet + Guns",
-        "price": "$80",
+        "price": "Sold",
         "desc": "Total skins price: 715$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1561,7 +1561,7 @@ window.catalogItems = [
     {
         "id": 274,
         "name": "AK-47 | Vulcan",
-        "price": "$30",
+        "price": "Sold",
         "desc": "Total skins price: 270$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1638,7 +1638,7 @@ window.catalogItems = [
     {
         "id": 281,
         "name": "AWP | Asiimov",
-        "price": "$20",
+        "price": "Sold",
         "desc": "Total skins price: 160$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1836,7 +1836,7 @@ window.catalogItems = [
     {
         "id": 299,
         "name": "Falchion Knife | Forest DDPAT",
-        "price": "$20",
+        "price": "Sold",
         "desc": "Total skins price: 80$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1957,7 +1957,7 @@ window.catalogItems = [
     {
         "id": 310,
         "name": "M4A1-S | Printstream",
-        "price": "$50",
+        "price": "Sold",
         "desc": "Total skins price: 520$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2089,7 +2089,7 @@ window.catalogItems = [
     {
         "id": 322,
         "name": "Flip Knife | Scorched + Guns",
-        "price": "$90",
+        "price": "Sold",
         "desc": "Total skins price: 485$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2309,7 +2309,7 @@ window.catalogItems = [
     {
         "id": 342,
         "name": "Desert Eagle | Fennec Fox",
-        "price": "$20",
+        "price": "Sold",
         "desc": "Total skins price: 240$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
