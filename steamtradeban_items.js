@@ -1319,7 +1319,7 @@ window.catalogItems = [
     {
         "id": 252,
         "name": "Talon Knife + Guns",
-        "price": "$200",
+        "price": "Sold",
         "desc": "Total skins price: 1745$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2001,7 +2001,7 @@ window.catalogItems = [
     {
         "id": 314,
         "name": "Shadow Daggers | Tiger Tooth",
-        "price": "$45",
+        "price": "Sold",
         "desc": "Total skins price: 185$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2320,7 +2320,7 @@ window.catalogItems = [
     {
         "id": 343,
         "name": "Flip Knife | Blue Steel",
-        "price": "$50",
+        "price": "Sold",
         "desc": "Total skins price: 210$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2551,7 +2551,7 @@ window.catalogItems = [
     {
         "id": 364,
         "name": "Gut Knife | Boreal Forest (Battle-Scarred)",
-        "price": "$15",
+        "price": "Sold",
         "desc": "Total skins price: 60$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
