@@ -1066,7 +1066,7 @@ window.catalogItems = [
     {
         "id": 229,
         "name": "Stiletto Knife | Forest DDPAT",
-        "price": "$140",
+        "price": "Sold",
         "desc": "Total skins price: 920$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1077,7 +1077,7 @@ window.catalogItems = [
     {
         "id": 230,
         "name": "SSG 08 | Death Strike",
-        "price": "$25",
+        "price": "Sold",
         "desc": "Total skins price: 430$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1088,7 +1088,7 @@ window.catalogItems = [
     {
         "id": 231,
         "name": "Survival Knife | Case Hardened + Guns",
-        "price": "$75",
+        "price": "Sold",
         "desc": "Total skins price: 600$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1770,7 +1770,7 @@ window.catalogItems = [
     {
         "id": 293,
         "name": "AWP | Hyper Beast",
-        "price": "$25",
+        "price": "Sold",
         "desc": "Total skins price: 260$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1858,7 +1858,7 @@ window.catalogItems = [
     {
         "id": 301,
         "name": "M4A1-S | Printstream",
-        "price": "$25",
+        "price": "Sold",
         "desc": "Total skins price: 275$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2012,7 +2012,7 @@ window.catalogItems = [
     {
         "id": 315,
         "name": "Gut Knife | Marble Fade",
-        "price": "$40",
+        "price": "Sold",
         "desc": "Total skins price: 160$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
