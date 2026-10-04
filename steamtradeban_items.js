@@ -2034,7 +2034,7 @@ window.catalogItems = [
     {
         "id": 317,
         "name": "Falchion Knife | Rust Coat",
-        "price": "$60",
+        "price": "Sold",
         "desc": "Total skins price: 430$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2419,7 +2419,7 @@ window.catalogItems = [
     {
         "id": 352,
         "name": "Navaja Knife | Doppler (Phase 1)",
-        "price": "$45",
+        "price": "Sold",
         "desc": "Total skins price: 175$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2540,7 +2540,7 @@ window.catalogItems = [
     {
         "id": 363,
         "name": "Navaja Knife | Boreal Forest (Field-Tested)",
-        "price": "$15",
+        "price": "Sold",
         "desc": "Total skins price: 55$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
