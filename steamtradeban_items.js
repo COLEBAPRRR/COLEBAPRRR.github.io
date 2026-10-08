@@ -171,7 +171,7 @@ window.catalogItems = [
     {
         "id": 146,
         "name": "Talon Knife + Guns",
-        "price": "$130",
+        "price": "Sold",
         "desc": "Total skins price: 810$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
