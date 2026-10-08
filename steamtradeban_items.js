@@ -1462,7 +1462,7 @@ window.catalogItems = [
     {
         "id": 265,
         "name": "Nomad Knife | Slaughter + Guns",
-        "price": "$120",
+        "price": "Sold",
         "desc": "Total skins price: 495$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
