@@ -1418,7 +1418,7 @@ window.catalogItems = [
     {
         "id": 261,
         "name": "StatTrak™ Bayonet | Black Laminate + Guns",
-        "price": "$160",
+        "price": "Sold",
         "desc": "Total skins price: 1165$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2078,7 +2078,7 @@ window.catalogItems = [
     {
         "id": 321,
         "name": "Ursus Knife | Blue Steel",
-        "price": "$35",
+        "price": "Sold",
         "desc": "Total skins price: 130$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2342,7 +2342,7 @@ window.catalogItems = [
     {
         "id": 345,
         "name": "Classic Knife | Safari Mesh",
-        "price": "$25",
+        "price": "Sold",
         "desc": "Total skins price: 95$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2507,7 +2507,7 @@ window.catalogItems = [
     {
         "id": 360,
         "name": "Skeleton Knife | Blue Steel + Guns",
-        "price": "$85",
+        "price": "Sold",
         "desc": "Total skins price: 330$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
