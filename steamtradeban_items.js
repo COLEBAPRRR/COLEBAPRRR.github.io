@@ -945,7 +945,7 @@ window.catalogItems = [
     {
         "id": 218,
         "name": "ST AK-47 | Leet Museo",
-        "price": "$25",
+        "price": "Sold",
         "desc": "Total skins price: 240$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1000,7 +1000,7 @@ window.catalogItems = [
     {
         "id": 223,
         "name": "Bayonet | Boreal Forest",
-        "price": "$50",
+        "price": "Sold",
         "desc": "Total skins price: 210$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1330,7 +1330,7 @@ window.catalogItems = [
     {
         "id": 253,
         "name": "Talon Knife | Rust Coat",
-        "price": "$90",
+        "price": "Sold",
         "desc": "Total skins price: 360$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1891,7 +1891,7 @@ window.catalogItems = [
     {
         "id": 304,
         "name": "AK-47 | Neon Revolution",
-        "price": "$40",
+        "price": "Sold",
         "desc": "Total skins price: 350$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1968,7 +1968,7 @@ window.catalogItems = [
     {
         "id": 311,
         "name": "Stiletto + Bowie Knife | Urban Masked",
-        "price": "$130",
+        "price": "Sold",
         "desc": "Total skins price: 635$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2287,7 +2287,7 @@ window.catalogItems = [
     {
         "id": 340,
         "name": "AWP | Asiimov",
-        "price": "$20",
+        "price": "Sold",
         "desc": "Total skins price: 160$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2408,7 +2408,7 @@ window.catalogItems = [
     {
         "id": 351,
         "name": "M4A1-S | Printstream",
-        "price": "$90",
+        "price": "Sold",
         "desc": "Total skins price: 1190$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2529,7 +2529,7 @@ window.catalogItems = [
     {
         "id": 362,
         "name": "Nomad Knife | Slaughter (Minimal Wear)",
-        "price": "$85",
+        "price": "Sold",
         "desc": "Total skins price: 335$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
