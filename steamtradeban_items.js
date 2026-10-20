@@ -2639,7 +2639,7 @@ window.catalogItems = [
     {
         "id": 373,
         "name": "StatTrak™ Ursus Knife | Urban Masked + Gloves",
-        "price": "$50",
+        "price": "$60",
         "desc": "Total skins price: 200$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
