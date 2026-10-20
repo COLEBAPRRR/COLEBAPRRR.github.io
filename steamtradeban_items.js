@@ -2558,5 +2558,137 @@ window.catalogItems = [
             2
         ],
         "img": "images/Screenshot_364.png"
+    },
+    {
+        "id": 366,
+        "name": "Nomad Knife | Tiger Tooth + Guns",
+        "price": "$75",
+        "desc": "Total skins price: 295$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            3
+        ],
+        "img": "images/Screenshot_366.png"
+    },
+    {
+        "id": 367,
+        "name": "StatTrak™ Kukri Knife | Safari Mesh (Minimal Wear)",
+        "price": "$20",
+        "desc": "Total skins price: 75$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_367.png"
+    },
+    {
+        "id": 368,
+        "name": "StatTrak™ Navaja Knife | Blue Steel (Battle-Scarred)",
+        "price": "$20",
+        "desc": "Total skins price: 85$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_368.png"
+    },
+    {
+        "id": 369,
+        "name": "Falchion Knife | Gamma Doppler (Factory New)",
+        "price": "$75",
+        "desc": "Total skins price: 305$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            3
+        ],
+        "img": "images/Screenshot_369.png"
+    },
+    {
+        "id": 370,
+        "name": "StatTrak™ Flip Knife | Case Hardened (Minimal Wear)",
+        "price": "$110",
+        "desc": "Total skins price: 435$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            4
+        ],
+        "img": "images/Screenshot_370.png"
+    },
+    {
+        "id": 371,
+        "name": "Bowie Knife | Night + Guns",
+        "price": "$70",
+        "desc": "Total skins price: 285$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            3
+        ],
+        "img": "images/Screenshot_371.png"
+    },
+    {
+        "id": 372,
+        "name": "StatTrak™ Karambit | Night (Minimal Wear)",
+        "price": "$280",
+        "desc": "Total skins price: 940$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            5
+        ],
+        "img": "images/Screenshot_372.png"
+    },
+    {
+        "id": 373,
+        "name": "StatTrak™ Ursus Knife | Urban Masked + Gloves",
+        "price": "$50",
+        "desc": "Total skins price: 200$\nOriginal Email+Steam log:pass",
+        "cats": [
+            1,
+            2
+        ],
+        "img": "images/Screenshot_373.png"
+    },
+    {
+        "id": 374,
+        "name": "StatTrak™ Shadow Daggers | Gamma Doppler (Factory New)",
+        "price": "$45",
+        "desc": "Total skins price: 175$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_374.png"
+    },
+    {
+        "id": 375,
+        "name": "Moto Gloves | POW! + Guns",
+        "price": "$110",
+        "desc": "Total skins price: 435$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            4
+        ],
+        "img": "images/Screenshot_375.png"
+    },
+    {
+        "id": 376,
+        "name": "Gut Knife | Boreal Forest + Guns",
+        "price": "$25",
+        "desc": "Total skins price: 100$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_376.png"
+    },
+    {
+        "id": 377,
+        "name": "Moto Gloves | Transport (Field-Tested)",
+        "price": "$15",
+        "desc": "Total skins price: 60$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_377.png"
     }
 ];
