@@ -1913,7 +1913,7 @@ window.catalogItems = [
     {
         "id": 306,
         "name": "SSG 08 | Dragonfire",
-        "price": "$40",
+        "price": "Sold",
         "desc": "Total skins price: 745$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2221,7 +2221,7 @@ window.catalogItems = [
     {
         "id": 334,
         "name": "Navaja Knife | Slaughter",
-        "price": "$45",
+        "price": "Sold",
         "desc": "Total skins price: 185$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2254,7 +2254,7 @@ window.catalogItems = [
     {
         "id": 337,
         "name": "AK-47 | Case Hardened",
-        "price": "$150",
+        "price": "Sold",
         "desc": "Total skins price: 1685$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
