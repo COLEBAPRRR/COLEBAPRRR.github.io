@@ -2690,5 +2690,38 @@ window.catalogItems = [
             2
         ],
         "img": "images/Screenshot_377.png"
+    },
+    {
+        "id": 379,
+        "name": "Falchion Knife | Boreal Forest + Guns",
+        "price": "$35",
+        "desc": "Total skins price: 130$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_379.png"
+    },
+    {
+        "id": 380,
+        "name": "StatTrak™ Paracord Knife | Slaughter + Guns",
+        "price": "$60",
+        "desc": "Total skins price: 230$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            3
+        ],
+        "img": "images/Screenshot_380.png"
+    },
+    {
+        "id": 381,
+        "name": "Skeleton Knife | Case Hardened + Guns",
+        "price": "$85",
+        "desc": "Total skins price: 335$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            3
+        ],
+        "img": "images/Screenshot_381.png"
     }
 ];
