@@ -460,7 +460,7 @@ window.catalogItems = [
     {
         "id": 174,
         "name": "Ursus Knife + Gloves + Guns",
-        "price": "$99",
+        "price": "Sold",
         "desc": "Total skins price: 820$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
@@ -747,7 +747,7 @@ window.catalogItems = [
     {
         "id": 200,
         "name": "Flip Knife | Slaughter",
-        "price": "$120",
+        "price": "Sold",
         "desc": "Total skins price: 540$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1055,7 +1055,7 @@ window.catalogItems = [
     {
         "id": 228,
         "name": "AWP | Asiimov",
-        "price": "$20",
+        "price": "Sold",
         "desc": "Total skins price: 160$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
