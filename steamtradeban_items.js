@@ -2606,7 +2606,7 @@ window.catalogItems = [
     {
         "id": 370,
         "name": "StatTrak™ Flip Knife | Case Hardened (Minimal Wear)",
-        "price": "$110",
+        "price": "$65",
         "desc": "Total skins price: 435$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
