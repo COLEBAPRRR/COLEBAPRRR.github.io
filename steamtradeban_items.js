@@ -1539,7 +1539,7 @@ window.catalogItems = [
     {
         "id": 272,
         "name": "Gut Knife | Doppler (Phase 1)",
-        "price": "$60",
+        "price": "Sold",
         "desc": "Total skins price: 245$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2199,7 +2199,7 @@ window.catalogItems = [
     {
         "id": 332,
         "name": "Moto Gloves | 3rd Commando Company",
-        "price": "$15",
+        "price": "Sold",
         "desc": "Total skins price: 65$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2573,7 +2573,7 @@ window.catalogItems = [
     {
         "id": 367,
         "name": "StatTrak™ Kukri Knife | Safari Mesh (Minimal Wear)",
-        "price": "$20",
+        "price": "Sold",
         "desc": "Total skins price: 75$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2584,7 +2584,7 @@ window.catalogItems = [
     {
         "id": 368,
         "name": "StatTrak™ Navaja Knife | Blue Steel (Battle-Scarred)",
-        "price": "$20",
+        "price": "Sold",
         "desc": "Total skins price: 85$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
