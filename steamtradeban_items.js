@@ -2723,5 +2723,60 @@ window.catalogItems = [
             3
         ],
         "img": "images/Screenshot_381.png"
+    },
+    {
+        "id": 382,
+        "name": "StatTrak™ AK-47 | Legion of Anubis (Field-Tested)",
+        "price": "$20",
+        "desc": "Total skins price: 80$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_382.png"
+    },
+    {
+        "id": 383,
+        "name": "Driver Gloves | Crimson Weave + Guns",
+        "price": "$55",
+        "desc": "Total skins price: 220$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            3
+        ],
+        "img": "images/Screenshot_383.png"
+    },
+    {
+        "id": 384,
+        "name": "Bayonet | Night + Guns",
+        "price": "$50",
+        "desc": "Total skins price: 195$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_384.png"
+    },
+    {
+        "id": 385,
+        "name": "Skeleton Knife | Damascus Steel + Guns",
+        "price": "$70",
+        "desc": "Total skins price: 290$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            3
+        ],
+        "img": "images/Screenshot_385.png"
+    },
+    {
+        "id": 386,
+        "name": "M9 Bayonet | Black Laminate + Guns",
+        "price": "$210",
+        "desc": "Total skins price: 705$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            5
+        ],
+        "img": "images/Screenshot_386.png"
     }
 ];
