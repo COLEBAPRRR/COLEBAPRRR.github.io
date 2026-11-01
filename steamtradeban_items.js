@@ -2778,5 +2778,16 @@ window.catalogItems = [
             5
         ],
         "img": "images/Screenshot_386.png"
+    },
+    {
+        "id": 387,
+        "name": "Falchion Knife | Freehand + Gloves + Guns",
+        "price": "$245",
+        "desc": "Total skins price: 985$\nOriginal Email+Steam log:pass",
+        "cats": [
+            1,
+            5
+        ],
+        "img": "images/Screenshot_387.png"
     }
 ];
