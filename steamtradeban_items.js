@@ -2782,7 +2782,7 @@ window.catalogItems = [
     {
         "id": 387,
         "name": "Falchion Knife | Freehand + Gloves + Guns",
-        "price": "$245",
+        "price": "$135",
         "desc": "Total skins price: 985$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
