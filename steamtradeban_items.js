@@ -659,7 +659,7 @@ window.catalogItems = [
     {
         "id": 192,
         "name": "Talon Knife | Fade",
-        "price": "$360",
+        "price": "Sold",
         "desc": "Total skins price: 1435$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2562,7 +2562,7 @@ window.catalogItems = [
     {
         "id": 366,
         "name": "Nomad Knife | Tiger Tooth + Guns",
-        "price": "$75",
+        "price": "Sold",
         "desc": "Total skins price: 295$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2639,7 +2639,7 @@ window.catalogItems = [
     {
         "id": 373,
         "name": "StatTrak™ Ursus Knife | Urban Masked + Gloves",
-        "price": "$60",
+        "price": "Sold",
         "desc": "Total skins price: 200$\nOriginal Email+Steam log:pass",
         "cats": [
             1,
@@ -2705,7 +2705,7 @@ window.catalogItems = [
     {
         "id": 380,
         "name": "StatTrak™ Paracord Knife | Slaughter + Guns",
-        "price": "$60",
+        "price": "Sold",
         "desc": "Total skins price: 230$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
