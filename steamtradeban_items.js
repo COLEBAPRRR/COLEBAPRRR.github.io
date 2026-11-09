@@ -2789,5 +2789,16 @@ window.catalogItems = [
             5
         ],
         "img": "images/Screenshot_387.png"
+    },
+    {
+        "id": 388,
+        "name": "ST Talon Knife | Ultraviolet",
+        "price": "$135",
+        "desc": "Total skins price: 585$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            4
+        ],
+        "img": "images/Screenshot_388.png"
     }
 ];
