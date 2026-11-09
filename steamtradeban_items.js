@@ -538,7 +538,7 @@ window.catalogItems = [
     {
         "id": 181,
         "name": "Moto Gloves + Guns",
-        "price": "$45",
+        "price": "Sold",
         "desc": "Total skins price: 530$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1033,7 +1033,7 @@ window.catalogItems = [
     {
         "id": 226,
         "name": "Bowie Knife | Forest DDPAT",
-        "price": "$25",
+        "price": "Sold",
         "desc": "Total skins price: 95$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
