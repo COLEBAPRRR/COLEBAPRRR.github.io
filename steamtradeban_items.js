@@ -1946,7 +1946,7 @@ window.catalogItems = [
     {
         "id": 309,
         "name": "Flip Knife | Boreal Forest",
-        "price": "$80",
+        "price": "Sold",
         "desc": "Total skins price: 605$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2650,7 +2650,7 @@ window.catalogItems = [
     {
         "id": 374,
         "name": "StatTrak™ Shadow Daggers | Gamma Doppler (Factory New)",
-        "price": "$45",
+        "price": "Sold",
         "desc": "Total skins price: 175$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
