@@ -1286,7 +1286,7 @@ window.catalogItems = [
     {
         "id": 249,
         "name": "Talon Knife | Urban Masked",
-        "price": "$100",
+        "price": "Sold",
         "desc": "Total skins price: 445$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1517,7 +1517,7 @@ window.catalogItems = [
     {
         "id": 270,
         "name": "M4A1-S | Printstream",
-        "price": "$30",
+        "price": "Sold",
         "desc": "Total skins price: 275$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -1583,7 +1583,7 @@ window.catalogItems = [
     {
         "id": 276,
         "name": "AK-47 | Fuel Injector",
-        "price": "$30",
+        "price": "Sold",
         "desc": "Total skins price: 285$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2518,7 +2518,7 @@ window.catalogItems = [
     {
         "id": 361,
         "name": "Stiletto Knife | Boreal Forest + Guns",
-        "price": "$45",
+        "price": "Sold",
         "desc": "Total skins price: 170$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2749,7 +2749,7 @@ window.catalogItems = [
     {
         "id": 384,
         "name": "Bayonet | Night + Guns",
-        "price": "$50",
+        "price": "Sold",
         "desc": "Total skins price: 195$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
