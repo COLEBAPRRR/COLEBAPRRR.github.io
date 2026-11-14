@@ -2800,5 +2800,49 @@ window.catalogItems = [
             4
         ],
         "img": "images/Screenshot_388.png"
+    },
+    {
+        "id": 390,
+        "name": "StatTrak™ Falchion Knife | Freehand (Minimal Wear)",
+        "price": "$60",
+        "desc": "Total skins price: 240$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            3
+        ],
+        "img": "images/Screenshot_390.png"
+    },
+    {
+        "id": 391,
+        "name": "Falchion Knife | Ultraviolet + Guns",
+        "price": "$70",
+        "desc": "Total skins price: 285$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            3
+        ],
+        "img": "images/Screenshot_391.png"
+    },
+    {
+        "id": 392,
+        "name": "Paracord Knife | Case Hardened + Guns",
+        "price": "$45",
+        "desc": "Total skins price: 170$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_392.png"
+    },
+    {
+        "id": 393,
+        "name": "Hand Wraps | CAUTION! (Well-Worn)",
+        "price": "$40",
+        "desc": "Total skins price: 165$\nOriginal Email+Steam log:pass",
+        "cats": [
+            0,
+            2
+        ],
+        "img": "images/Screenshot_393.png"
     }
 ];
