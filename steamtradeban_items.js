@@ -1715,7 +1715,7 @@ window.catalogItems = [
     {
         "id": 288,
         "name": "AWP | Man-o'-war",
-        "price": "$40",
+        "price": "Sold",
         "desc": "Total skins price: 360$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2474,7 +2474,7 @@ window.catalogItems = [
     {
         "id": 357,
         "name": "AK-47 | Neon Revolution (Field-Tested)",
-        "price": "$35",
+        "price": "Sold",
         "desc": "Total skins price: 670$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2760,7 +2760,7 @@ window.catalogItems = [
     {
         "id": 385,
         "name": "Skeleton Knife | Damascus Steel + Guns",
-        "price": "$70",
+        "price": "Sold",
         "desc": "Total skins price: 290$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
