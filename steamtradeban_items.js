@@ -571,7 +571,7 @@ window.catalogItems = [
     {
         "id": 184,
         "name": "Ursus Knife | Doppler",
-        "price": "$110",
+        "price": "Sold",
         "desc": "Total skins price: 470$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
@@ -2716,7 +2716,7 @@ window.catalogItems = [
     {
         "id": 381,
         "name": "Skeleton Knife | Case Hardened + Guns",
-        "price": "$85",
+        "price": "Sold",
         "desc": "Total skins price: 335$\nOriginal Email+Steam log:pass",
         "cats": [
             0,
